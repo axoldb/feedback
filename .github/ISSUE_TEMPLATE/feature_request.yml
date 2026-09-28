@@ -1,0 +1,57 @@
+name: Feature request
+description: Describe a concrete AxolDB workflow problem and the desired non-production Preview behavior.
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search open and closed issues before proposing a feature. Explain the user problem and workflow rather than assuming a specific implementation. Do not include sensitive or private material.
+  - type: checkboxes
+    id: duplicate_search
+    attributes:
+      label: Duplicate search
+      description: Search open and closed issues for the same user problem or requested workflow.
+      options:
+        - label: I searched open and closed issues and did not find the same request.
+          required: true
+  - type: textarea
+    id: user_problem
+    attributes:
+      label: User problem
+      description: Who is blocked or inconvenienced, and what outcome are they trying to achieve?
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow
+      description: Describe the current sequence and where the limitation appears.
+      placeholder: |
+        1. Start from ...
+        2. Attempt ...
+        3. The workflow stops or becomes difficult because ...
+    validations:
+      required: true
+  - type: textarea
+    id: existing_workaround
+    attributes:
+      label: Existing workaround
+      description: Describe any safe workaround, or state None known.
+    validations:
+      required: true
+  - type: textarea
+    id: desired_behavior
+    attributes:
+      label: Desired behavior
+      description: Describe the user-visible capability or outcome without requiring a particular internal design.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public_safety
+    attributes:
+      label: Public-data confirmation
+      options:
+        - label: I did not include credentials, private prompts, personal or production data, complete databases, unrestricted logs, or unsanitized diagnostic bundles.
+          required: true

@@ -1,0 +1,105 @@
+name: Bug report
+description: Report a reproducible AxolDB Developer Preview problem using sanitized public evidence.
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an AxolDB problem. Search open and closed issues first. Never include credentials, private prompts, personal or production data, complete databases, unrestricted logs, or unsanitized diagnostic bundles. Security-sensitive findings do not belong in a public issue.
+  - type: checkboxes
+    id: duplicate_search
+    attributes:
+      label: Duplicate search
+      description: Search open and closed issues by symptom, safe error code, interface, and version.
+      options:
+        - label: I searched open and closed issues and did not find the same problem.
+          required: true
+  - type: input
+    id: version_build
+    attributes:
+      label: Version or build
+      description: Provide the AxolDB version and safe build/source identifier shown by the product or package.
+      placeholder: 0.1.0-developer-preview; build/source identifier if available
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      description: State the operating system, architecture, and relevant runtime or browser version.
+      placeholder: Debian 12, Linux x64, Chromium 140
+    validations:
+      required: true
+  - type: dropdown
+    id: interface_transport
+    attributes:
+      label: Interface or transport
+      description: Select every public surface involved.
+      multiple: true
+      options:
+        - CLI local Application
+        - CLI over HTTPS
+        - Axol Studio over HTTPS
+        - HTTP/JSON API
+        - unary gRPC API
+        - .NET client SDK
+        - TypeScript client SDK
+        - Python client SDK
+        - Server operations or packaging
+        - Other or unknown
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: Reproduction steps
+      description: List the smallest repeatable public-interface sequence. Do not invent or infer unobserved steps.
+      placeholder: |
+        1. Start from ...
+        2. Run or select ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected behavior
+      description: State the result required by documented behavior or the user-visible expectation.
+    validations:
+      required: true
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Observed behavior
+      description: State only what was directly observed, including whether the operation had an uncertain outcome.
+    validations:
+      required: true
+  - type: input
+    id: safe_error_code
+    attributes:
+      label: Safe public error code
+      description: Provide a bounded public AXOL-* code or safe HTTP/gRPC status when available. Do not paste unrestricted exception text.
+      placeholder: AXOL-... or Not provided
+  - type: textarea
+    id: sanitized_example
+    attributes:
+      label: Minimal sanitized example
+      description: Provide the smallest synthetic or sanitized command/input fragment, or state Not applicable. Remove all secrets and private data.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: suspected_cause
+    attributes:
+      label: Suspected cause (optional hypothesis)
+      description: Keep this separate from observed behavior. State Unknown when evidence does not establish a cause.
+      placeholder: Hypothesis only, or Unknown
+  - type: checkboxes
+    id: public_safety
+    attributes:
+      label: Public-data confirmation
+      options:
+        - label: I removed credentials, private prompts, personal or production data, complete databases, unrestricted logs, and unsanitized diagnostic bundles.
+          required: true
