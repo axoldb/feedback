@@ -63,7 +63,8 @@ Describe observations as facts and suspected causes as hypotheses. Do not invent
 steps, results, affected versions, severity, or environment details.
 
 Security-sensitive findings do not belong here. The designated confidential contact is
-`office@axoldb.com`, but mailbox verification is pending; do not send or publish sensitive details
-until the owner confirms an operational confidential channel.
+`office@axoldb.com`; the owner reported successful bidirectional Gmail delivery on 2026-09-29.
+That owner-performed check is not a universal-delivery guarantee. Do not email credentials,
+private data, or unrestricted diagnostics and never publish them here.
 
 Do not promise a response time, fix, release date, support SLA, or bounty.

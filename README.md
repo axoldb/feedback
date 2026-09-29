@@ -18,10 +18,11 @@ promise a response time, fix, release date, support service level, or bounty.
 ## Security-sensitive findings
 
 Do **not** file vulnerabilities, exploit details, credentials, or other sensitive security material
-as public issues. `office@axoldb.com` is the designated confidential security contact, but its
-configuration and delivery have not yet been verified. Until the owner confirms that verification,
-do not send sensitive details to the address or post them here. Retain the material privately and
-follow the current [security notice](SECURITY.md).
+as public issues. `office@axoldb.com` is the operational confidential security contact. On
+2026-09-29 (Europe/Belgrade), owner Aleksandar Bakalov reported successful bidirectional delivery
+with Gmail, with neither message placed in spam. This was owner-performed, not agent-observed, and
+does not guarantee universal delivery. Do not email credentials, private data, or unrestricted
+diagnostics; follow the current [security notice](SECURITY.md).
 
 ## Coding agents
 
