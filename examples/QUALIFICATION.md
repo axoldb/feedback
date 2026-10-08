@@ -65,19 +65,24 @@ while dependencies retain their own terms. The completed examples were pushed to
 Actions API reported zero workflows; the post-push branch query reported zero workflow runs. No
 workflow dispatch or pull request was made.
 
-## Native integer Evolution addendum
+## Native Evolution addendum
 
-The native example's Python unit tests are 3/3 PASS and `py_compile` passes. A real isolated local
-run and a separate managed stop/start reload check also passed. Input membership `1×1, 4×1, 7×1`
-remained unchanged in the source Generation; the native reference mutation step published Fork
-membership `5×1, 8×2`, with three `mutation` lineage records and the returned EvolutionRunId.
+Both native examples used one locally assembled `linux-x64` bundle from product commit
+`aea2edf8527114c49168bd71eeeabb47ee0445cd`. Its CLI version embeds that commit; all 1,953 manifest
+entries passed, the manifest file SHA-256 is
+`d3c62049506569ce0f93296aee03143500f05758a731ed360a0bdd46fb4aee33`, and the local archive
+SHA-256 is `0814773f9f14209ff37ff37e95b3818d2854a391526608c4a4bc56192cba06df`.
+This is a local qualification artifact, not a public release.
 
-The Evolution path ran through existing qualified CLI
-`0.1.0-developer-preview+8299e9d0a7bd52c8c1acab1f2fdb5a4f18e94f80`; read-only typed Fork
-Queries used available CLI
-`0.1.0-developer-preview+88e7d71571c0b04641d46b7f699dbab84fe463a3`. This split is disclosed,
-not a one-package success claim: the former predates `query --input`, while the latter's local
-`genotype insert` flag path double-canonicalizes its target Population and is denied. Native
-crossover is separately BLOCKED because the public package exposes no crossover operator, flag or
-external implementation-loading path. See `native-integer-evolution/RUN-REPORT.md` for IDs,
-results, restart evidence and the safe machine-readable reports.
+The integer helper tests are 3/3 PASS. Its isolated real run preserved source `1×1, 4×1, 7×1`,
+published `5×2, 8×1`, returned three complete mutation lineage v2 records, and passed managed
+restart/reload. The preserved two-build and WP-0095 results remain historical evidence rather than
+the current flow.
+
+The binary helper tests are 3/3 PASS. Its isolated real run preserved source `00010203×1,
+a0a1a2a3×1`, selected two distinct ordered candidate instances through two bounded tournaments,
+and persisted A=`00010203`, B=`a0a1a2a3`, cut=2, child=`0001a2a3`. Complete crossover lineage v2,
+atomic result visibility, and managed restart/reload passed.
+
+No DEAP/Mesa campaign was repeated. Remote Evolution, a general plugin loader, Windows/multi-RID
+qualification, WP-0094, and overall release qualification remain separate.

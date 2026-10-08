@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "passed": true,
   "singlePackage": true,
-  "axolVersion": "0.1.0-developer-preview+88e7d71571c0b04641d46b7f699dbab84fe463a3",
+  "axolVersion": "0.1.0-developer-preview+aea2edf8527114c49168bd71eeeabb47ee0445cd",
   "managedRestart": true,
   "managedStatusAfterRestart": {
     "state": "Ready",
@@ -26,37 +26,116 @@
   ],
   "resultMembershipReloaded": [
     [
+      5,
+      2
+    ],
+    [
       8,
-      3
+      1
     ]
   ],
-  "forkGenerationReloaded": "4f333d31-acff-46f8-a561-09a9ed37c55a",
+  "forkGenerationReloaded": "4d776a29-b61f-7c52-965b-fa227dcd06c0",
   "lineageReloaded": [
     {
-      "outputGenotypeHash": "fa3a1e7d1a2403664bb7672f19e97a6f09290c028f7c2f8445bd22a9e6a01764",
+      "outputGenotypeHash": "0943471250a729c546255fbcf75378c421cdab7a6b8b87a2cb4b417a3ecd1564",
       "operator": "axol://operators/axol/reference-increment-mutator",
       "candidateGeneration": 0,
-      "lineageKind": "mutation"
+      "lineageKind": "mutation",
+      "formatVersion": 2,
+      "outputCandidateInstanceId": "5171f7b96f43b79ef22752caa36a39e9c6d52ea16533d9c6363852d0ef17c06f",
+      "parentCandidateInstanceIds": [
+        "2916441235ed4a20147f4d2c0275b10b524aa91bf5f3cd2b65b85f5128f1a8de"
+      ],
+      "evolutionRunId": "evolution-run-22520e94-5d7b-4731-96bc-030db34e6967",
+      "populationScope": "axol://populations/examples.native-integer/candidates",
+      "sourceForkGenerationId": "c49ac7f0-5e4f-4a11-b942-5898921150b3",
+      "outputForkGenerationId": "4d776a29-b61f-7c52-965b-fa227dcd06c0",
+      "publicationOperationId": "953347cd78533f514d7783ee1ad1cf0b53599a38bab8bc3fa79664234911dd59",
+      "operatorId": "axol://operators/axol/reference-increment-mutator",
+      "operatorVersion": "1.0.0",
+      "operatorPackageHash": "28a9f3c6fc2665f87cc5044d690406d9a69ff4e857f44831fbac076254192806",
+      "derivedSeed": "4442f1e795ec6b64270ba764c96a46f66e34c75b5672c60e41cb662bb913df65",
+      "outputOrdinal": 0,
+      "parentReferences": [
+        {
+          "parentOrdinal": 0,
+          "parentRole": "parent",
+          "parentCandidateInstanceId": "2916441235ed4a20147f4d2c0275b10b524aa91bf5f3cd2b65b85f5128f1a8de",
+          "parentPopulationScope": "axol://populations/examples.native-integer/candidates",
+          "parentForkGenerationId": "c49ac7f0-5e4f-4a11-b942-5898921150b3",
+          "parentGenotypeHash": "dae69a50e30d6b5ba364f10e4a3e3afaa25a6c52c340dc59d0697177e66ce8a4"
+        }
+      ]
+    },
+    {
+      "outputGenotypeHash": "0943471250a729c546255fbcf75378c421cdab7a6b8b87a2cb4b417a3ecd1564",
+      "operator": "axol://operators/axol/reference-increment-mutator",
+      "candidateGeneration": 0,
+      "lineageKind": "mutation",
+      "formatVersion": 2,
+      "outputCandidateInstanceId": "417064ffd8ea799794768705788a045042c3a7c9b2b61d37c464aad371546cb6",
+      "parentCandidateInstanceIds": [
+        "2916441235ed4a20147f4d2c0275b10b524aa91bf5f3cd2b65b85f5128f1a8de"
+      ],
+      "evolutionRunId": "evolution-run-22520e94-5d7b-4731-96bc-030db34e6967",
+      "populationScope": "axol://populations/examples.native-integer/candidates",
+      "sourceForkGenerationId": "c49ac7f0-5e4f-4a11-b942-5898921150b3",
+      "outputForkGenerationId": "4d776a29-b61f-7c52-965b-fa227dcd06c0",
+      "publicationOperationId": "953347cd78533f514d7783ee1ad1cf0b53599a38bab8bc3fa79664234911dd59",
+      "operatorId": "axol://operators/axol/reference-increment-mutator",
+      "operatorVersion": "1.0.0",
+      "operatorPackageHash": "28a9f3c6fc2665f87cc5044d690406d9a69ff4e857f44831fbac076254192806",
+      "derivedSeed": "c313eed1857a1c189d439f9e872d42d6889d6890967c03b80adefe2e9db9c55b",
+      "outputOrdinal": 2,
+      "parentReferences": [
+        {
+          "parentOrdinal": 0,
+          "parentRole": "parent",
+          "parentCandidateInstanceId": "2916441235ed4a20147f4d2c0275b10b524aa91bf5f3cd2b65b85f5128f1a8de",
+          "parentPopulationScope": "axol://populations/examples.native-integer/candidates",
+          "parentForkGenerationId": "c49ac7f0-5e4f-4a11-b942-5898921150b3",
+          "parentGenotypeHash": "dae69a50e30d6b5ba364f10e4a3e3afaa25a6c52c340dc59d0697177e66ce8a4"
+        }
+      ]
     },
     {
       "outputGenotypeHash": "fa3a1e7d1a2403664bb7672f19e97a6f09290c028f7c2f8445bd22a9e6a01764",
       "operator": "axol://operators/axol/reference-increment-mutator",
       "candidateGeneration": 0,
-      "lineageKind": "mutation"
-    },
-    {
-      "outputGenotypeHash": "fa3a1e7d1a2403664bb7672f19e97a6f09290c028f7c2f8445bd22a9e6a01764",
-      "operator": "axol://operators/axol/reference-increment-mutator",
-      "candidateGeneration": 0,
-      "lineageKind": "mutation"
+      "lineageKind": "mutation",
+      "formatVersion": 2,
+      "outputCandidateInstanceId": "16bd9d04c7cd83b4fafacac9a77869a8f2267549d9c2ff3e61c330eb0223f637",
+      "parentCandidateInstanceIds": [
+        "79834cede44fd2410acb893b73825175a16e2add75057425fc52e691976f0251"
+      ],
+      "evolutionRunId": "evolution-run-22520e94-5d7b-4731-96bc-030db34e6967",
+      "populationScope": "axol://populations/examples.native-integer/candidates",
+      "sourceForkGenerationId": "c49ac7f0-5e4f-4a11-b942-5898921150b3",
+      "outputForkGenerationId": "4d776a29-b61f-7c52-965b-fa227dcd06c0",
+      "publicationOperationId": "953347cd78533f514d7783ee1ad1cf0b53599a38bab8bc3fa79664234911dd59",
+      "operatorId": "axol://operators/axol/reference-increment-mutator",
+      "operatorVersion": "1.0.0",
+      "operatorPackageHash": "28a9f3c6fc2665f87cc5044d690406d9a69ff4e857f44831fbac076254192806",
+      "derivedSeed": "55dcd4fd0a2ac034db55231c8a56dfdc385ed3b04a9c5610615a832dac701520",
+      "outputOrdinal": 1,
+      "parentReferences": [
+        {
+          "parentOrdinal": 0,
+          "parentRole": "parent",
+          "parentCandidateInstanceId": "79834cede44fd2410acb893b73825175a16e2add75057425fc52e691976f0251",
+          "parentPopulationScope": "axol://populations/examples.native-integer/candidates",
+          "parentForkGenerationId": "c49ac7f0-5e4f-4a11-b942-5898921150b3",
+          "parentGenotypeHash": "039423b7bf715bc03d8111edac043b3879c9d2394816856f0ce7c480267586c5"
+        }
+      ]
     }
   ],
   "buildProvenance": {
-    "availability": "local corrective bundle; not a public release package",
+    "availability": "local WP-0096 qualification bundle; not a public release package",
     "runtimeIdentifier": "linux-x64",
-    "baseCommit": "88e7d71571c0b04641d46b7f699dbab84fe463a3",
-    "productSourceDiffSha256": "19f3aa9f1a18c82e34579e6a657ae487fd0f16a4be4d6fea45427321b244e6f7",
-    "bundleArchiveSha256": "1e86fa638b161195a6c7439f3fe2f3b077105ccfccee5c8cd0b4038e42f65198"
+    "sourceCommit": "aea2edf8527114c49168bd71eeeabb47ee0445cd",
+    "bundleManifestSha256": "d3c62049506569ce0f93296aee03143500f05758a731ed360a0bdd46fb4aee33",
+    "bundleArchiveSha256": "0814773f9f14209ff37ff37e95b3818d2854a391526608c4a4bc56192cba06df"
   },
   "secretsRetained": false
 }
