@@ -1,0 +1,18 @@
+{
+  "generation": 20,
+  "generation_id": "6762dec5-770b-4d64-a816-e61d1296720e",
+  "manifest_hash": "537f691f284002ff2f89d40dacae9f391dcb9dee48ce3b837c5e1a839d911a25",
+  "member_hashes": [
+    "26379f86d7071e4b71ead3ffdfd2bbeb16687e5a4ca76178e49cc639e207e4ba",
+    "44eed5178d2a93b97ad44797633130a1914fa28ff9afabc0d9a2cafea0375c65",
+    "4a51533c0a2f3d6c77ef38fd7d8f9c983a4b69a9f66f4c7b34fe4d37594e56f9",
+    "537f691f284002ff2f89d40dacae9f391dcb9dee48ce3b837c5e1a839d911a25",
+    "5d9afa7c43d4c82783e9d556295ea3dc38cd690a4686038b6e4a23668183291e",
+    "637fa5ee3033a0d77f10a1df72bb25d4edcd0fcdd7ae1741fe485d35e7268a13",
+    "85fa9f71686e7069cc832fc60df33b63e8b81e2181378b6ef4974e77ce19d95f",
+    "aacf33c745b072815d1283716e0933808ad615ee7ffb8f2e30ddd88505ddd53b",
+    "ff534de4872ed2b16adb9010459971feb3339bcb16fbc866c24f30fc89e95c98"
+  ],
+  "population_id": "axol://populations/examples.deap-knapsack/baseline",
+  "state_root": "d020c3654546b5e981c214cad8864eb64c2c940cc2810f48afb89e3c3716a2d7"
+}

@@ -1,0 +1,7824 @@
+{
+  "axoldb_version": "0.1.0-developer-preview+88e7d71571c0b04641d46b7f699dbab84fe463a3",
+  "baseline_history": [
+    {
+      "clustering": 0.4507589285714285,
+      "moves_total": 0,
+      "satisfied_fraction": 0.5,
+      "step": 0
+    },
+    {
+      "clustering": 0.5490029761904762,
+      "moves_total": 38,
+      "satisfied_fraction": 0.625,
+      "step": 1
+    },
+    {
+      "clustering": 0.6286607142857144,
+      "moves_total": 62,
+      "satisfied_fraction": 0.8,
+      "step": 2
+    },
+    {
+      "clustering": 0.688735119047619,
+      "moves_total": 76,
+      "satisfied_fraction": 0.8625,
+      "step": 3
+    },
+    {
+      "clustering": 0.7170833333333333,
+      "moves_total": 90,
+      "satisfied_fraction": 0.8625,
+      "step": 4
+    },
+    {
+      "clustering": 0.7453571428571428,
+      "moves_total": 99,
+      "satisfied_fraction": 0.95,
+      "step": 5
+    },
+    {
+      "clustering": 0.7843005952380953,
+      "moves_total": 103,
+      "satisfied_fraction": 0.9625,
+      "step": 6
+    },
+    {
+      "clustering": 0.7934375,
+      "moves_total": 106,
+      "satisfied_fraction": 0.9625,
+      "step": 7
+    },
+    {
+      "clustering": 0.7960416666666666,
+      "moves_total": 109,
+      "satisfied_fraction": 0.975,
+      "step": 8
+    },
+    {
+      "clustering": 0.8042708333333334,
+      "moves_total": 111,
+      "satisfied_fraction": 0.9875,
+      "step": 9
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 10
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 11
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 12
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 13
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 14
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 15
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 16
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 17
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 18
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 19
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 20
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 21
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 22
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 23
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 24
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 25
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 26
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 27
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 28
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 29
+    },
+    {
+      "clustering": 0.8182886904761905,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 30
+    }
+  ],
+  "branch_a": {
+    "final_agents": [
+      {
+        "group": 0,
+        "position": [
+          2,
+          9
+        ],
+        "stable_id": "resident-000"
+      },
+      {
+        "group": 1,
+        "position": [
+          8,
+          9
+        ],
+        "stable_id": "resident-001"
+      },
+      {
+        "group": 0,
+        "position": [
+          0,
+          9
+        ],
+        "stable_id": "resident-002"
+      },
+      {
+        "group": 0,
+        "position": [
+          7,
+          6
+        ],
+        "stable_id": "resident-003"
+      },
+      {
+        "group": 0,
+        "position": [
+          7,
+          7
+        ],
+        "stable_id": "resident-004"
+      },
+      {
+        "group": 0,
+        "position": [
+          3,
+          8
+        ],
+        "stable_id": "resident-005"
+      },
+      {
+        "group": 1,
+        "position": [
+          1,
+          2
+        ],
+        "stable_id": "resident-006"
+      },
+      {
+        "group": 1,
+        "position": [
+          4,
+          1
+        ],
+        "stable_id": "resident-007"
+      },
+      {
+        "group": 0,
+        "position": [
+          9,
+          4
+        ],
+        "stable_id": "resident-008"
+      },
+      {
+        "group": 0,
+        "position": [
+          3,
+          5
+        ],
+        "stable_id": "resident-009"
+      },
+      {
+        "group": 0,
+        "position": [
+          1,
+          6
+        ],
+        "stable_id": "resident-010"
+      },
+      {
+        "group": 1,
+        "position": [
+          4,
+          2
+        ],
+        "stable_id": "resident-011"
+      },
+      {
+        "group": 0,
+        "position": [
+          6,
+          4
+        ],
+        "stable_id": "resident-012"
+      },
+      {
+        "group": 1,
+        "position": [
+          1,
+          3
+        ],
+        "stable_id": "resident-013"
+      },
+      {
+        "group": 0,
+        "position": [
+          8,
+          6
+        ],
+        "stable_id": "resident-014"
+      },
+      {
+        "group": 0,
+        "position": [
+          5,
+          3
+        ],
+        "stable_id": "resident-015"
+      },
+      {
+        "group": 1,
+        "position": [
+          8,
+          1
+        ],
+        "stable_id": "resident-016"
+      },
+      {
+        "group": 1,
+        "position": [
+          3,
+          3
+        ],
+        "stable_id": "resident-017"
+      },
+      {
+        "group": 1,
+        "position": [
+          2,
+          4
+        ],
+        "stable_id": "resident-018"
+      },
+      {
+        "group": 1,
+        "position": [
+          4,
+          0
+        ],
+        "stable_id": "resident-019"
+      },
+      {
+        "group": 0,
+        "position": [
+          9,
+          8
+        ],
+        "stable_id": "resident-020"
+      },
+      {
+        "group": 0,
+        "position": [
+          2,
+          1
+        ],
+        "stable_id": "resident-021"
+      },
+      {
+        "group": 1,
+        "position": [
+          2,
+          2
+        ],
+        "stable_id": "resident-022"
+      },
+      {
+        "group": 0,
+        "position": [
+          1,
+          5
+        ],
+        "stable_id": "resident-023"
+      },
+      {
+        "group": 1,
+        "position": [
+          0,
+          1
+        ],
+        "stable_id": "resident-024"
+      },
+      {
+        "group": 0,
+        "position": [
+          2,
+          5
+        ],
+        "stable_id": "resident-025"
+      },
+      {
+        "group": 0,
+        "position": [
+          4,
+          6
+        ],
+        "stable_id": "resident-026"
+      },
+      {
+        "group": 1,
+        "position": [
+          3,
+          4
+        ],
+        "stable_id": "resident-027"
+      },
+      {
+        "group": 0,
+        "position": [
+          3,
+          0
+        ],
+        "stable_id": "resident-028"
+      },
+      {
+        "group": 0,
+        "position": [
+          8,
+          3
+        ],
+        "stable_id": "resident-029"
+      },
+      {
+        "group": 1,
+        "position": [
+          6,
+          1
+        ],
+        "stable_id": "resident-030"
+      },
+      {
+        "group": 0,
+        "position": [
+          3,
+          6
+        ],
+        "stable_id": "resident-031"
+      },
+      {
+        "group": 0,
+        "position": [
+          0,
+          6
+        ],
+        "stable_id": "resident-032"
+      },
+      {
+        "group": 1,
+        "position": [
+          8,
+          8
+        ],
+        "stable_id": "resident-033"
+      },
+      {
+        "group": 1,
+        "position": [
+          8,
+          0
+        ],
+        "stable_id": "resident-034"
+      },
+      {
+        "group": 0,
+        "position": [
+          6,
+          7
+        ],
+        "stable_id": "resident-035"
+      },
+      {
+        "group": 1,
+        "position": [
+          5,
+          1
+        ],
+        "stable_id": "resident-036"
+      },
+      {
+        "group": 1,
+        "position": [
+          0,
+          2
+        ],
+        "stable_id": "resident-037"
+      },
+      {
+        "group": 0,
+        "position": [
+          8,
+          2
+        ],
+        "stable_id": "resident-038"
+      },
+      {
+        "group": 1,
+        "position": [
+          7,
+          9
+        ],
+        "stable_id": "resident-039"
+      },
+      {
+        "group": 0,
+        "position": [
+          6,
+          2
+        ],
+        "stable_id": "resident-040"
+      },
+      {
+        "group": 1,
+        "position": [
+          6,
+          9
+        ],
+        "stable_id": "resident-041"
+      },
+      {
+        "group": 0,
+        "position": [
+          0,
+          0
+        ],
+        "stable_id": "resident-042"
+      },
+      {
+        "group": 1,
+        "position": [
+          7,
+          1
+        ],
+        "stable_id": "resident-043"
+      },
+      {
+        "group": 1,
+        "position": [
+          6,
+          8
+        ],
+        "stable_id": "resident-044"
+      },
+      {
+        "group": 0,
+        "position": [
+          5,
+          4
+        ],
+        "stable_id": "resident-045"
+      },
+      {
+        "group": 1,
+        "position": [
+          7,
+          0
+        ],
+        "stable_id": "resident-046"
+      },
+      {
+        "group": 1,
+        "position": [
+          0,
+          3
+        ],
+        "stable_id": "resident-047"
+      },
+      {
+        "group": 0,
+        "position": [
+          2,
+          0
+        ],
+        "stable_id": "resident-048"
+      },
+      {
+        "group": 0,
+        "position": [
+          5,
+          5
+        ],
+        "stable_id": "resident-049"
+      },
+      {
+        "group": 0,
+        "position": [
+          7,
+          2
+        ],
+        "stable_id": "resident-050"
+      },
+      {
+        "group": 0,
+        "position": [
+          1,
+          0
+        ],
+        "stable_id": "resident-051"
+      },
+      {
+        "group": 0,
+        "position": [
+          4,
+          7
+        ],
+        "stable_id": "resident-052"
+      },
+      {
+        "group": 1,
+        "position": [
+          7,
+          8
+        ],
+        "stable_id": "resident-053"
+      },
+      {
+        "group": 0,
+        "position": [
+          6,
+          5
+        ],
+        "stable_id": "resident-054"
+      },
+      {
+        "group": 1,
+        "position": [
+          5,
+          9
+        ],
+        "stable_id": "resident-055"
+      },
+      {
+        "group": 0,
+        "position": [
+          3,
+          7
+        ],
+        "stable_id": "resident-056"
+      },
+      {
+        "group": 0,
+        "position": [
+          4,
+          4
+        ],
+        "stable_id": "resident-057"
+      },
+      {
+        "group": 0,
+        "position": [
+          7,
+          4
+        ],
+        "stable_id": "resident-058"
+      },
+      {
+        "group": 0,
+        "position": [
+          0,
+          8
+        ],
+        "stable_id": "resident-059"
+      },
+      {
+        "group": 1,
+        "position": [
+          5,
+          0
+        ],
+        "stable_id": "resident-060"
+      },
+      {
+        "group": 1,
+        "position": [
+          1,
+          4
+        ],
+        "stable_id": "resident-061"
+      },
+      {
+        "group": 0,
+        "position": [
+          9,
+          3
+        ],
+        "stable_id": "resident-062"
+      },
+      {
+        "group": 1,
+        "position": [
+          3,
+          2
+        ],
+        "stable_id": "resident-063"
+      },
+      {
+        "group": 0,
+        "position": [
+          8,
+          7
+        ],
+        "stable_id": "resident-064"
+      },
+      {
+        "group": 0,
+        "position": [
+          0,
+          5
+        ],
+        "stable_id": "resident-065"
+      },
+      {
+        "group": 1,
+        "position": [
+          9,
+          0
+        ],
+        "stable_id": "resident-066"
+      },
+      {
+        "group": 1,
+        "position": [
+          2,
+          3
+        ],
+        "stable_id": "resident-067"
+      },
+      {
+        "group": 0,
+        "position": [
+          8,
+          4
+        ],
+        "stable_id": "resident-068"
+      },
+      {
+        "group": 1,
+        "position": [
+          5,
+          2
+        ],
+        "stable_id": "resident-069"
+      },
+      {
+        "group": 1,
+        "position": [
+          5,
+          8
+        ],
+        "stable_id": "resident-070"
+      },
+      {
+        "group": 0,
+        "position": [
+          9,
+          6
+        ],
+        "stable_id": "resident-071"
+      },
+      {
+        "group": 0,
+        "position": [
+          6,
+          3
+        ],
+        "stable_id": "resident-072"
+      },
+      {
+        "group": 0,
+        "position": [
+          7,
+          3
+        ],
+        "stable_id": "resident-073"
+      },
+      {
+        "group": 0,
+        "position": [
+          1,
+          9
+        ],
+        "stable_id": "resident-074"
+      },
+      {
+        "group": 1,
+        "position": [
+          4,
+          9
+        ],
+        "stable_id": "resident-075"
+      },
+      {
+        "group": 0,
+        "position": [
+          8,
+          5
+        ],
+        "stable_id": "resident-076"
+      },
+      {
+        "group": 0,
+        "position": [
+          6,
+          6
+        ],
+        "stable_id": "resident-077"
+      },
+      {
+        "group": 0,
+        "position": [
+          9,
+          5
+        ],
+        "stable_id": "resident-078"
+      },
+      {
+        "group": 0,
+        "position": [
+          5,
+          6
+        ],
+        "stable_id": "resident-079"
+      }
+    ],
+    "final_metrics": {
+      "clustering": 0.8182886904761905,
+      "moves_since_checkpoint": 0,
+      "moves_total": 113,
+      "satisfied_fraction": 1.0,
+      "step": 60
+    },
+    "final_reference": {
+      "generation_id": "38337d6e-fd5c-41ee-bc7b-36febdc21047",
+      "manifest_hash": "ef66ba5a184f7abe53a6e10efe4121edd3ed91e31fcb89fdc7014728860db8c9",
+      "member_hashes": [
+        "0a8b89e2dc398037d7595a22d0705a36698ee9b5d468569640a3649b703fabfe",
+        "0d32b90d8bfc516effe340e7c28ef4c6cc29422cac0dd1ebb77ccd0ee93cf10c",
+        "1899556b45d79856f82ab611a50fc5d281648a26c5054af43eae71a875294eec",
+        "197141eddd58653b386f08da323789153fe1e988371cf5502a701c06ba67c00d",
+        "1a0730a9c719c31fa44eee4bb86c08dca9c23f33852531c0098df8847bb47d50",
+        "1ba26cd510c34a22dd7d68efe8d032aa02ac7d8a2e95a0c9ecb4612ca50419d1",
+        "1bb66c4caa0be36ed1725832c4c29cb0c8b0098673eb9618c8962ad955e27d82",
+        "1c8f4f0dd61369e9f55d40b4b2db7e39b33ea7444d94fd9b084c25be622b0453",
+        "1f482c898581bdc69063484a168e9aa5b7ef5197b65bf9c2889ccf1752eb69d0",
+        "206ac54668fc0c8123f199902573ff3fca55375f028fbf78e9f6c9765adebe25",
+        "208d52c6bf7db9ffd4c2f1f2f897afb1e6d3147e0755722514d6bfb3ab8f9530",
+        "21c7c27f6b71525dfdc7071000c163972b21ca7b729865414b9ba2ce56183fc3",
+        "28fd85aff578a5bbb5bdbaec4e098e2229f2488e04df13fd650fe71db543b8ea",
+        "2c0feec0d0e4aa8916db7d9a837f47f134dbd348ccc10b30edac850a4e8e1911",
+        "2c58a002e905bf318a5c83443f0738924180fead2f4a5562f9882c87d5336496",
+        "2dfcfaa5c257a8eff8b9976ece1ba85880739cfbe860a7b546d020e149e88e92",
+        "30979b55a24ba5698e85c174c3c17931cd9f32d60a0fde0db31c0d521aa7333b",
+        "356ae6bb3016cac07bdab278896c451d9086bd8587bf997457a096fa6dbfc5b9",
+        "3a744a6181a280b63e8cbc72a9461b9daa93ebcd0bec45c7aedd5ef872c6b19c",
+        "3bb05545993b00e530901dab9cda3fa6b106d918b82b41a88beda88760b8d6c0",
+        "44e578f9cb3b64bc2c60cc7834cca526e0ac0bf0c4979558bac921fa1f7fd723",
+        "4916129f21672b00fdae8d7198ff44d1bee62b7f30e428ffb415f0c148d2690d",
+        "49e195b4bc650247809260e991a12ba1e8e553fb851a9906e9756eaf91a731df",
+        "4a01208022afba977d00aed313b96a241b450acacb24c138ec92f9bf7630cdae",
+        "4d75af9b0a400c31d100ea52299bed95f26882a8b8b7c2b6e129c3616fb05124",
+        "4d90499848f76c51fc333c29d16db04b2c19fa737599cb2911f84773d98b6091",
+        "50dde71bf384977f0f6f17b00524a45c30e9f7a29416d071bea2e86313d099cf",
+        "54c21fffcb231b24782eff7b9f1408bc2559666217e7010e85a19339dac445a6",
+        "559778dc5c235c7e76edff12499110d19625a83e6a7580fff73f02754ec5c1d2",
+        "576eb404fac9c58930ecab3ce2e5fb3872ce911b034a547c9c24537cb9661c97",
+        "601a2398ff16d29f291c2c8c4bd14c4d6e0747e1080e8589021666e886c5b3cc",
+        "65a4af923ddc2c56ebad3dc3b29401a7e8510b5d1eb311ac9aa0c9739836156f",
+        "66b4bd66a25a7d28dc31b25ba5c2c8eb0641904ade093645aa19b42d431d815b",
+        "6d455fe04d9f25317beffe45de30a2aff6765d61b77b16970a5abe02bd8e5f75",
+        "6f2954553b1a371fc8564375e785c6dd1eb61286d18a857ec6005dd7da015c44",
+        "73c4382968600785b959821b22a84654294bd38584b2ea206de5f764b2b371fd",
+        "7653eea7bd8665b075eeef1d7a37571a8c10dd1cd4831e093e464d9eed270940",
+        "77f46a87ad5309b49ac0815f9bbc741fb0b9e4502b43acf9d471b704a96b837e",
+        "78aeda02b65a3a268ccb9dd128a8aee47d2bd4869aaf15d70a0be33c5305e15b",
+        "78e4f46c2b071e514c3effa84eb20641d7283196a326d62a13b7e17061ede38b",
+        "79b0e02e69d9379e47c662d22fc31d41a2cbfbfdc3bcd24940215c3557a03db2",
+        "7c94cc992d7cea791648b483a1b7002743fc952abfaa7c14c77c2162544ce4fb",
+        "7caa85d4690016cf946b2025c98e2534d587c93c82b48bfb27292adff3791151",
+        "7fa7ea4785d702601647d53434e48fbaa6a2217b9a95428c0ae0815d0e1fa259",
+        "816834dfe50a241f9d9b5e23f561eff9b6d4d35f54b27ae3227e625e6339faaf",
+        "87739d32e279e86bd666fe1849723030bb38e3fc2cc1f85ebf4a82c59a4f5e6e",
+        "889df430367cb3c788a669628899a745da29657044a2d0f5264cf983afa1a33c",
+        "8b1bb55dd488603fa7d00b01357b7f8d9d8e81142d4e7593d590abeafea04e4f",
+        "8ee121719c5315b079247782634b9e8ba752f45a8bc73215f1ec14bfb6d4f97f",
+        "8eeb6fca5847223aa90e0e529557d5bcb19a81440284d19a5ba6df308c773b17",
+        "928f44170c5c1c8fc04752595f00d38e158ace56f14a31ad2a68bbe8fc9a7268",
+        "9e1fb7d0dfd7a09728581baa1627b9962e15fd05b614cd2f439923387cf49945",
+        "a44743c709cfa7ac026b2c2d1ff0e7ff177651f24c5367767cb7d09fd29dbbfa",
+        "a779bc77356fe7c5097ab1e6c69d02eaac9d29e33561d21bddc3fbe885611b2a",
+        "a7feccd07e65d41f0aac71fd6741b5637f16c71327f0ed94ec3f9fa56f8b47f7",
+        "b5418cd885f28e0334a5ff640c03f6f93677618a5be36f0a24b5930e498ebe65",
+        "ba8e9cc3c29d387d644a7181bc9aff7d706a37dc9010c0f737a7f157a9eba2f1",
+        "c087426d1d6af7bff0ccf0f1f7d44797a117d23397518df60a4acab1f6c46c53",
+        "c2cb2ea357ad58d2a1724523e115ce7220d11b675ca0ec52877a32e008e3c65e",
+        "c4a82893aa7e0dad98a7c7b65e1248b49907b7ec5fae4e152fc3d351deadaa08",
+        "c951728b1e7819b1ad8f5b9cd6db7fb70ee058e830660687100c0e28774292b7",
+        "ca66304b5155eb09c07640618b72e7a31bafde90a8b0bca9e49089664d5bd048",
+        "cb917e500e3dc38dc5ef89d50a59b3111139b52ca73dd15a431f86b79dce747b",
+        "d06c55c52c71fc32b2c453d6524d3d0efae65c2baba9a39e405e2e7b0a649b06",
+        "d76dd72837961f9486910a0e04db17067d624d0af680983feacd810ab6ea3a28",
+        "d9e8996fdfc76770c5d6f4d36ee3585bcabeaff6615f3cdf1d3c5680bcd5071f",
+        "ddb54b948c12a22433991b320c21b636d181608fb9fb92ea650287ebc9409bed",
+        "e2a1051c1e1c6449ab0bc1bc7799ad5208b967ef79ceeca2de26181b656a8159",
+        "e428fe75d3ee4162b19c4079a67f146f1ce8f9f312243c459bb383d126023bbb",
+        "e4f059c119a1dfafadd9d910df1205b51f903d713e4d62d39b8a2c379ae7a1b4",
+        "e940397142129c3949a9adaffa9b64027d8ae276d62441a9858aefb8aad81878",
+        "ec0471b3766aa9248e12a67d5ed828a29c1fdf9303beaf7db35961ac06c3e393",
+        "ef66ba5a184f7abe53a6e10efe4121edd3ed91e31fcb89fdc7014728860db8c9",
+        "f0d594882726bae2043ca63e291a9dfb0ef1dd16df8df4a25772a1e2139fd308",
+        "f1373bbb1a3268d0beb38f96640c4e09ed39c603ae4ffaaf7db6a48b8912422a",
+        "f2712b1cded9e421e33a76fc71b67a637a7ea5003f0e14f96ac5df97a2588ff7",
+        "f28f1eeb19eea08eb9c90ac09f621a80a39a2b55225dcb2f5328be2da2efc351",
+        "f5e9f578754a3780621b59b36da63fef3cb8884da59f6b751ebfad466c2fa50a",
+        "f60a8d0a8ea73d61efa7254b52ae321d4704312ca37bffaf1552933e0aae26f4",
+        "f96ef0b3700c2b5e0d4cc09f0dbb63821477020e170b69435fb4396ed2d0effa",
+        "fff6838a1903e35196046ed347255a46a1bd2d8b2f5362c77a360838b9eb08c4"
+      ],
+      "population_id": "axol://populations/examples.mesa-schelling/branch-a",
+      "state_root": "3432752217cd928ecdbdb973001370753241f5002ba51a44aef60580d7e8b7d0",
+      "step": 60
+    },
+    "final_signature": {
+      "activation_base_order": [
+        "resident-000",
+        "resident-001",
+        "resident-002",
+        "resident-003",
+        "resident-004",
+        "resident-005",
+        "resident-006",
+        "resident-007",
+        "resident-008",
+        "resident-009",
+        "resident-010",
+        "resident-011",
+        "resident-012",
+        "resident-013",
+        "resident-014",
+        "resident-015",
+        "resident-016",
+        "resident-017",
+        "resident-018",
+        "resident-019",
+        "resident-020",
+        "resident-021",
+        "resident-022",
+        "resident-023",
+        "resident-024",
+        "resident-025",
+        "resident-026",
+        "resident-027",
+        "resident-028",
+        "resident-029",
+        "resident-030",
+        "resident-031",
+        "resident-032",
+        "resident-033",
+        "resident-034",
+        "resident-035",
+        "resident-036",
+        "resident-037",
+        "resident-038",
+        "resident-039",
+        "resident-040",
+        "resident-041",
+        "resident-042",
+        "resident-043",
+        "resident-044",
+        "resident-045",
+        "resident-046",
+        "resident-047",
+        "resident-048",
+        "resident-049",
+        "resident-050",
+        "resident-051",
+        "resident-052",
+        "resident-053",
+        "resident-054",
+        "resident-055",
+        "resident-056",
+        "resident-057",
+        "resident-058",
+        "resident-059",
+        "resident-060",
+        "resident-061",
+        "resident-062",
+        "resident-063",
+        "resident-064",
+        "resident-065",
+        "resident-066",
+        "resident-067",
+        "resident-068",
+        "resident-069",
+        "resident-070",
+        "resident-071",
+        "resident-072",
+        "resident-073",
+        "resident-074",
+        "resident-075",
+        "resident-076",
+        "resident-077",
+        "resident-078",
+        "resident-079"
+      ],
+      "agents": [
+        {
+          "group": 0,
+          "position": [
+            2,
+            9
+          ],
+          "stable_id": "resident-000"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            9
+          ],
+          "stable_id": "resident-001"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            9
+          ],
+          "stable_id": "resident-002"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            6
+          ],
+          "stable_id": "resident-003"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            7
+          ],
+          "stable_id": "resident-004"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            8
+          ],
+          "stable_id": "resident-005"
+        },
+        {
+          "group": 1,
+          "position": [
+            1,
+            2
+          ],
+          "stable_id": "resident-006"
+        },
+        {
+          "group": 1,
+          "position": [
+            4,
+            1
+          ],
+          "stable_id": "resident-007"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            4
+          ],
+          "stable_id": "resident-008"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            5
+          ],
+          "stable_id": "resident-009"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            6
+          ],
+          "stable_id": "resident-010"
+        },
+        {
+          "group": 1,
+          "position": [
+            4,
+            2
+          ],
+          "stable_id": "resident-011"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            4
+          ],
+          "stable_id": "resident-012"
+        },
+        {
+          "group": 1,
+          "position": [
+            1,
+            3
+          ],
+          "stable_id": "resident-013"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            6
+          ],
+          "stable_id": "resident-014"
+        },
+        {
+          "group": 0,
+          "position": [
+            5,
+            3
+          ],
+          "stable_id": "resident-015"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            1
+          ],
+          "stable_id": "resident-016"
+        },
+        {
+          "group": 1,
+          "position": [
+            3,
+            3
+          ],
+          "stable_id": "resident-017"
+        },
+        {
+          "group": 1,
+          "position": [
+            2,
+            4
+          ],
+          "stable_id": "resident-018"
+        },
+        {
+          "group": 1,
+          "position": [
+            4,
+            0
+          ],
+          "stable_id": "resident-019"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            8
+          ],
+          "stable_id": "resident-020"
+        },
+        {
+          "group": 0,
+          "position": [
+            2,
+            1
+          ],
+          "stable_id": "resident-021"
+        },
+        {
+          "group": 1,
+          "position": [
+            2,
+            2
+          ],
+          "stable_id": "resident-022"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            5
+          ],
+          "stable_id": "resident-023"
+        },
+        {
+          "group": 1,
+          "position": [
+            0,
+            1
+          ],
+          "stable_id": "resident-024"
+        },
+        {
+          "group": 0,
+          "position": [
+            2,
+            5
+          ],
+          "stable_id": "resident-025"
+        },
+        {
+          "group": 0,
+          "position": [
+            4,
+            6
+          ],
+          "stable_id": "resident-026"
+        },
+        {
+          "group": 1,
+          "position": [
+            3,
+            4
+          ],
+          "stable_id": "resident-027"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            0
+          ],
+          "stable_id": "resident-028"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            3
+          ],
+          "stable_id": "resident-029"
+        },
+        {
+          "group": 1,
+          "position": [
+            6,
+            1
+          ],
+          "stable_id": "resident-030"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            6
+          ],
+          "stable_id": "resident-031"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            6
+          ],
+          "stable_id": "resident-032"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            8
+          ],
+          "stable_id": "resident-033"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            0
+          ],
+          "stable_id": "resident-034"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            7
+          ],
+          "stable_id": "resident-035"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            1
+          ],
+          "stable_id": "resident-036"
+        },
+        {
+          "group": 1,
+          "position": [
+            0,
+            2
+          ],
+          "stable_id": "resident-037"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            2
+          ],
+          "stable_id": "resident-038"
+        },
+        {
+          "group": 1,
+          "position": [
+            7,
+            9
+          ],
+          "stable_id": "resident-039"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            2
+          ],
+          "stable_id": "resident-040"
+        },
+        {
+          "group": 1,
+          "position": [
+            6,
+            9
+          ],
+          "stable_id": "resident-041"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            0
+          ],
+          "stable_id": "resident-042"
+        },
+        {
+          "group": 1,
+          "position": [
+            7,
+            1
+          ],
+          "stable_id": "resident-043"
+        },
+        {
+          "group": 1,
+          "position": [
+            6,
+            8
+          ],
+          "stable_id": "resident-044"
+        },
+        {
+          "group": 0,
+          "position": [
+            5,
+            4
+          ],
+          "stable_id": "resident-045"
+        },
+        {
+          "group": 1,
+          "position": [
+            7,
+            0
+          ],
+          "stable_id": "resident-046"
+        },
+        {
+          "group": 1,
+          "position": [
+            0,
+            3
+          ],
+          "stable_id": "resident-047"
+        },
+        {
+          "group": 0,
+          "position": [
+            2,
+            0
+          ],
+          "stable_id": "resident-048"
+        },
+        {
+          "group": 0,
+          "position": [
+            5,
+            5
+          ],
+          "stable_id": "resident-049"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            2
+          ],
+          "stable_id": "resident-050"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            0
+          ],
+          "stable_id": "resident-051"
+        },
+        {
+          "group": 0,
+          "position": [
+            4,
+            7
+          ],
+          "stable_id": "resident-052"
+        },
+        {
+          "group": 1,
+          "position": [
+            7,
+            8
+          ],
+          "stable_id": "resident-053"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            5
+          ],
+          "stable_id": "resident-054"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            9
+          ],
+          "stable_id": "resident-055"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            7
+          ],
+          "stable_id": "resident-056"
+        },
+        {
+          "group": 0,
+          "position": [
+            4,
+            4
+          ],
+          "stable_id": "resident-057"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            4
+          ],
+          "stable_id": "resident-058"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            8
+          ],
+          "stable_id": "resident-059"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            0
+          ],
+          "stable_id": "resident-060"
+        },
+        {
+          "group": 1,
+          "position": [
+            1,
+            4
+          ],
+          "stable_id": "resident-061"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            3
+          ],
+          "stable_id": "resident-062"
+        },
+        {
+          "group": 1,
+          "position": [
+            3,
+            2
+          ],
+          "stable_id": "resident-063"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            7
+          ],
+          "stable_id": "resident-064"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            5
+          ],
+          "stable_id": "resident-065"
+        },
+        {
+          "group": 1,
+          "position": [
+            9,
+            0
+          ],
+          "stable_id": "resident-066"
+        },
+        {
+          "group": 1,
+          "position": [
+            2,
+            3
+          ],
+          "stable_id": "resident-067"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            4
+          ],
+          "stable_id": "resident-068"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            2
+          ],
+          "stable_id": "resident-069"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            8
+          ],
+          "stable_id": "resident-070"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            6
+          ],
+          "stable_id": "resident-071"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            3
+          ],
+          "stable_id": "resident-072"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            3
+          ],
+          "stable_id": "resident-073"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            9
+          ],
+          "stable_id": "resident-074"
+        },
+        {
+          "group": 1,
+          "position": [
+            4,
+            9
+          ],
+          "stable_id": "resident-075"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            5
+          ],
+          "stable_id": "resident-076"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            6
+          ],
+          "stable_id": "resident-077"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            5
+          ],
+          "stable_id": "resident-078"
+        },
+        {
+          "group": 0,
+          "position": [
+            5,
+            6
+          ],
+          "stable_id": "resident-079"
+        }
+      ],
+      "moves_total": 113,
+      "numpy_rng_state": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 87408120995932972403329037743644218171,
+          "state": 1416835391538841792917410800590245520
+        },
+        "uinteger": 0
+      },
+      "random_state": [
+        3,
+        [
+          1411065039,
+          3282990384,
+          3360859966,
+          803961533,
+          3544968398,
+          2489765366,
+          2548241469,
+          2771446534,
+          3246051207,
+          2237802955,
+          776214394,
+          1824540780,
+          3564025053,
+          1159472129,
+          2279476110,
+          3596570494,
+          3259722343,
+          1719748040,
+          3835503744,
+          484845136,
+          2944385253,
+          1689590935,
+          2441772045,
+          2795272791,
+          413414240,
+          528642807,
+          3320351122,
+          175724260,
+          395999590,
+          666313817,
+          3934822216,
+          3411124308,
+          4090901081,
+          1750987574,
+          3620485524,
+          101858995,
+          3936085267,
+          1057285576,
+          3091600829,
+          375468160,
+          1397842637,
+          2686092442,
+          2214291221,
+          1929776261,
+          135836632,
+          2242343011,
+          1381206293,
+          2730529460,
+          3878443340,
+          2256124996,
+          15036432,
+          3707058589,
+          3110611963,
+          4247317135,
+          1110226811,
+          802723260,
+          182769036,
+          2044384837,
+          33253957,
+          2534579016,
+          2041032805,
+          949742676,
+          1810330787,
+          1574188766,
+          3217211844,
+          1996998577,
+          822764806,
+          1108822598,
+          3316091957,
+          3298519569,
+          3481204896,
+          3093115930,
+          2820018987,
+          24947766,
+          2100668512,
+          4167492011,
+          2298914559,
+          2657845069,
+          3700325770,
+          1245742450,
+          2849786017,
+          605884660,
+          1471253450,
+          2867528292,
+          3202961095,
+          3665327912,
+          3729410232,
+          2775886362,
+          1401326456,
+          303032572,
+          4293010321,
+          3775841871,
+          2797289462,
+          4006060064,
+          2290940044,
+          360139580,
+          1074143491,
+          741798941,
+          3458173442,
+          2816290232,
+          4051760768,
+          3663431717,
+          3429999162,
+          3806004661,
+          1044146789,
+          3084039415,
+          276601435,
+          2094777104,
+          2576951847,
+          2720124085,
+          2294169595,
+          1875179254,
+          4086869304,
+          2781156175,
+          4220154218,
+          2571865564,
+          130146529,
+          1820170064,
+          3595761347,
+          1717449592,
+          3316467872,
+          974373878,
+          407188794,
+          3551515031,
+          1831463696,
+          4243311493,
+          272342795,
+          717607603,
+          2639368599,
+          2698072445,
+          2067994384,
+          3912716591,
+          3595818773,
+          1029355924,
+          566617009,
+          1981296723,
+          2700822103,
+          2948396328,
+          1387445463,
+          1034490249,
+          3822703857,
+          3589836009,
+          4193142071,
+          4003653451,
+          2787856441,
+          2694920594,
+          62385478,
+          2022075268,
+          1618138871,
+          617235140,
+          2203967274,
+          905974435,
+          2067291646,
+          3182290907,
+          2445449307,
+          3187882200,
+          1259592205,
+          1195707101,
+          47061288,
+          183933110,
+          3376937392,
+          2540179207,
+          2731550776,
+          3028730713,
+          552649840,
+          362552882,
+          3311294435,
+          1476524336,
+          1408247532,
+          3851799986,
+          1998490353,
+          3682220828,
+          3443347445,
+          974778094,
+          1292554185,
+          940504673,
+          3099010402,
+          2881186150,
+          949203859,
+          181542026,
+          2704892811,
+          1182304881,
+          1996442697,
+          2526156561,
+          775515359,
+          350676772,
+          2480198591,
+          1049294116,
+          3706321384,
+          1489687778,
+          643880268,
+          2108064780,
+          3829167558,
+          1434378619,
+          3912899843,
+          3325288059,
+          3776741013,
+          115962637,
+          3909911243,
+          2824453667,
+          3848597766,
+          1332756209,
+          3215407925,
+          227029690,
+          1539464283,
+          3035774810,
+          3296748686,
+          4187627011,
+          1811802863,
+          1250442933,
+          1634779397,
+          3787242849,
+          31314689,
+          576155704,
+          3967450668,
+          3952235350,
+          2936025122,
+          1775711474,
+          3789624840,
+          2704767674,
+          490608240,
+          3135990000,
+          386269805,
+          2463410913,
+          1265907286,
+          1551802620,
+          3823001977,
+          3192720377,
+          1407069466,
+          3932738027,
+          2223794758,
+          2401157098,
+          4266152567,
+          3390961620,
+          2174344586,
+          1924220040,
+          1323721836,
+          537890075,
+          690183294,
+          393473110,
+          1362478239,
+          3562074127,
+          1710170114,
+          2465774544,
+          496892366,
+          2137476182,
+          861105232,
+          1510465346,
+          1794191450,
+          347219270,
+          427713076,
+          3067074543,
+          1242724732,
+          2698398109,
+          3450170592,
+          2048411831,
+          2580908384,
+          258144550,
+          3819981204,
+          1836886740,
+          2222174731,
+          1981556632,
+          1753965123,
+          729687369,
+          2965139857,
+          3739147467,
+          2273930044,
+          3247168258,
+          98040827,
+          1866330454,
+          526650248,
+          4204349804,
+          929225337,
+          3549263335,
+          853030025,
+          1007153718,
+          3205047747,
+          625477192,
+          2002163400,
+          1205745958,
+          380836021,
+          2436913837,
+          2761986627,
+          1136874485,
+          773576986,
+          588664131,
+          1525406222,
+          2565305993,
+          1448048701,
+          2529962280,
+          3136677750,
+          3567341401,
+          471087749,
+          596823721,
+          4067040962,
+          2355133840,
+          836595343,
+          1724665045,
+          649710693,
+          4030715150,
+          4079425685,
+          241724272,
+          2680215621,
+          3401659087,
+          3322478919,
+          2522908471,
+          1731110837,
+          3361534090,
+          562818505,
+          526109195,
+          2031928513,
+          2276211951,
+          1052470934,
+          3868096111,
+          1354812859,
+          666200945,
+          3044110534,
+          79280890,
+          3146121784,
+          4140315399,
+          1992371713,
+          1194597561,
+          3711710690,
+          1711930510,
+          1951614324,
+          3414673544,
+          2059762669,
+          3833066506,
+          4274888657,
+          1718039863,
+          3312324442,
+          2473261837,
+          1983494832,
+          2018988615,
+          3555118738,
+          4027014710,
+          2127401082,
+          1515025893,
+          3381613175,
+          1352217420,
+          1740484448,
+          2219872911,
+          2393206364,
+          1838549547,
+          1191665835,
+          4177799067,
+          1053291473,
+          66441911,
+          722362282,
+          3577026625,
+          2624119557,
+          3905983788,
+          2356007261,
+          2703218481,
+          1003257711,
+          2473612628,
+          1066539008,
+          2995409449,
+          940362649,
+          1304086550,
+          201285484,
+          941924160,
+          4261132708,
+          593858776,
+          348307202,
+          2353414642,
+          348609566,
+          3973917987,
+          1358881841,
+          2472593401,
+          2251435742,
+          2268209621,
+          3079311986,
+          3372061029,
+          3982407918,
+          2706290859,
+          4195707831,
+          4267310801,
+          980968444,
+          1181570748,
+          2088828541,
+          2951583397,
+          710038897,
+          1303533420,
+          1995919844,
+          501458103,
+          3068499428,
+          1939898300,
+          711222952,
+          1305364112,
+          4110429000,
+          4179278848,
+          304045630,
+          995623894,
+          382039588,
+          2716229872,
+          3850953567,
+          1141302659,
+          3242548561,
+          4218359244,
+          1373491383,
+          1146057588,
+          3735806753,
+          3713500547,
+          1884946492,
+          2531061535,
+          3699305377,
+          4072299660,
+          1398606793,
+          1172629865,
+          159926102,
+          3895153843,
+          1698733873,
+          1831666879,
+          3514115631,
+          2914665695,
+          3862738846,
+          2998115030,
+          1964575142,
+          3045191079,
+          268318031,
+          4055222894,
+          3230738676,
+          125486073,
+          3924374927,
+          2764453794,
+          4254529094,
+          2258737712,
+          2125816297,
+          2662540750,
+          1362790395,
+          1564342486,
+          3377918636,
+          1123855559,
+          4239942865,
+          2228152090,
+          3415601755,
+          2232657857,
+          3323836090,
+          3206411565,
+          4029046794,
+          3852930088,
+          4287065992,
+          3766011884,
+          2102391515,
+          2881693983,
+          3628835030,
+          2288969121,
+          2401031926,
+          1568726185,
+          4220773611,
+          368164981,
+          1099942330,
+          161099696,
+          4046685800,
+          3706380116,
+          3238281440,
+          4190015549,
+          3621853271,
+          3581911401,
+          2169697253,
+          3871683893,
+          3033916817,
+          645326556,
+          3393191552,
+          3211508380,
+          544994111,
+          886770705,
+          2946015638,
+          1854370485,
+          132412718,
+          4044012391,
+          2784339821,
+          3339075899,
+          1462067085,
+          399859319,
+          3423627633,
+          3015372757,
+          1090181161,
+          3776979627,
+          1316822341,
+          124676725,
+          3632307057,
+          4067137985,
+          1286197256,
+          3366517848,
+          50414722,
+          1226167539,
+          2466402116,
+          392630813,
+          479726241,
+          1346438562,
+          3941705020,
+          3058387537,
+          1394581818,
+          1027612863,
+          695454391,
+          1792915788,
+          74635163,
+          3231247267,
+          186164827,
+          2205656255,
+          578515438,
+          4097209168,
+          3693361691,
+          2916582341,
+          1464577112,
+          2888488259,
+          2512544722,
+          3315520164,
+          3799019990,
+          2593029178,
+          2192035123,
+          4186044316,
+          4241745584,
+          320645964,
+          4125639125,
+          980757726,
+          3781868665,
+          2152801790,
+          2552998360,
+          762991391,
+          4059721258,
+          898866973,
+          3106767737,
+          3697390043,
+          711247575,
+          3675292786,
+          2514019285,
+          744907874,
+          3885873020,
+          1388263044,
+          573558212,
+          735603936,
+          1653630417,
+          3303585058,
+          629124940,
+          295501294,
+          3294024992,
+          1807247775,
+          187459991,
+          2234040348,
+          2382111624,
+          1302367876,
+          982942382,
+          1056150466,
+          1033035588,
+          2219140308,
+          3611917677,
+          4093084406,
+          3665104751,
+          1824945272,
+          629915238,
+          4178079048,
+          2045406629,
+          1253218983,
+          3770241557,
+          3186027411,
+          955375368,
+          1288869721,
+          1015091460,
+          2613817598,
+          3705505790,
+          2002372605,
+          3695538088,
+          2159726604,
+          3114901811,
+          6126160,
+          519099365,
+          4018866436,
+          1007417974,
+          3723663942,
+          3113560371,
+          3688597284,
+          3042430336,
+          2552701830,
+          3241823944,
+          207928617,
+          2296838369,
+          891454629,
+          642816294,
+          2504598415,
+          899012929,
+          2078313833,
+          2626060098,
+          4004805330,
+          1717602066,
+          177698024,
+          2875090593,
+          3723055993,
+          2428805068,
+          2231763469,
+          393174471,
+          3106949245,
+          1892414239,
+          1005415014,
+          767743109,
+          1089548574,
+          498650181,
+          2433980004,
+          795099358,
+          3245289143,
+          3104024736,
+          3914066382,
+          3906407232,
+          1692292756,
+          1788547368,
+          83544520,
+          294001896,
+          522720383,
+          2554650406,
+          4184932693,
+          1941484169,
+          2174393392,
+          2909938879,
+          1819356456,
+          3903037843,
+          3827037575,
+          3331274037,
+          3296340242,
+          476427968,
+          4144950203,
+          40560788,
+          378388967,
+          79
+        ],
+        null
+      ],
+      "step": 60
+    },
+    "history": [
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 30
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 31
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 32
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 33
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 34
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 35
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 36
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 37
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 38
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 39
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 40
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 41
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 42
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 43
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 44
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 45
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 46
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 47
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 48
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 49
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 50
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 51
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 52
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 53
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 54
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 55
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 56
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 57
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 58
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 59
+      },
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 1.0,
+        "step": 60
+      }
+    ],
+    "initial_signature": {
+      "activation_base_order": [
+        "resident-000",
+        "resident-001",
+        "resident-002",
+        "resident-003",
+        "resident-004",
+        "resident-005",
+        "resident-006",
+        "resident-007",
+        "resident-008",
+        "resident-009",
+        "resident-010",
+        "resident-011",
+        "resident-012",
+        "resident-013",
+        "resident-014",
+        "resident-015",
+        "resident-016",
+        "resident-017",
+        "resident-018",
+        "resident-019",
+        "resident-020",
+        "resident-021",
+        "resident-022",
+        "resident-023",
+        "resident-024",
+        "resident-025",
+        "resident-026",
+        "resident-027",
+        "resident-028",
+        "resident-029",
+        "resident-030",
+        "resident-031",
+        "resident-032",
+        "resident-033",
+        "resident-034",
+        "resident-035",
+        "resident-036",
+        "resident-037",
+        "resident-038",
+        "resident-039",
+        "resident-040",
+        "resident-041",
+        "resident-042",
+        "resident-043",
+        "resident-044",
+        "resident-045",
+        "resident-046",
+        "resident-047",
+        "resident-048",
+        "resident-049",
+        "resident-050",
+        "resident-051",
+        "resident-052",
+        "resident-053",
+        "resident-054",
+        "resident-055",
+        "resident-056",
+        "resident-057",
+        "resident-058",
+        "resident-059",
+        "resident-060",
+        "resident-061",
+        "resident-062",
+        "resident-063",
+        "resident-064",
+        "resident-065",
+        "resident-066",
+        "resident-067",
+        "resident-068",
+        "resident-069",
+        "resident-070",
+        "resident-071",
+        "resident-072",
+        "resident-073",
+        "resident-074",
+        "resident-075",
+        "resident-076",
+        "resident-077",
+        "resident-078",
+        "resident-079"
+      ],
+      "agents": [
+        {
+          "group": 0,
+          "position": [
+            2,
+            9
+          ],
+          "stable_id": "resident-000"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            9
+          ],
+          "stable_id": "resident-001"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            9
+          ],
+          "stable_id": "resident-002"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            6
+          ],
+          "stable_id": "resident-003"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            7
+          ],
+          "stable_id": "resident-004"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            8
+          ],
+          "stable_id": "resident-005"
+        },
+        {
+          "group": 1,
+          "position": [
+            1,
+            2
+          ],
+          "stable_id": "resident-006"
+        },
+        {
+          "group": 1,
+          "position": [
+            4,
+            1
+          ],
+          "stable_id": "resident-007"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            4
+          ],
+          "stable_id": "resident-008"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            5
+          ],
+          "stable_id": "resident-009"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            6
+          ],
+          "stable_id": "resident-010"
+        },
+        {
+          "group": 1,
+          "position": [
+            4,
+            2
+          ],
+          "stable_id": "resident-011"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            4
+          ],
+          "stable_id": "resident-012"
+        },
+        {
+          "group": 1,
+          "position": [
+            1,
+            3
+          ],
+          "stable_id": "resident-013"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            6
+          ],
+          "stable_id": "resident-014"
+        },
+        {
+          "group": 0,
+          "position": [
+            5,
+            3
+          ],
+          "stable_id": "resident-015"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            1
+          ],
+          "stable_id": "resident-016"
+        },
+        {
+          "group": 1,
+          "position": [
+            3,
+            3
+          ],
+          "stable_id": "resident-017"
+        },
+        {
+          "group": 1,
+          "position": [
+            2,
+            4
+          ],
+          "stable_id": "resident-018"
+        },
+        {
+          "group": 1,
+          "position": [
+            4,
+            0
+          ],
+          "stable_id": "resident-019"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            8
+          ],
+          "stable_id": "resident-020"
+        },
+        {
+          "group": 0,
+          "position": [
+            2,
+            1
+          ],
+          "stable_id": "resident-021"
+        },
+        {
+          "group": 1,
+          "position": [
+            2,
+            2
+          ],
+          "stable_id": "resident-022"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            5
+          ],
+          "stable_id": "resident-023"
+        },
+        {
+          "group": 1,
+          "position": [
+            0,
+            1
+          ],
+          "stable_id": "resident-024"
+        },
+        {
+          "group": 0,
+          "position": [
+            2,
+            5
+          ],
+          "stable_id": "resident-025"
+        },
+        {
+          "group": 0,
+          "position": [
+            4,
+            6
+          ],
+          "stable_id": "resident-026"
+        },
+        {
+          "group": 1,
+          "position": [
+            3,
+            4
+          ],
+          "stable_id": "resident-027"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            0
+          ],
+          "stable_id": "resident-028"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            3
+          ],
+          "stable_id": "resident-029"
+        },
+        {
+          "group": 1,
+          "position": [
+            6,
+            1
+          ],
+          "stable_id": "resident-030"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            6
+          ],
+          "stable_id": "resident-031"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            6
+          ],
+          "stable_id": "resident-032"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            8
+          ],
+          "stable_id": "resident-033"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            0
+          ],
+          "stable_id": "resident-034"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            7
+          ],
+          "stable_id": "resident-035"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            1
+          ],
+          "stable_id": "resident-036"
+        },
+        {
+          "group": 1,
+          "position": [
+            0,
+            2
+          ],
+          "stable_id": "resident-037"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            2
+          ],
+          "stable_id": "resident-038"
+        },
+        {
+          "group": 1,
+          "position": [
+            7,
+            9
+          ],
+          "stable_id": "resident-039"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            2
+          ],
+          "stable_id": "resident-040"
+        },
+        {
+          "group": 1,
+          "position": [
+            6,
+            9
+          ],
+          "stable_id": "resident-041"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            0
+          ],
+          "stable_id": "resident-042"
+        },
+        {
+          "group": 1,
+          "position": [
+            7,
+            1
+          ],
+          "stable_id": "resident-043"
+        },
+        {
+          "group": 1,
+          "position": [
+            6,
+            8
+          ],
+          "stable_id": "resident-044"
+        },
+        {
+          "group": 0,
+          "position": [
+            5,
+            4
+          ],
+          "stable_id": "resident-045"
+        },
+        {
+          "group": 1,
+          "position": [
+            7,
+            0
+          ],
+          "stable_id": "resident-046"
+        },
+        {
+          "group": 1,
+          "position": [
+            0,
+            3
+          ],
+          "stable_id": "resident-047"
+        },
+        {
+          "group": 0,
+          "position": [
+            2,
+            0
+          ],
+          "stable_id": "resident-048"
+        },
+        {
+          "group": 0,
+          "position": [
+            5,
+            5
+          ],
+          "stable_id": "resident-049"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            2
+          ],
+          "stable_id": "resident-050"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            0
+          ],
+          "stable_id": "resident-051"
+        },
+        {
+          "group": 0,
+          "position": [
+            4,
+            7
+          ],
+          "stable_id": "resident-052"
+        },
+        {
+          "group": 1,
+          "position": [
+            7,
+            8
+          ],
+          "stable_id": "resident-053"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            5
+          ],
+          "stable_id": "resident-054"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            9
+          ],
+          "stable_id": "resident-055"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            7
+          ],
+          "stable_id": "resident-056"
+        },
+        {
+          "group": 0,
+          "position": [
+            4,
+            4
+          ],
+          "stable_id": "resident-057"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            4
+          ],
+          "stable_id": "resident-058"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            8
+          ],
+          "stable_id": "resident-059"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            0
+          ],
+          "stable_id": "resident-060"
+        },
+        {
+          "group": 1,
+          "position": [
+            1,
+            4
+          ],
+          "stable_id": "resident-061"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            3
+          ],
+          "stable_id": "resident-062"
+        },
+        {
+          "group": 1,
+          "position": [
+            3,
+            2
+          ],
+          "stable_id": "resident-063"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            7
+          ],
+          "stable_id": "resident-064"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            5
+          ],
+          "stable_id": "resident-065"
+        },
+        {
+          "group": 1,
+          "position": [
+            9,
+            0
+          ],
+          "stable_id": "resident-066"
+        },
+        {
+          "group": 1,
+          "position": [
+            2,
+            3
+          ],
+          "stable_id": "resident-067"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            4
+          ],
+          "stable_id": "resident-068"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            2
+          ],
+          "stable_id": "resident-069"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            8
+          ],
+          "stable_id": "resident-070"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            6
+          ],
+          "stable_id": "resident-071"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            3
+          ],
+          "stable_id": "resident-072"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            3
+          ],
+          "stable_id": "resident-073"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            9
+          ],
+          "stable_id": "resident-074"
+        },
+        {
+          "group": 1,
+          "position": [
+            4,
+            9
+          ],
+          "stable_id": "resident-075"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            5
+          ],
+          "stable_id": "resident-076"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            6
+          ],
+          "stable_id": "resident-077"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            5
+          ],
+          "stable_id": "resident-078"
+        },
+        {
+          "group": 0,
+          "position": [
+            5,
+            6
+          ],
+          "stable_id": "resident-079"
+        }
+      ],
+      "moves_total": 113,
+      "numpy_rng_state": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 87408120995932972403329037743644218171,
+          "state": 1416835391538841792917410800590245520
+        },
+        "uinteger": 0
+      },
+      "random_state": [
+        3,
+        [
+          2038985124,
+          2134385585,
+          1481885496,
+          1165236600,
+          474655679,
+          4120314368,
+          1231145076,
+          2272091030,
+          4267352066,
+          1020035345,
+          2193979132,
+          784707537,
+          113088352,
+          3103242305,
+          3152106268,
+          183539782,
+          1259101763,
+          2014896490,
+          2134002287,
+          4192800676,
+          2064679396,
+          67078997,
+          3350955790,
+          1488329217,
+          2503093437,
+          3416581537,
+          733880941,
+          1164186255,
+          2419587481,
+          3484526053,
+          4224673105,
+          3873785751,
+          4123176915,
+          1814464586,
+          3150878341,
+          1421814613,
+          3512633463,
+          311396233,
+          1321374035,
+          2884201116,
+          67828232,
+          4041323741,
+          1628862609,
+          2011512889,
+          1954773070,
+          3683431563,
+          804883065,
+          127776373,
+          1538500451,
+          2059183867,
+          3232635355,
+          417192118,
+          3129019825,
+          1387699472,
+          2211300391,
+          856019557,
+          627460869,
+          1635421589,
+          3315045366,
+          3508901682,
+          1054926787,
+          1956835373,
+          450257915,
+          1016055366,
+          4124650279,
+          1667186114,
+          4081150466,
+          3844076294,
+          1949903680,
+          483207896,
+          4095505850,
+          3815893377,
+          4052874363,
+          3396664887,
+          1914110457,
+          4028551930,
+          2266526065,
+          1065285743,
+          758087539,
+          388207515,
+          1145995921,
+          2683519916,
+          3918317463,
+          809851100,
+          197026738,
+          111730351,
+          1856632083,
+          571686914,
+          2364971925,
+          2107182515,
+          875919053,
+          1863854891,
+          1068564575,
+          733492076,
+          3884274721,
+          2195455696,
+          1920236469,
+          13860246,
+          1838798821,
+          1471053154,
+          1475089800,
+          2759367296,
+          2524323773,
+          2594272819,
+          3337150748,
+          949643539,
+          2055116185,
+          579513391,
+          1593575811,
+          593141799,
+          1178495249,
+          2725361659,
+          4267107648,
+          2652987886,
+          1375232060,
+          1283189760,
+          2796809232,
+          714892621,
+          2720166375,
+          962014859,
+          3286776912,
+          3667418283,
+          104586464,
+          2364826583,
+          949359522,
+          3879986093,
+          1176861049,
+          2504584225,
+          1278338066,
+          1492155318,
+          727120,
+          628170456,
+          4080149724,
+          1571349146,
+          2076413146,
+          65726801,
+          2281241581,
+          2532407777,
+          349690467,
+          1335778543,
+          3181839275,
+          1114876961,
+          1558707468,
+          4068633962,
+          820426153,
+          3233212849,
+          516897391,
+          3225985118,
+          8181218,
+          2951175532,
+          2525218520,
+          2595010057,
+          283763696,
+          1772777082,
+          3821712083,
+          1515911625,
+          1198449312,
+          2184670453,
+          272865385,
+          59601072,
+          756056006,
+          2586810175,
+          3711891129,
+          2531417246,
+          1146192040,
+          334553966,
+          2461625703,
+          1195283360,
+          1220387716,
+          737831284,
+          835253723,
+          221739785,
+          880392990,
+          1964584401,
+          1332562800,
+          1029071800,
+          3003657928,
+          32763994,
+          3772648715,
+          4128778672,
+          3854466020,
+          1095246382,
+          657190876,
+          2540527363,
+          2233146322,
+          2219891748,
+          2030970424,
+          2812565110,
+          4252629014,
+          1530647859,
+          668636952,
+          1675933239,
+          2762219339,
+          3591066448,
+          540617719,
+          2131933073,
+          146314547,
+          2997961944,
+          453717153,
+          1069539557,
+          2894719305,
+          3481318466,
+          2586352152,
+          2995505733,
+          3700174018,
+          431351034,
+          4181062076,
+          3250219132,
+          3553025380,
+          2625477135,
+          401270065,
+          3188117227,
+          4198169917,
+          2091568907,
+          440767484,
+          3937056366,
+          385960346,
+          427900520,
+          66660076,
+          2758981284,
+          1502456867,
+          3741132711,
+          573257116,
+          816996774,
+          1850226361,
+          2787541706,
+          118958052,
+          685497836,
+          3167192530,
+          2416000761,
+          175248682,
+          1336806481,
+          1411117240,
+          477764682,
+          150322404,
+          624691169,
+          3104582208,
+          3850044622,
+          282722605,
+          4111676936,
+          3838312241,
+          3724237032,
+          14507461,
+          2174965417,
+          1364531760,
+          2321836014,
+          3004655067,
+          1066053136,
+          493245859,
+          1601087611,
+          3170715833,
+          3944126644,
+          2466390164,
+          710182265,
+          4286752500,
+          772097733,
+          2699812294,
+          3302109220,
+          55065270,
+          1127111924,
+          1909469335,
+          3026737653,
+          2635731684,
+          841366308,
+          3103935921,
+          3676967705,
+          1912101043,
+          768205770,
+          3733592640,
+          565645420,
+          217799011,
+          1423200642,
+          3431162309,
+          956114237,
+          3273689055,
+          2446435825,
+          3210333199,
+          2129424302,
+          901570664,
+          4264433611,
+          557950836,
+          2116106219,
+          216266131,
+          2887167667,
+          3786592567,
+          3392880740,
+          852345778,
+          526579828,
+          1161638979,
+          3418840217,
+          4052333564,
+          409952076,
+          87732859,
+          4084443526,
+          3017696996,
+          3441633691,
+          1568629698,
+          2161701506,
+          1513043087,
+          626943733,
+          1208891626,
+          220325691,
+          2287368095,
+          806497872,
+          178971201,
+          2986037009,
+          70919106,
+          2835947474,
+          3298022767,
+          567790278,
+          958931699,
+          2572334452,
+          4294023193,
+          3840534353,
+          111690871,
+          995791282,
+          432842063,
+          1861356228,
+          2437260647,
+          1984552789,
+          3934254858,
+          1640583902,
+          2754870590,
+          1592749064,
+          864292793,
+          253059153,
+          3921087204,
+          3236121678,
+          3670889478,
+          1369692383,
+          1320531863,
+          1379019386,
+          3110463601,
+          1440149541,
+          380713809,
+          3537555701,
+          1773693407,
+          2982190672,
+          2075164044,
+          3585807928,
+          241049550,
+          82832567,
+          3667924344,
+          2463079842,
+          1289175526,
+          3577660177,
+          197516529,
+          1444318473,
+          2344255175,
+          2280170976,
+          278847636,
+          3839052157,
+          4036433421,
+          1091438371,
+          3245035869,
+          654703504,
+          3428681137,
+          1187034665,
+          3247104795,
+          3459370622,
+          1752511992,
+          987537482,
+          3617509514,
+          2262342804,
+          3709154318,
+          925887629,
+          1848637770,
+          1430630306,
+          4051968636,
+          2839725692,
+          1957220404,
+          4227726066,
+          1113407858,
+          1462498806,
+          3441774879,
+          2500538438,
+          4127121923,
+          2264128108,
+          160062122,
+          4275550218,
+          2088041826,
+          4013867254,
+          2219649899,
+          3213266470,
+          3362004688,
+          2723132641,
+          3236565455,
+          3838812886,
+          1824631763,
+          1118593149,
+          2575118221,
+          1810169538,
+          1903263805,
+          374606146,
+          82621348,
+          1530207182,
+          1190052792,
+          1448802295,
+          3087120102,
+          1540585837,
+          1390035544,
+          1532344822,
+          2462949228,
+          3627397646,
+          1909548149,
+          1371897963,
+          4247174636,
+          658193509,
+          2754881101,
+          3396353478,
+          1858040155,
+          2266060418,
+          3333200385,
+          3567369333,
+          1737779563,
+          2907458434,
+          3266203760,
+          3231189169,
+          2315263692,
+          736799406,
+          3955866227,
+          1510714512,
+          1442038646,
+          22798419,
+          4191321896,
+          3672841724,
+          321584149,
+          1016097956,
+          2898655643,
+          803793069,
+          3585974175,
+          2061949762,
+          3555816798,
+          3855128282,
+          1538609709,
+          3567480347,
+          4022405333,
+          200319377,
+          2789631761,
+          553931070,
+          394598959,
+          500060639,
+          2755865518,
+          1553112835,
+          3271964941,
+          2503646697,
+          3052571513,
+          4133164019,
+          1702962144,
+          2247621301,
+          2183259293,
+          578230672,
+          3525513524,
+          3758901410,
+          2840413155,
+          1341187733,
+          1908836612,
+          2261378218,
+          1671910197,
+          819202629,
+          1213631581,
+          2300853466,
+          2355838734,
+          201285367,
+          1984372693,
+          1226230696,
+          1966961045,
+          2435157387,
+          2811819349,
+          3280478916,
+          4178352904,
+          206552435,
+          2590000324,
+          2064042719,
+          2806887038,
+          2689350946,
+          3430214464,
+          1302612933,
+          3824456209,
+          3767833047,
+          3961749948,
+          258258728,
+          1265580488,
+          3940917528,
+          2559328987,
+          4205407296,
+          3123508201,
+          1358934470,
+          2767280180,
+          2997013500,
+          3040944031,
+          1844338877,
+          3379908045,
+          1543674362,
+          201477993,
+          717085300,
+          2666951615,
+          2144742676,
+          1210478483,
+          273307734,
+          3261524801,
+          2220162877,
+          104979094,
+          2755223000,
+          1432367419,
+          1409306768,
+          4244673057,
+          4116466396,
+          1343264591,
+          2579362096,
+          1999362723,
+          750317233,
+          1564262421,
+          2706489806,
+          713176335,
+          3003567333,
+          3906408925,
+          2744081818,
+          3451003521,
+          2450955462,
+          1488606072,
+          2287544551,
+          1723748128,
+          1125384037,
+          1059164109,
+          3510207977,
+          1815066815,
+          3641451278,
+          1612016912,
+          4010257094,
+          2307251403,
+          2469346137,
+          3271521700,
+          3908061943,
+          3444880966,
+          4075947118,
+          780872853,
+          3281560988,
+          1357686136,
+          2943760359,
+          867970632,
+          624875865,
+          42008691,
+          461745470,
+          2534113374,
+          542415799,
+          187552946,
+          1274637711,
+          3938184227,
+          782024270,
+          211410119,
+          548617576,
+          1185289831,
+          9731048,
+          4064185061,
+          1102476211,
+          2252152883,
+          3668033303,
+          607494701,
+          125057141,
+          3171312745,
+          1451939909,
+          1083513959,
+          432925897,
+          790830421,
+          271511933,
+          321532249,
+          77545692,
+          2825063392,
+          4133264751,
+          897260337,
+          3981749469,
+          850115772,
+          3593658396,
+          1506672851,
+          370315997,
+          3852934679,
+          3253193085,
+          2050972717,
+          2152652481,
+          713342572,
+          2977509064,
+          2977558395,
+          650423490,
+          2045288652,
+          3950175636,
+          3050091668,
+          2488899249,
+          1975464576,
+          3168470295,
+          4240800362,
+          2567512729,
+          1647618953,
+          3953699173,
+          2501678778,
+          132571230,
+          4071027677,
+          2724217194,
+          784161335,
+          1861424560,
+          3808426859,
+          596851944,
+          1134348593,
+          3872474009,
+          2945641485,
+          3187904068,
+          2271775415,
+          3101017369,
+          1228367632,
+          3608636429,
+          2244919288,
+          2570336324,
+          3922583617,
+          233591139,
+          3536734888,
+          2811599853,
+          1975096455,
+          522246972,
+          684456197,
+          160638304,
+          3729385471,
+          2685844718,
+          1809483087,
+          975895402,
+          292
+        ],
+        null
+      ],
+      "step": 30
+    },
+    "initial_source": {
+      "generation_id": "d46ac37d-fd6e-4d63-97c0-cefeb2607f70",
+      "manifest_hash": "ab03b9de964f37403a4a5fa87dad9e232486a52bd99ced1dc24538ab5ff070d8",
+      "member_hashes": [
+        "0a8b89e2dc398037d7595a22d0705a36698ee9b5d468569640a3649b703fabfe",
+        "0d32b90d8bfc516effe340e7c28ef4c6cc29422cac0dd1ebb77ccd0ee93cf10c",
+        "1899556b45d79856f82ab611a50fc5d281648a26c5054af43eae71a875294eec",
+        "197141eddd58653b386f08da323789153fe1e988371cf5502a701c06ba67c00d",
+        "1a0730a9c719c31fa44eee4bb86c08dca9c23f33852531c0098df8847bb47d50",
+        "1ba26cd510c34a22dd7d68efe8d032aa02ac7d8a2e95a0c9ecb4612ca50419d1",
+        "1bb66c4caa0be36ed1725832c4c29cb0c8b0098673eb9618c8962ad955e27d82",
+        "1c8f4f0dd61369e9f55d40b4b2db7e39b33ea7444d94fd9b084c25be622b0453",
+        "1f482c898581bdc69063484a168e9aa5b7ef5197b65bf9c2889ccf1752eb69d0",
+        "206ac54668fc0c8123f199902573ff3fca55375f028fbf78e9f6c9765adebe25",
+        "208d52c6bf7db9ffd4c2f1f2f897afb1e6d3147e0755722514d6bfb3ab8f9530",
+        "21c7c27f6b71525dfdc7071000c163972b21ca7b729865414b9ba2ce56183fc3",
+        "28fd85aff578a5bbb5bdbaec4e098e2229f2488e04df13fd650fe71db543b8ea",
+        "2c0feec0d0e4aa8916db7d9a837f47f134dbd348ccc10b30edac850a4e8e1911",
+        "2c58a002e905bf318a5c83443f0738924180fead2f4a5562f9882c87d5336496",
+        "2dfcfaa5c257a8eff8b9976ece1ba85880739cfbe860a7b546d020e149e88e92",
+        "30979b55a24ba5698e85c174c3c17931cd9f32d60a0fde0db31c0d521aa7333b",
+        "356ae6bb3016cac07bdab278896c451d9086bd8587bf997457a096fa6dbfc5b9",
+        "3a744a6181a280b63e8cbc72a9461b9daa93ebcd0bec45c7aedd5ef872c6b19c",
+        "3bb05545993b00e530901dab9cda3fa6b106d918b82b41a88beda88760b8d6c0",
+        "44e578f9cb3b64bc2c60cc7834cca526e0ac0bf0c4979558bac921fa1f7fd723",
+        "4916129f21672b00fdae8d7198ff44d1bee62b7f30e428ffb415f0c148d2690d",
+        "49e195b4bc650247809260e991a12ba1e8e553fb851a9906e9756eaf91a731df",
+        "4a01208022afba977d00aed313b96a241b450acacb24c138ec92f9bf7630cdae",
+        "4d75af9b0a400c31d100ea52299bed95f26882a8b8b7c2b6e129c3616fb05124",
+        "4d90499848f76c51fc333c29d16db04b2c19fa737599cb2911f84773d98b6091",
+        "50dde71bf384977f0f6f17b00524a45c30e9f7a29416d071bea2e86313d099cf",
+        "54c21fffcb231b24782eff7b9f1408bc2559666217e7010e85a19339dac445a6",
+        "559778dc5c235c7e76edff12499110d19625a83e6a7580fff73f02754ec5c1d2",
+        "576eb404fac9c58930ecab3ce2e5fb3872ce911b034a547c9c24537cb9661c97",
+        "601a2398ff16d29f291c2c8c4bd14c4d6e0747e1080e8589021666e886c5b3cc",
+        "65a4af923ddc2c56ebad3dc3b29401a7e8510b5d1eb311ac9aa0c9739836156f",
+        "66b4bd66a25a7d28dc31b25ba5c2c8eb0641904ade093645aa19b42d431d815b",
+        "6d455fe04d9f25317beffe45de30a2aff6765d61b77b16970a5abe02bd8e5f75",
+        "6f2954553b1a371fc8564375e785c6dd1eb61286d18a857ec6005dd7da015c44",
+        "73c4382968600785b959821b22a84654294bd38584b2ea206de5f764b2b371fd",
+        "7653eea7bd8665b075eeef1d7a37571a8c10dd1cd4831e093e464d9eed270940",
+        "77f46a87ad5309b49ac0815f9bbc741fb0b9e4502b43acf9d471b704a96b837e",
+        "78aeda02b65a3a268ccb9dd128a8aee47d2bd4869aaf15d70a0be33c5305e15b",
+        "78e4f46c2b071e514c3effa84eb20641d7283196a326d62a13b7e17061ede38b",
+        "79b0e02e69d9379e47c662d22fc31d41a2cbfbfdc3bcd24940215c3557a03db2",
+        "7c94cc992d7cea791648b483a1b7002743fc952abfaa7c14c77c2162544ce4fb",
+        "7caa85d4690016cf946b2025c98e2534d587c93c82b48bfb27292adff3791151",
+        "7fa7ea4785d702601647d53434e48fbaa6a2217b9a95428c0ae0815d0e1fa259",
+        "816834dfe50a241f9d9b5e23f561eff9b6d4d35f54b27ae3227e625e6339faaf",
+        "87739d32e279e86bd666fe1849723030bb38e3fc2cc1f85ebf4a82c59a4f5e6e",
+        "889df430367cb3c788a669628899a745da29657044a2d0f5264cf983afa1a33c",
+        "8b1bb55dd488603fa7d00b01357b7f8d9d8e81142d4e7593d590abeafea04e4f",
+        "8ee121719c5315b079247782634b9e8ba752f45a8bc73215f1ec14bfb6d4f97f",
+        "8eeb6fca5847223aa90e0e529557d5bcb19a81440284d19a5ba6df308c773b17",
+        "928f44170c5c1c8fc04752595f00d38e158ace56f14a31ad2a68bbe8fc9a7268",
+        "9e1fb7d0dfd7a09728581baa1627b9962e15fd05b614cd2f439923387cf49945",
+        "a44743c709cfa7ac026b2c2d1ff0e7ff177651f24c5367767cb7d09fd29dbbfa",
+        "a779bc77356fe7c5097ab1e6c69d02eaac9d29e33561d21bddc3fbe885611b2a",
+        "a7feccd07e65d41f0aac71fd6741b5637f16c71327f0ed94ec3f9fa56f8b47f7",
+        "ab03b9de964f37403a4a5fa87dad9e232486a52bd99ced1dc24538ab5ff070d8",
+        "b5418cd885f28e0334a5ff640c03f6f93677618a5be36f0a24b5930e498ebe65",
+        "ba8e9cc3c29d387d644a7181bc9aff7d706a37dc9010c0f737a7f157a9eba2f1",
+        "c087426d1d6af7bff0ccf0f1f7d44797a117d23397518df60a4acab1f6c46c53",
+        "c2cb2ea357ad58d2a1724523e115ce7220d11b675ca0ec52877a32e008e3c65e",
+        "c4a82893aa7e0dad98a7c7b65e1248b49907b7ec5fae4e152fc3d351deadaa08",
+        "c951728b1e7819b1ad8f5b9cd6db7fb70ee058e830660687100c0e28774292b7",
+        "ca66304b5155eb09c07640618b72e7a31bafde90a8b0bca9e49089664d5bd048",
+        "cb917e500e3dc38dc5ef89d50a59b3111139b52ca73dd15a431f86b79dce747b",
+        "d06c55c52c71fc32b2c453d6524d3d0efae65c2baba9a39e405e2e7b0a649b06",
+        "d76dd72837961f9486910a0e04db17067d624d0af680983feacd810ab6ea3a28",
+        "d9e8996fdfc76770c5d6f4d36ee3585bcabeaff6615f3cdf1d3c5680bcd5071f",
+        "ddb54b948c12a22433991b320c21b636d181608fb9fb92ea650287ebc9409bed",
+        "e2a1051c1e1c6449ab0bc1bc7799ad5208b967ef79ceeca2de26181b656a8159",
+        "e428fe75d3ee4162b19c4079a67f146f1ce8f9f312243c459bb383d126023bbb",
+        "e4f059c119a1dfafadd9d910df1205b51f903d713e4d62d39b8a2c379ae7a1b4",
+        "e940397142129c3949a9adaffa9b64027d8ae276d62441a9858aefb8aad81878",
+        "ec0471b3766aa9248e12a67d5ed828a29c1fdf9303beaf7db35961ac06c3e393",
+        "f0d594882726bae2043ca63e291a9dfb0ef1dd16df8df4a25772a1e2139fd308",
+        "f1373bbb1a3268d0beb38f96640c4e09ed39c603ae4ffaaf7db6a48b8912422a",
+        "f2712b1cded9e421e33a76fc71b67a637a7ea5003f0e14f96ac5df97a2588ff7",
+        "f28f1eeb19eea08eb9c90ac09f621a80a39a2b55225dcb2f5328be2da2efc351",
+        "f5e9f578754a3780621b59b36da63fef3cb8884da59f6b751ebfad466c2fa50a",
+        "f60a8d0a8ea73d61efa7254b52ae321d4704312ca37bffaf1552933e0aae26f4",
+        "f96ef0b3700c2b5e0d4cc09f0dbb63821477020e170b69435fb4396ed2d0effa",
+        "fff6838a1903e35196046ed347255a46a1bd2d8b2f5362c77a360838b9eb08c4"
+      ],
+      "population_id": "axol://populations/examples.mesa-schelling/baseline",
+      "state_root": "d3983816b7244112eb91bac652d7b6174159003a6ea137ee767fcde03ec337d2",
+      "step": 30
+    },
+    "population_id": "axol://populations/examples.mesa-schelling/branch-a",
+    "threshold": 0.5
+  },
+  "branch_b": {
+    "final_agents": [
+      {
+        "group": 0,
+        "position": [
+          0,
+          4
+        ],
+        "stable_id": "resident-000"
+      },
+      {
+        "group": 1,
+        "position": [
+          8,
+          9
+        ],
+        "stable_id": "resident-001"
+      },
+      {
+        "group": 0,
+        "position": [
+          0,
+          3
+        ],
+        "stable_id": "resident-002"
+      },
+      {
+        "group": 0,
+        "position": [
+          5,
+          5
+        ],
+        "stable_id": "resident-003"
+      },
+      {
+        "group": 0,
+        "position": [
+          9,
+          7
+        ],
+        "stable_id": "resident-004"
+      },
+      {
+        "group": 0,
+        "position": [
+          3,
+          8
+        ],
+        "stable_id": "resident-005"
+      },
+      {
+        "group": 1,
+        "position": [
+          2,
+          1
+        ],
+        "stable_id": "resident-006"
+      },
+      {
+        "group": 1,
+        "position": [
+          8,
+          0
+        ],
+        "stable_id": "resident-007"
+      },
+      {
+        "group": 0,
+        "position": [
+          9,
+          4
+        ],
+        "stable_id": "resident-008"
+      },
+      {
+        "group": 0,
+        "position": [
+          3,
+          4
+        ],
+        "stable_id": "resident-009"
+      },
+      {
+        "group": 0,
+        "position": [
+          1,
+          6
+        ],
+        "stable_id": "resident-010"
+      },
+      {
+        "group": 1,
+        "position": [
+          5,
+          8
+        ],
+        "stable_id": "resident-011"
+      },
+      {
+        "group": 0,
+        "position": [
+          6,
+          4
+        ],
+        "stable_id": "resident-012"
+      },
+      {
+        "group": 1,
+        "position": [
+          4,
+          1
+        ],
+        "stable_id": "resident-013"
+      },
+      {
+        "group": 0,
+        "position": [
+          7,
+          6
+        ],
+        "stable_id": "resident-014"
+      },
+      {
+        "group": 0,
+        "position": [
+          5,
+          3
+        ],
+        "stable_id": "resident-015"
+      },
+      {
+        "group": 1,
+        "position": [
+          8,
+          1
+        ],
+        "stable_id": "resident-016"
+      },
+      {
+        "group": 1,
+        "position": [
+          1,
+          0
+        ],
+        "stable_id": "resident-017"
+      },
+      {
+        "group": 1,
+        "position": [
+          5,
+          9
+        ],
+        "stable_id": "resident-018"
+      },
+      {
+        "group": 1,
+        "position": [
+          3,
+          2
+        ],
+        "stable_id": "resident-019"
+      },
+      {
+        "group": 0,
+        "position": [
+          0,
+          7
+        ],
+        "stable_id": "resident-020"
+      },
+      {
+        "group": 0,
+        "position": [
+          4,
+          4
+        ],
+        "stable_id": "resident-021"
+      },
+      {
+        "group": 1,
+        "position": [
+          1,
+          1
+        ],
+        "stable_id": "resident-022"
+      },
+      {
+        "group": 0,
+        "position": [
+          1,
+          5
+        ],
+        "stable_id": "resident-023"
+      },
+      {
+        "group": 1,
+        "position": [
+          7,
+          1
+        ],
+        "stable_id": "resident-024"
+      },
+      {
+        "group": 0,
+        "position": [
+          2,
+          5
+        ],
+        "stable_id": "resident-025"
+      },
+      {
+        "group": 0,
+        "position": [
+          2,
+          3
+        ],
+        "stable_id": "resident-026"
+      },
+      {
+        "group": 1,
+        "position": [
+          5,
+          2
+        ],
+        "stable_id": "resident-027"
+      },
+      {
+        "group": 0,
+        "position": [
+          2,
+          7
+        ],
+        "stable_id": "resident-028"
+      },
+      {
+        "group": 0,
+        "position": [
+          1,
+          4
+        ],
+        "stable_id": "resident-029"
+      },
+      {
+        "group": 1,
+        "position": [
+          2,
+          0
+        ],
+        "stable_id": "resident-030"
+      },
+      {
+        "group": 0,
+        "position": [
+          3,
+          6
+        ],
+        "stable_id": "resident-031"
+      },
+      {
+        "group": 0,
+        "position": [
+          0,
+          6
+        ],
+        "stable_id": "resident-032"
+      },
+      {
+        "group": 1,
+        "position": [
+          8,
+          8
+        ],
+        "stable_id": "resident-033"
+      },
+      {
+        "group": 1,
+        "position": [
+          3,
+          0
+        ],
+        "stable_id": "resident-034"
+      },
+      {
+        "group": 0,
+        "position": [
+          6,
+          6
+        ],
+        "stable_id": "resident-035"
+      },
+      {
+        "group": 1,
+        "position": [
+          5,
+          1
+        ],
+        "stable_id": "resident-036"
+      },
+      {
+        "group": 1,
+        "position": [
+          6,
+          0
+        ],
+        "stable_id": "resident-037"
+      },
+      {
+        "group": 0,
+        "position": [
+          1,
+          7
+        ],
+        "stable_id": "resident-038"
+      },
+      {
+        "group": 1,
+        "position": [
+          7,
+          9
+        ],
+        "stable_id": "resident-039"
+      },
+      {
+        "group": 0,
+        "position": [
+          7,
+          5
+        ],
+        "stable_id": "resident-040"
+      },
+      {
+        "group": 1,
+        "position": [
+          6,
+          9
+        ],
+        "stable_id": "resident-041"
+      },
+      {
+        "group": 0,
+        "position": [
+          4,
+          5
+        ],
+        "stable_id": "resident-042"
+      },
+      {
+        "group": 1,
+        "position": [
+          6,
+          1
+        ],
+        "stable_id": "resident-043"
+      },
+      {
+        "group": 1,
+        "position": [
+          6,
+          8
+        ],
+        "stable_id": "resident-044"
+      },
+      {
+        "group": 0,
+        "position": [
+          5,
+          4
+        ],
+        "stable_id": "resident-045"
+      },
+      {
+        "group": 1,
+        "position": [
+          7,
+          0
+        ],
+        "stable_id": "resident-046"
+      },
+      {
+        "group": 1,
+        "position": [
+          4,
+          0
+        ],
+        "stable_id": "resident-047"
+      },
+      {
+        "group": 0,
+        "position": [
+          3,
+          3
+        ],
+        "stable_id": "resident-048"
+      },
+      {
+        "group": 0,
+        "position": [
+          2,
+          4
+        ],
+        "stable_id": "resident-049"
+      },
+      {
+        "group": 0,
+        "position": [
+          2,
+          8
+        ],
+        "stable_id": "resident-050"
+      },
+      {
+        "group": 0,
+        "position": [
+          1,
+          3
+        ],
+        "stable_id": "resident-051"
+      },
+      {
+        "group": 0,
+        "position": [
+          5,
+          6
+        ],
+        "stable_id": "resident-052"
+      },
+      {
+        "group": 1,
+        "position": [
+          7,
+          8
+        ],
+        "stable_id": "resident-053"
+      },
+      {
+        "group": 0,
+        "position": [
+          6,
+          5
+        ],
+        "stable_id": "resident-054"
+      },
+      {
+        "group": 1,
+        "position": [
+          9,
+          0
+        ],
+        "stable_id": "resident-055"
+      },
+      {
+        "group": 0,
+        "position": [
+          3,
+          7
+        ],
+        "stable_id": "resident-056"
+      },
+      {
+        "group": 0,
+        "position": [
+          4,
+          3
+        ],
+        "stable_id": "resident-057"
+      },
+      {
+        "group": 0,
+        "position": [
+          7,
+          4
+        ],
+        "stable_id": "resident-058"
+      },
+      {
+        "group": 0,
+        "position": [
+          1,
+          8
+        ],
+        "stable_id": "resident-059"
+      },
+      {
+        "group": 1,
+        "position": [
+          5,
+          0
+        ],
+        "stable_id": "resident-060"
+      },
+      {
+        "group": 1,
+        "position": [
+          9,
+          1
+        ],
+        "stable_id": "resident-061"
+      },
+      {
+        "group": 0,
+        "position": [
+          4,
+          6
+        ],
+        "stable_id": "resident-062"
+      },
+      {
+        "group": 1,
+        "position": [
+          0,
+          1
+        ],
+        "stable_id": "resident-063"
+      },
+      {
+        "group": 0,
+        "position": [
+          2,
+          6
+        ],
+        "stable_id": "resident-064"
+      },
+      {
+        "group": 0,
+        "position": [
+          0,
+          5
+        ],
+        "stable_id": "resident-065"
+      },
+      {
+        "group": 1,
+        "position": [
+          8,
+          2
+        ],
+        "stable_id": "resident-066"
+      },
+      {
+        "group": 1,
+        "position": [
+          9,
+          9
+        ],
+        "stable_id": "resident-067"
+      },
+      {
+        "group": 0,
+        "position": [
+          8,
+          4
+        ],
+        "stable_id": "resident-068"
+      },
+      {
+        "group": 1,
+        "position": [
+          3,
+          1
+        ],
+        "stable_id": "resident-069"
+      },
+      {
+        "group": 1,
+        "position": [
+          0,
+          0
+        ],
+        "stable_id": "resident-070"
+      },
+      {
+        "group": 0,
+        "position": [
+          9,
+          6
+        ],
+        "stable_id": "resident-071"
+      },
+      {
+        "group": 0,
+        "position": [
+          6,
+          3
+        ],
+        "stable_id": "resident-072"
+      },
+      {
+        "group": 0,
+        "position": [
+          7,
+          3
+        ],
+        "stable_id": "resident-073"
+      },
+      {
+        "group": 0,
+        "position": [
+          9,
+          3
+        ],
+        "stable_id": "resident-074"
+      },
+      {
+        "group": 1,
+        "position": [
+          4,
+          9
+        ],
+        "stable_id": "resident-075"
+      },
+      {
+        "group": 0,
+        "position": [
+          8,
+          5
+        ],
+        "stable_id": "resident-076"
+      },
+      {
+        "group": 0,
+        "position": [
+          8,
+          3
+        ],
+        "stable_id": "resident-077"
+      },
+      {
+        "group": 0,
+        "position": [
+          9,
+          5
+        ],
+        "stable_id": "resident-078"
+      },
+      {
+        "group": 0,
+        "position": [
+          3,
+          5
+        ],
+        "stable_id": "resident-079"
+      }
+    ],
+    "final_metrics": {
+      "clustering": 0.9522619047619048,
+      "moves_since_checkpoint": 324,
+      "moves_total": 437,
+      "satisfied_fraction": 0.9625,
+      "step": 60
+    },
+    "final_reference": {
+      "generation_id": "be4a0437-4922-465c-bf45-120fe31c09e6",
+      "manifest_hash": "76480b49ec5f6465790baa1c99cc31c585f2565d2174363cc5be999d636c0ea2",
+      "member_hashes": [
+        "02b90cf66e71fd307a6bfad656b9e77549f04bd19cd2c5aabec74aae5fefef56",
+        "08cc8a42519b1b9fa445a260a7a68c03df9e2fb0c5b2febd92453988504c7a2c",
+        "0b6f80296683e920936e4e23704e88fa94c945d15d337964ecabf7952d8626e6",
+        "0df259bf018efad02a09985c180a055d9e0cd5f107f2a352f469cf9f6ed36f22",
+        "197141eddd58653b386f08da323789153fe1e988371cf5502a701c06ba67c00d",
+        "198d1f86f99371203b173f9566bae635b7f48bcadf3d8c735e191ee48d55e17e",
+        "199bad45d5d2f7de51ed0b22ea4f699f190f48d06f1c417b095630695ec747eb",
+        "1a0730a9c719c31fa44eee4bb86c08dca9c23f33852531c0098df8847bb47d50",
+        "1ba26cd510c34a22dd7d68efe8d032aa02ac7d8a2e95a0c9ecb4612ca50419d1",
+        "1ef41514e07a86eba11cd82533a90a45683180918ede68bea11677d549f36aa8",
+        "1f482c898581bdc69063484a168e9aa5b7ef5197b65bf9c2889ccf1752eb69d0",
+        "208225066d64823c4584f74b4e0ce90e755ec44f9a2bb8585f1e47e7cdb3ab95",
+        "208d52c6bf7db9ffd4c2f1f2f897afb1e6d3147e0755722514d6bfb3ab8f9530",
+        "23fcbdba2058086d307b9d0fe8e8f3a08341df1c2bb38c9f7a85fa913603992e",
+        "28fd85aff578a5bbb5bdbaec4e098e2229f2488e04df13fd650fe71db543b8ea",
+        "2c58a002e905bf318a5c83443f0738924180fead2f4a5562f9882c87d5336496",
+        "2d62321060e9fb102d3ad2ae86533d024be5a0f0a2e8fb5e304d38ffd36a1750",
+        "2f30fbe481371c31cf0a14bf47288933cd7797e72879a3b3cee4fe2a4132c40d",
+        "3aca3b1580df1905fd62f1d22318b93273cab4586db9b9f8d78c24186e53e1ab",
+        "3bb05545993b00e530901dab9cda3fa6b106d918b82b41a88beda88760b8d6c0",
+        "49e195b4bc650247809260e991a12ba1e8e553fb851a9906e9756eaf91a731df",
+        "53e97106ca0008574c372d28b39c0fc7622d0c51305f470b3d5af189f2b2b8e4",
+        "55c2da078797dba7b3d5aa2ac328dc10cc8a16663b6ccf1d4f4b320e4d2dd340",
+        "63621fd58e9586b14be2d797cdc85bd932a33a2db71ed959a0463fe2d2530d2a",
+        "659959f4cd4b0d28e2fbe882ad02eec1c9c49ad851e478c438b03e7b56e5739c",
+        "65a4af923ddc2c56ebad3dc3b29401a7e8510b5d1eb311ac9aa0c9739836156f",
+        "66b4bd66a25a7d28dc31b25ba5c2c8eb0641904ade093645aa19b42d431d815b",
+        "6c17324206ec545435fff9523d6e6e826963d99dc7bd741d11d03789e4ef7be9",
+        "6dabe2f31bf91cc1cd7a056efd7b8015c8a085c6ad1b72b42b779fb18bf320ac",
+        "6e76552a122db07cb70fb7bba7375cf40187726993f13c08c8bbeb9373a22837",
+        "6f2954553b1a371fc8564375e785c6dd1eb61286d18a857ec6005dd7da015c44",
+        "71577e4ba82684b7fc5bb75c72162661cafaf67db01ed7a65e925b12ee03ae6f",
+        "76480b49ec5f6465790baa1c99cc31c585f2565d2174363cc5be999d636c0ea2",
+        "7846d6fd217657d59c31c0f7654f22bb54a1c08c2f691b70f4ca29641022d2da",
+        "78aeda02b65a3a268ccb9dd128a8aee47d2bd4869aaf15d70a0be33c5305e15b",
+        "7caa85d4690016cf946b2025c98e2534d587c93c82b48bfb27292adff3791151",
+        "800c4aa69fad2af8e6ed8ae0279451643a7358b72dd496bab06053f1674dca3c",
+        "84728f572f58111a4464cf99d6f9a41aeeb63a5297ef2ecd0d76454762a52212",
+        "85c0db788644bb6ab2db8ed13be5ea24c16c33174bd7635f6c5cc5952ed7bd7f",
+        "87739d32e279e86bd666fe1849723030bb38e3fc2cc1f85ebf4a82c59a4f5e6e",
+        "889df430367cb3c788a669628899a745da29657044a2d0f5264cf983afa1a33c",
+        "8b1bb55dd488603fa7d00b01357b7f8d9d8e81142d4e7593d590abeafea04e4f",
+        "8edec0cbac90ed43df13eb17a37966800e35a06913fd3134f5735188e4864d31",
+        "8ee121719c5315b079247782634b9e8ba752f45a8bc73215f1ec14bfb6d4f97f",
+        "8eeb6fca5847223aa90e0e529557d5bcb19a81440284d19a5ba6df308c773b17",
+        "91ee97b78716c8125e51bbfcd01bd945199a9ba4ee130b36b6aa54b00dbf9a3f",
+        "958f5aa535b8f18fba413a626a4fb1846727cca68ca21c244b769be4c9ca1533",
+        "9673c6e204d832a11781570f2081996935a08911d318511f98cdb9a849cca431",
+        "99187de8368bc2074ceb76246dfa84f0c2a541939b9583c89be78db453f85614",
+        "9c4b28b9fd3ed5ba5bd43911b0b55a8d6155adf4807b7020c13f2f8403abc0a1",
+        "a44743c709cfa7ac026b2c2d1ff0e7ff177651f24c5367767cb7d09fd29dbbfa",
+        "a5b48f2465caea7eaac39be1cf384d3549a98b6d444fe829f885ad634bfe54f1",
+        "a7feccd07e65d41f0aac71fd6741b5637f16c71327f0ed94ec3f9fa56f8b47f7",
+        "aaada416af485046065fc3879685876eaebe037d99a5d0ecb05b09aaa7c67e76",
+        "b5fbcebc6f8deff43cbd7c5f8acd2e9704ca422a45545c71bd1c477773a56a81",
+        "baacb839b1b2b732ab6e75ab3c68a037bb842177af05418f17a09a4ba30fc159",
+        "becdeb01accfc4a191f97a5c4ca02f770308b41f1de04df3f5382d53fa693dba",
+        "c087426d1d6af7bff0ccf0f1f7d44797a117d23397518df60a4acab1f6c46c53",
+        "c0bae08bb13583ac0ee3d7b71a78ee64e4cd7702a4cb78e05f16ebd16f134c2d",
+        "c2cb2ea357ad58d2a1724523e115ce7220d11b675ca0ec52877a32e008e3c65e",
+        "c951728b1e7819b1ad8f5b9cd6db7fb70ee058e830660687100c0e28774292b7",
+        "c9e6b34bf0c765f2e956d867ce2f95d8106dee5d76f53f4d18afdeb8dc00a3a3",
+        "cb8555615b79fcb78f886eee509fa75fc7201dcb0eec273b2afd43909b45904a",
+        "d06c55c52c71fc32b2c453d6524d3d0efae65c2baba9a39e405e2e7b0a649b06",
+        "d4a8957725ec7566991b42a3e2046db2b129cc3eeb5134501171d49e098fbe25",
+        "d76dd72837961f9486910a0e04db17067d624d0af680983feacd810ab6ea3a28",
+        "ddb54b948c12a22433991b320c21b636d181608fb9fb92ea650287ebc9409bed",
+        "e2a1051c1e1c6449ab0bc1bc7799ad5208b967ef79ceeca2de26181b656a8159",
+        "e940397142129c3949a9adaffa9b64027d8ae276d62441a9858aefb8aad81878",
+        "e9fdb8199ab88b6c6d72c1e6e1337e8dec82102e9f505ac0202f4f7182175a42",
+        "ed99e514f9e39a39b03f9c6f0c128bfad3dda287d8d4c7a014edd5068bdc6dfc",
+        "f10d01781a3df37b179633bd2cfbe9bb6b08237787b6277afae669a28d317f04",
+        "f28f1eeb19eea08eb9c90ac09f621a80a39a2b55225dcb2f5328be2da2efc351",
+        "f44c01f7aa1d4403de8d9f7f7f7440c68e05bc796e53dc4d2ac6fe9d6854d591",
+        "f4bd114952159e55807b36dc4bb89cee15bee54f7da65b7436f42310b6f78825",
+        "f5a5b50a6e79f6fbb37525bd6ecb3c863203b46ae54f525f03645afb1dfd970b",
+        "f5e9f578754a3780621b59b36da63fef3cb8884da59f6b751ebfad466c2fa50a",
+        "f5f00ef01bfb8a83e43dc5677fd96a3fae234bd29f58ae936dcee794730178c9",
+        "f61c281672f9248dd1a4aaec5046c7743ebd2d6f739e10d41e4673ddd1afaf3a",
+        "f74d5532593e97edb02440c7b1234ef52bb60a8959e68943ffb892d37cb8959f",
+        "fb4c16ec6b54b00c6b0cedc595a160b45c53d9d0246ef8633ff0411ee6589404"
+      ],
+      "population_id": "axol://populations/examples.mesa-schelling/branch-b",
+      "state_root": "c68970845f6a448bf7bc4768da67bbe77c1919fd9a2d3821c162144c4ac6c211",
+      "step": 60
+    },
+    "final_signature": {
+      "activation_base_order": [
+        "resident-000",
+        "resident-001",
+        "resident-002",
+        "resident-003",
+        "resident-004",
+        "resident-005",
+        "resident-006",
+        "resident-007",
+        "resident-008",
+        "resident-009",
+        "resident-010",
+        "resident-011",
+        "resident-012",
+        "resident-013",
+        "resident-014",
+        "resident-015",
+        "resident-016",
+        "resident-017",
+        "resident-018",
+        "resident-019",
+        "resident-020",
+        "resident-021",
+        "resident-022",
+        "resident-023",
+        "resident-024",
+        "resident-025",
+        "resident-026",
+        "resident-027",
+        "resident-028",
+        "resident-029",
+        "resident-030",
+        "resident-031",
+        "resident-032",
+        "resident-033",
+        "resident-034",
+        "resident-035",
+        "resident-036",
+        "resident-037",
+        "resident-038",
+        "resident-039",
+        "resident-040",
+        "resident-041",
+        "resident-042",
+        "resident-043",
+        "resident-044",
+        "resident-045",
+        "resident-046",
+        "resident-047",
+        "resident-048",
+        "resident-049",
+        "resident-050",
+        "resident-051",
+        "resident-052",
+        "resident-053",
+        "resident-054",
+        "resident-055",
+        "resident-056",
+        "resident-057",
+        "resident-058",
+        "resident-059",
+        "resident-060",
+        "resident-061",
+        "resident-062",
+        "resident-063",
+        "resident-064",
+        "resident-065",
+        "resident-066",
+        "resident-067",
+        "resident-068",
+        "resident-069",
+        "resident-070",
+        "resident-071",
+        "resident-072",
+        "resident-073",
+        "resident-074",
+        "resident-075",
+        "resident-076",
+        "resident-077",
+        "resident-078",
+        "resident-079"
+      ],
+      "agents": [
+        {
+          "group": 0,
+          "position": [
+            0,
+            4
+          ],
+          "stable_id": "resident-000"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            9
+          ],
+          "stable_id": "resident-001"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            3
+          ],
+          "stable_id": "resident-002"
+        },
+        {
+          "group": 0,
+          "position": [
+            5,
+            5
+          ],
+          "stable_id": "resident-003"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            7
+          ],
+          "stable_id": "resident-004"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            8
+          ],
+          "stable_id": "resident-005"
+        },
+        {
+          "group": 1,
+          "position": [
+            2,
+            1
+          ],
+          "stable_id": "resident-006"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            0
+          ],
+          "stable_id": "resident-007"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            4
+          ],
+          "stable_id": "resident-008"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            4
+          ],
+          "stable_id": "resident-009"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            6
+          ],
+          "stable_id": "resident-010"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            8
+          ],
+          "stable_id": "resident-011"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            4
+          ],
+          "stable_id": "resident-012"
+        },
+        {
+          "group": 1,
+          "position": [
+            4,
+            1
+          ],
+          "stable_id": "resident-013"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            6
+          ],
+          "stable_id": "resident-014"
+        },
+        {
+          "group": 0,
+          "position": [
+            5,
+            3
+          ],
+          "stable_id": "resident-015"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            1
+          ],
+          "stable_id": "resident-016"
+        },
+        {
+          "group": 1,
+          "position": [
+            1,
+            0
+          ],
+          "stable_id": "resident-017"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            9
+          ],
+          "stable_id": "resident-018"
+        },
+        {
+          "group": 1,
+          "position": [
+            3,
+            2
+          ],
+          "stable_id": "resident-019"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            7
+          ],
+          "stable_id": "resident-020"
+        },
+        {
+          "group": 0,
+          "position": [
+            4,
+            4
+          ],
+          "stable_id": "resident-021"
+        },
+        {
+          "group": 1,
+          "position": [
+            1,
+            1
+          ],
+          "stable_id": "resident-022"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            5
+          ],
+          "stable_id": "resident-023"
+        },
+        {
+          "group": 1,
+          "position": [
+            7,
+            1
+          ],
+          "stable_id": "resident-024"
+        },
+        {
+          "group": 0,
+          "position": [
+            2,
+            5
+          ],
+          "stable_id": "resident-025"
+        },
+        {
+          "group": 0,
+          "position": [
+            2,
+            3
+          ],
+          "stable_id": "resident-026"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            2
+          ],
+          "stable_id": "resident-027"
+        },
+        {
+          "group": 0,
+          "position": [
+            2,
+            7
+          ],
+          "stable_id": "resident-028"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            4
+          ],
+          "stable_id": "resident-029"
+        },
+        {
+          "group": 1,
+          "position": [
+            2,
+            0
+          ],
+          "stable_id": "resident-030"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            6
+          ],
+          "stable_id": "resident-031"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            6
+          ],
+          "stable_id": "resident-032"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            8
+          ],
+          "stable_id": "resident-033"
+        },
+        {
+          "group": 1,
+          "position": [
+            3,
+            0
+          ],
+          "stable_id": "resident-034"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            6
+          ],
+          "stable_id": "resident-035"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            1
+          ],
+          "stable_id": "resident-036"
+        },
+        {
+          "group": 1,
+          "position": [
+            6,
+            0
+          ],
+          "stable_id": "resident-037"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            7
+          ],
+          "stable_id": "resident-038"
+        },
+        {
+          "group": 1,
+          "position": [
+            7,
+            9
+          ],
+          "stable_id": "resident-039"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            5
+          ],
+          "stable_id": "resident-040"
+        },
+        {
+          "group": 1,
+          "position": [
+            6,
+            9
+          ],
+          "stable_id": "resident-041"
+        },
+        {
+          "group": 0,
+          "position": [
+            4,
+            5
+          ],
+          "stable_id": "resident-042"
+        },
+        {
+          "group": 1,
+          "position": [
+            6,
+            1
+          ],
+          "stable_id": "resident-043"
+        },
+        {
+          "group": 1,
+          "position": [
+            6,
+            8
+          ],
+          "stable_id": "resident-044"
+        },
+        {
+          "group": 0,
+          "position": [
+            5,
+            4
+          ],
+          "stable_id": "resident-045"
+        },
+        {
+          "group": 1,
+          "position": [
+            7,
+            0
+          ],
+          "stable_id": "resident-046"
+        },
+        {
+          "group": 1,
+          "position": [
+            4,
+            0
+          ],
+          "stable_id": "resident-047"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            3
+          ],
+          "stable_id": "resident-048"
+        },
+        {
+          "group": 0,
+          "position": [
+            2,
+            4
+          ],
+          "stable_id": "resident-049"
+        },
+        {
+          "group": 0,
+          "position": [
+            2,
+            8
+          ],
+          "stable_id": "resident-050"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            3
+          ],
+          "stable_id": "resident-051"
+        },
+        {
+          "group": 0,
+          "position": [
+            5,
+            6
+          ],
+          "stable_id": "resident-052"
+        },
+        {
+          "group": 1,
+          "position": [
+            7,
+            8
+          ],
+          "stable_id": "resident-053"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            5
+          ],
+          "stable_id": "resident-054"
+        },
+        {
+          "group": 1,
+          "position": [
+            9,
+            0
+          ],
+          "stable_id": "resident-055"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            7
+          ],
+          "stable_id": "resident-056"
+        },
+        {
+          "group": 0,
+          "position": [
+            4,
+            3
+          ],
+          "stable_id": "resident-057"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            4
+          ],
+          "stable_id": "resident-058"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            8
+          ],
+          "stable_id": "resident-059"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            0
+          ],
+          "stable_id": "resident-060"
+        },
+        {
+          "group": 1,
+          "position": [
+            9,
+            1
+          ],
+          "stable_id": "resident-061"
+        },
+        {
+          "group": 0,
+          "position": [
+            4,
+            6
+          ],
+          "stable_id": "resident-062"
+        },
+        {
+          "group": 1,
+          "position": [
+            0,
+            1
+          ],
+          "stable_id": "resident-063"
+        },
+        {
+          "group": 0,
+          "position": [
+            2,
+            6
+          ],
+          "stable_id": "resident-064"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            5
+          ],
+          "stable_id": "resident-065"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            2
+          ],
+          "stable_id": "resident-066"
+        },
+        {
+          "group": 1,
+          "position": [
+            9,
+            9
+          ],
+          "stable_id": "resident-067"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            4
+          ],
+          "stable_id": "resident-068"
+        },
+        {
+          "group": 1,
+          "position": [
+            3,
+            1
+          ],
+          "stable_id": "resident-069"
+        },
+        {
+          "group": 1,
+          "position": [
+            0,
+            0
+          ],
+          "stable_id": "resident-070"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            6
+          ],
+          "stable_id": "resident-071"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            3
+          ],
+          "stable_id": "resident-072"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            3
+          ],
+          "stable_id": "resident-073"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            3
+          ],
+          "stable_id": "resident-074"
+        },
+        {
+          "group": 1,
+          "position": [
+            4,
+            9
+          ],
+          "stable_id": "resident-075"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            5
+          ],
+          "stable_id": "resident-076"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            3
+          ],
+          "stable_id": "resident-077"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            5
+          ],
+          "stable_id": "resident-078"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            5
+          ],
+          "stable_id": "resident-079"
+        }
+      ],
+      "moves_total": 437,
+      "numpy_rng_state": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 87408120995932972403329037743644218171,
+          "state": 1416835391538841792917410800590245520
+        },
+        "uinteger": 0
+      },
+      "random_state": [
+        3,
+        [
+          1411065039,
+          3282990384,
+          3360859966,
+          803961533,
+          3544968398,
+          2489765366,
+          2548241469,
+          2771446534,
+          3246051207,
+          2237802955,
+          776214394,
+          1824540780,
+          3564025053,
+          1159472129,
+          2279476110,
+          3596570494,
+          3259722343,
+          1719748040,
+          3835503744,
+          484845136,
+          2944385253,
+          1689590935,
+          2441772045,
+          2795272791,
+          413414240,
+          528642807,
+          3320351122,
+          175724260,
+          395999590,
+          666313817,
+          3934822216,
+          3411124308,
+          4090901081,
+          1750987574,
+          3620485524,
+          101858995,
+          3936085267,
+          1057285576,
+          3091600829,
+          375468160,
+          1397842637,
+          2686092442,
+          2214291221,
+          1929776261,
+          135836632,
+          2242343011,
+          1381206293,
+          2730529460,
+          3878443340,
+          2256124996,
+          15036432,
+          3707058589,
+          3110611963,
+          4247317135,
+          1110226811,
+          802723260,
+          182769036,
+          2044384837,
+          33253957,
+          2534579016,
+          2041032805,
+          949742676,
+          1810330787,
+          1574188766,
+          3217211844,
+          1996998577,
+          822764806,
+          1108822598,
+          3316091957,
+          3298519569,
+          3481204896,
+          3093115930,
+          2820018987,
+          24947766,
+          2100668512,
+          4167492011,
+          2298914559,
+          2657845069,
+          3700325770,
+          1245742450,
+          2849786017,
+          605884660,
+          1471253450,
+          2867528292,
+          3202961095,
+          3665327912,
+          3729410232,
+          2775886362,
+          1401326456,
+          303032572,
+          4293010321,
+          3775841871,
+          2797289462,
+          4006060064,
+          2290940044,
+          360139580,
+          1074143491,
+          741798941,
+          3458173442,
+          2816290232,
+          4051760768,
+          3663431717,
+          3429999162,
+          3806004661,
+          1044146789,
+          3084039415,
+          276601435,
+          2094777104,
+          2576951847,
+          2720124085,
+          2294169595,
+          1875179254,
+          4086869304,
+          2781156175,
+          4220154218,
+          2571865564,
+          130146529,
+          1820170064,
+          3595761347,
+          1717449592,
+          3316467872,
+          974373878,
+          407188794,
+          3551515031,
+          1831463696,
+          4243311493,
+          272342795,
+          717607603,
+          2639368599,
+          2698072445,
+          2067994384,
+          3912716591,
+          3595818773,
+          1029355924,
+          566617009,
+          1981296723,
+          2700822103,
+          2948396328,
+          1387445463,
+          1034490249,
+          3822703857,
+          3589836009,
+          4193142071,
+          4003653451,
+          2787856441,
+          2694920594,
+          62385478,
+          2022075268,
+          1618138871,
+          617235140,
+          2203967274,
+          905974435,
+          2067291646,
+          3182290907,
+          2445449307,
+          3187882200,
+          1259592205,
+          1195707101,
+          47061288,
+          183933110,
+          3376937392,
+          2540179207,
+          2731550776,
+          3028730713,
+          552649840,
+          362552882,
+          3311294435,
+          1476524336,
+          1408247532,
+          3851799986,
+          1998490353,
+          3682220828,
+          3443347445,
+          974778094,
+          1292554185,
+          940504673,
+          3099010402,
+          2881186150,
+          949203859,
+          181542026,
+          2704892811,
+          1182304881,
+          1996442697,
+          2526156561,
+          775515359,
+          350676772,
+          2480198591,
+          1049294116,
+          3706321384,
+          1489687778,
+          643880268,
+          2108064780,
+          3829167558,
+          1434378619,
+          3912899843,
+          3325288059,
+          3776741013,
+          115962637,
+          3909911243,
+          2824453667,
+          3848597766,
+          1332756209,
+          3215407925,
+          227029690,
+          1539464283,
+          3035774810,
+          3296748686,
+          4187627011,
+          1811802863,
+          1250442933,
+          1634779397,
+          3787242849,
+          31314689,
+          576155704,
+          3967450668,
+          3952235350,
+          2936025122,
+          1775711474,
+          3789624840,
+          2704767674,
+          490608240,
+          3135990000,
+          386269805,
+          2463410913,
+          1265907286,
+          1551802620,
+          3823001977,
+          3192720377,
+          1407069466,
+          3932738027,
+          2223794758,
+          2401157098,
+          4266152567,
+          3390961620,
+          2174344586,
+          1924220040,
+          1323721836,
+          537890075,
+          690183294,
+          393473110,
+          1362478239,
+          3562074127,
+          1710170114,
+          2465774544,
+          496892366,
+          2137476182,
+          861105232,
+          1510465346,
+          1794191450,
+          347219270,
+          427713076,
+          3067074543,
+          1242724732,
+          2698398109,
+          3450170592,
+          2048411831,
+          2580908384,
+          258144550,
+          3819981204,
+          1836886740,
+          2222174731,
+          1981556632,
+          1753965123,
+          729687369,
+          2965139857,
+          3739147467,
+          2273930044,
+          3247168258,
+          98040827,
+          1866330454,
+          526650248,
+          4204349804,
+          929225337,
+          3549263335,
+          853030025,
+          1007153718,
+          3205047747,
+          625477192,
+          2002163400,
+          1205745958,
+          380836021,
+          2436913837,
+          2761986627,
+          1136874485,
+          773576986,
+          588664131,
+          1525406222,
+          2565305993,
+          1448048701,
+          2529962280,
+          3136677750,
+          3567341401,
+          471087749,
+          596823721,
+          4067040962,
+          2355133840,
+          836595343,
+          1724665045,
+          649710693,
+          4030715150,
+          4079425685,
+          241724272,
+          2680215621,
+          3401659087,
+          3322478919,
+          2522908471,
+          1731110837,
+          3361534090,
+          562818505,
+          526109195,
+          2031928513,
+          2276211951,
+          1052470934,
+          3868096111,
+          1354812859,
+          666200945,
+          3044110534,
+          79280890,
+          3146121784,
+          4140315399,
+          1992371713,
+          1194597561,
+          3711710690,
+          1711930510,
+          1951614324,
+          3414673544,
+          2059762669,
+          3833066506,
+          4274888657,
+          1718039863,
+          3312324442,
+          2473261837,
+          1983494832,
+          2018988615,
+          3555118738,
+          4027014710,
+          2127401082,
+          1515025893,
+          3381613175,
+          1352217420,
+          1740484448,
+          2219872911,
+          2393206364,
+          1838549547,
+          1191665835,
+          4177799067,
+          1053291473,
+          66441911,
+          722362282,
+          3577026625,
+          2624119557,
+          3905983788,
+          2356007261,
+          2703218481,
+          1003257711,
+          2473612628,
+          1066539008,
+          2995409449,
+          940362649,
+          1304086550,
+          201285484,
+          941924160,
+          4261132708,
+          593858776,
+          348307202,
+          2353414642,
+          348609566,
+          3973917987,
+          1358881841,
+          2472593401,
+          2251435742,
+          2268209621,
+          3079311986,
+          3372061029,
+          3982407918,
+          2706290859,
+          4195707831,
+          4267310801,
+          980968444,
+          1181570748,
+          2088828541,
+          2951583397,
+          710038897,
+          1303533420,
+          1995919844,
+          501458103,
+          3068499428,
+          1939898300,
+          711222952,
+          1305364112,
+          4110429000,
+          4179278848,
+          304045630,
+          995623894,
+          382039588,
+          2716229872,
+          3850953567,
+          1141302659,
+          3242548561,
+          4218359244,
+          1373491383,
+          1146057588,
+          3735806753,
+          3713500547,
+          1884946492,
+          2531061535,
+          3699305377,
+          4072299660,
+          1398606793,
+          1172629865,
+          159926102,
+          3895153843,
+          1698733873,
+          1831666879,
+          3514115631,
+          2914665695,
+          3862738846,
+          2998115030,
+          1964575142,
+          3045191079,
+          268318031,
+          4055222894,
+          3230738676,
+          125486073,
+          3924374927,
+          2764453794,
+          4254529094,
+          2258737712,
+          2125816297,
+          2662540750,
+          1362790395,
+          1564342486,
+          3377918636,
+          1123855559,
+          4239942865,
+          2228152090,
+          3415601755,
+          2232657857,
+          3323836090,
+          3206411565,
+          4029046794,
+          3852930088,
+          4287065992,
+          3766011884,
+          2102391515,
+          2881693983,
+          3628835030,
+          2288969121,
+          2401031926,
+          1568726185,
+          4220773611,
+          368164981,
+          1099942330,
+          161099696,
+          4046685800,
+          3706380116,
+          3238281440,
+          4190015549,
+          3621853271,
+          3581911401,
+          2169697253,
+          3871683893,
+          3033916817,
+          645326556,
+          3393191552,
+          3211508380,
+          544994111,
+          886770705,
+          2946015638,
+          1854370485,
+          132412718,
+          4044012391,
+          2784339821,
+          3339075899,
+          1462067085,
+          399859319,
+          3423627633,
+          3015372757,
+          1090181161,
+          3776979627,
+          1316822341,
+          124676725,
+          3632307057,
+          4067137985,
+          1286197256,
+          3366517848,
+          50414722,
+          1226167539,
+          2466402116,
+          392630813,
+          479726241,
+          1346438562,
+          3941705020,
+          3058387537,
+          1394581818,
+          1027612863,
+          695454391,
+          1792915788,
+          74635163,
+          3231247267,
+          186164827,
+          2205656255,
+          578515438,
+          4097209168,
+          3693361691,
+          2916582341,
+          1464577112,
+          2888488259,
+          2512544722,
+          3315520164,
+          3799019990,
+          2593029178,
+          2192035123,
+          4186044316,
+          4241745584,
+          320645964,
+          4125639125,
+          980757726,
+          3781868665,
+          2152801790,
+          2552998360,
+          762991391,
+          4059721258,
+          898866973,
+          3106767737,
+          3697390043,
+          711247575,
+          3675292786,
+          2514019285,
+          744907874,
+          3885873020,
+          1388263044,
+          573558212,
+          735603936,
+          1653630417,
+          3303585058,
+          629124940,
+          295501294,
+          3294024992,
+          1807247775,
+          187459991,
+          2234040348,
+          2382111624,
+          1302367876,
+          982942382,
+          1056150466,
+          1033035588,
+          2219140308,
+          3611917677,
+          4093084406,
+          3665104751,
+          1824945272,
+          629915238,
+          4178079048,
+          2045406629,
+          1253218983,
+          3770241557,
+          3186027411,
+          955375368,
+          1288869721,
+          1015091460,
+          2613817598,
+          3705505790,
+          2002372605,
+          3695538088,
+          2159726604,
+          3114901811,
+          6126160,
+          519099365,
+          4018866436,
+          1007417974,
+          3723663942,
+          3113560371,
+          3688597284,
+          3042430336,
+          2552701830,
+          3241823944,
+          207928617,
+          2296838369,
+          891454629,
+          642816294,
+          2504598415,
+          899012929,
+          2078313833,
+          2626060098,
+          4004805330,
+          1717602066,
+          177698024,
+          2875090593,
+          3723055993,
+          2428805068,
+          2231763469,
+          393174471,
+          3106949245,
+          1892414239,
+          1005415014,
+          767743109,
+          1089548574,
+          498650181,
+          2433980004,
+          795099358,
+          3245289143,
+          3104024736,
+          3914066382,
+          3906407232,
+          1692292756,
+          1788547368,
+          83544520,
+          294001896,
+          522720383,
+          2554650406,
+          4184932693,
+          1941484169,
+          2174393392,
+          2909938879,
+          1819356456,
+          3903037843,
+          3827037575,
+          3331274037,
+          3296340242,
+          476427968,
+          4144950203,
+          40560788,
+          378388967,
+          603
+        ],
+        null
+      ],
+      "step": 60
+    },
+    "history": [
+      {
+        "clustering": 0.8182886904761905,
+        "moves_total": 113,
+        "satisfied_fraction": 0.6625,
+        "step": 30
+      },
+      {
+        "clustering": 0.767827380952381,
+        "moves_total": 138,
+        "satisfied_fraction": 0.7125,
+        "step": 31
+      },
+      {
+        "clustering": 0.7484672619047619,
+        "moves_total": 162,
+        "satisfied_fraction": 0.7,
+        "step": 32
+      },
+      {
+        "clustering": 0.7345386904761905,
+        "moves_total": 186,
+        "satisfied_fraction": 0.625,
+        "step": 33
+      },
+      {
+        "clustering": 0.7159821428571428,
+        "moves_total": 216,
+        "satisfied_fraction": 0.5875,
+        "step": 34
+      },
+      {
+        "clustering": 0.75,
+        "moves_total": 245,
+        "satisfied_fraction": 0.65,
+        "step": 35
+      },
+      {
+        "clustering": 0.722202380952381,
+        "moves_total": 273,
+        "satisfied_fraction": 0.6875,
+        "step": 36
+      },
+      {
+        "clustering": 0.8536309523809523,
+        "moves_total": 293,
+        "satisfied_fraction": 0.8375,
+        "step": 37
+      },
+      {
+        "clustering": 0.8692708333333334,
+        "moves_total": 306,
+        "satisfied_fraction": 0.8375,
+        "step": 38
+      },
+      {
+        "clustering": 0.8229166666666666,
+        "moves_total": 324,
+        "satisfied_fraction": 0.825,
+        "step": 39
+      },
+      {
+        "clustering": 0.8744940476190477,
+        "moves_total": 337,
+        "satisfied_fraction": 0.8625,
+        "step": 40
+      },
+      {
+        "clustering": 0.8943452380952381,
+        "moves_total": 348,
+        "satisfied_fraction": 0.8625,
+        "step": 41
+      },
+      {
+        "clustering": 0.9220982142857143,
+        "moves_total": 356,
+        "satisfied_fraction": 0.925,
+        "step": 42
+      },
+      {
+        "clustering": 0.9107291666666667,
+        "moves_total": 364,
+        "satisfied_fraction": 0.9125,
+        "step": 43
+      },
+      {
+        "clustering": 0.9197470238095239,
+        "moves_total": 371,
+        "satisfied_fraction": 0.925,
+        "step": 44
+      },
+      {
+        "clustering": 0.9306696428571428,
+        "moves_total": 378,
+        "satisfied_fraction": 0.9375,
+        "step": 45
+      },
+      {
+        "clustering": 0.914345238095238,
+        "moves_total": 384,
+        "satisfied_fraction": 0.9125,
+        "step": 46
+      },
+      {
+        "clustering": 0.9034970238095237,
+        "moves_total": 391,
+        "satisfied_fraction": 0.8875,
+        "step": 47
+      },
+      {
+        "clustering": 0.9366071428571429,
+        "moves_total": 399,
+        "satisfied_fraction": 0.95,
+        "step": 48
+      },
+      {
+        "clustering": 0.9562202380952382,
+        "moves_total": 403,
+        "satisfied_fraction": 0.95,
+        "step": 49
+      },
+      {
+        "clustering": 0.950654761904762,
+        "moves_total": 407,
+        "satisfied_fraction": 0.95,
+        "step": 50
+      },
+      {
+        "clustering": 0.9635416666666666,
+        "moves_total": 411,
+        "satisfied_fraction": 0.975,
+        "step": 51
+      },
+      {
+        "clustering": 0.96875,
+        "moves_total": 413,
+        "satisfied_fraction": 0.9875,
+        "step": 52
+      },
+      {
+        "clustering": 0.9708184523809523,
+        "moves_total": 414,
+        "satisfied_fraction": 0.9625,
+        "step": 53
+      },
+      {
+        "clustering": 0.9567559523809523,
+        "moves_total": 417,
+        "satisfied_fraction": 0.95,
+        "step": 54
+      },
+      {
+        "clustering": 0.9550000000000001,
+        "moves_total": 420,
+        "satisfied_fraction": 0.9625,
+        "step": 55
+      },
+      {
+        "clustering": 0.9402678571428572,
+        "moves_total": 424,
+        "satisfied_fraction": 0.9375,
+        "step": 56
+      },
+      {
+        "clustering": 0.9512797619047619,
+        "moves_total": 428,
+        "satisfied_fraction": 0.9625,
+        "step": 57
+      },
+      {
+        "clustering": 0.9468601190476191,
+        "moves_total": 431,
+        "satisfied_fraction": 0.9625,
+        "step": 58
+      },
+      {
+        "clustering": 0.9593154761904762,
+        "moves_total": 434,
+        "satisfied_fraction": 0.95,
+        "step": 59
+      },
+      {
+        "clustering": 0.9522619047619048,
+        "moves_total": 437,
+        "satisfied_fraction": 0.9625,
+        "step": 60
+      }
+    ],
+    "initial_signature": {
+      "activation_base_order": [
+        "resident-000",
+        "resident-001",
+        "resident-002",
+        "resident-003",
+        "resident-004",
+        "resident-005",
+        "resident-006",
+        "resident-007",
+        "resident-008",
+        "resident-009",
+        "resident-010",
+        "resident-011",
+        "resident-012",
+        "resident-013",
+        "resident-014",
+        "resident-015",
+        "resident-016",
+        "resident-017",
+        "resident-018",
+        "resident-019",
+        "resident-020",
+        "resident-021",
+        "resident-022",
+        "resident-023",
+        "resident-024",
+        "resident-025",
+        "resident-026",
+        "resident-027",
+        "resident-028",
+        "resident-029",
+        "resident-030",
+        "resident-031",
+        "resident-032",
+        "resident-033",
+        "resident-034",
+        "resident-035",
+        "resident-036",
+        "resident-037",
+        "resident-038",
+        "resident-039",
+        "resident-040",
+        "resident-041",
+        "resident-042",
+        "resident-043",
+        "resident-044",
+        "resident-045",
+        "resident-046",
+        "resident-047",
+        "resident-048",
+        "resident-049",
+        "resident-050",
+        "resident-051",
+        "resident-052",
+        "resident-053",
+        "resident-054",
+        "resident-055",
+        "resident-056",
+        "resident-057",
+        "resident-058",
+        "resident-059",
+        "resident-060",
+        "resident-061",
+        "resident-062",
+        "resident-063",
+        "resident-064",
+        "resident-065",
+        "resident-066",
+        "resident-067",
+        "resident-068",
+        "resident-069",
+        "resident-070",
+        "resident-071",
+        "resident-072",
+        "resident-073",
+        "resident-074",
+        "resident-075",
+        "resident-076",
+        "resident-077",
+        "resident-078",
+        "resident-079"
+      ],
+      "agents": [
+        {
+          "group": 0,
+          "position": [
+            2,
+            9
+          ],
+          "stable_id": "resident-000"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            9
+          ],
+          "stable_id": "resident-001"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            9
+          ],
+          "stable_id": "resident-002"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            6
+          ],
+          "stable_id": "resident-003"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            7
+          ],
+          "stable_id": "resident-004"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            8
+          ],
+          "stable_id": "resident-005"
+        },
+        {
+          "group": 1,
+          "position": [
+            1,
+            2
+          ],
+          "stable_id": "resident-006"
+        },
+        {
+          "group": 1,
+          "position": [
+            4,
+            1
+          ],
+          "stable_id": "resident-007"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            4
+          ],
+          "stable_id": "resident-008"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            5
+          ],
+          "stable_id": "resident-009"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            6
+          ],
+          "stable_id": "resident-010"
+        },
+        {
+          "group": 1,
+          "position": [
+            4,
+            2
+          ],
+          "stable_id": "resident-011"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            4
+          ],
+          "stable_id": "resident-012"
+        },
+        {
+          "group": 1,
+          "position": [
+            1,
+            3
+          ],
+          "stable_id": "resident-013"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            6
+          ],
+          "stable_id": "resident-014"
+        },
+        {
+          "group": 0,
+          "position": [
+            5,
+            3
+          ],
+          "stable_id": "resident-015"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            1
+          ],
+          "stable_id": "resident-016"
+        },
+        {
+          "group": 1,
+          "position": [
+            3,
+            3
+          ],
+          "stable_id": "resident-017"
+        },
+        {
+          "group": 1,
+          "position": [
+            2,
+            4
+          ],
+          "stable_id": "resident-018"
+        },
+        {
+          "group": 1,
+          "position": [
+            4,
+            0
+          ],
+          "stable_id": "resident-019"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            8
+          ],
+          "stable_id": "resident-020"
+        },
+        {
+          "group": 0,
+          "position": [
+            2,
+            1
+          ],
+          "stable_id": "resident-021"
+        },
+        {
+          "group": 1,
+          "position": [
+            2,
+            2
+          ],
+          "stable_id": "resident-022"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            5
+          ],
+          "stable_id": "resident-023"
+        },
+        {
+          "group": 1,
+          "position": [
+            0,
+            1
+          ],
+          "stable_id": "resident-024"
+        },
+        {
+          "group": 0,
+          "position": [
+            2,
+            5
+          ],
+          "stable_id": "resident-025"
+        },
+        {
+          "group": 0,
+          "position": [
+            4,
+            6
+          ],
+          "stable_id": "resident-026"
+        },
+        {
+          "group": 1,
+          "position": [
+            3,
+            4
+          ],
+          "stable_id": "resident-027"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            0
+          ],
+          "stable_id": "resident-028"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            3
+          ],
+          "stable_id": "resident-029"
+        },
+        {
+          "group": 1,
+          "position": [
+            6,
+            1
+          ],
+          "stable_id": "resident-030"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            6
+          ],
+          "stable_id": "resident-031"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            6
+          ],
+          "stable_id": "resident-032"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            8
+          ],
+          "stable_id": "resident-033"
+        },
+        {
+          "group": 1,
+          "position": [
+            8,
+            0
+          ],
+          "stable_id": "resident-034"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            7
+          ],
+          "stable_id": "resident-035"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            1
+          ],
+          "stable_id": "resident-036"
+        },
+        {
+          "group": 1,
+          "position": [
+            0,
+            2
+          ],
+          "stable_id": "resident-037"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            2
+          ],
+          "stable_id": "resident-038"
+        },
+        {
+          "group": 1,
+          "position": [
+            7,
+            9
+          ],
+          "stable_id": "resident-039"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            2
+          ],
+          "stable_id": "resident-040"
+        },
+        {
+          "group": 1,
+          "position": [
+            6,
+            9
+          ],
+          "stable_id": "resident-041"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            0
+          ],
+          "stable_id": "resident-042"
+        },
+        {
+          "group": 1,
+          "position": [
+            7,
+            1
+          ],
+          "stable_id": "resident-043"
+        },
+        {
+          "group": 1,
+          "position": [
+            6,
+            8
+          ],
+          "stable_id": "resident-044"
+        },
+        {
+          "group": 0,
+          "position": [
+            5,
+            4
+          ],
+          "stable_id": "resident-045"
+        },
+        {
+          "group": 1,
+          "position": [
+            7,
+            0
+          ],
+          "stable_id": "resident-046"
+        },
+        {
+          "group": 1,
+          "position": [
+            0,
+            3
+          ],
+          "stable_id": "resident-047"
+        },
+        {
+          "group": 0,
+          "position": [
+            2,
+            0
+          ],
+          "stable_id": "resident-048"
+        },
+        {
+          "group": 0,
+          "position": [
+            5,
+            5
+          ],
+          "stable_id": "resident-049"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            2
+          ],
+          "stable_id": "resident-050"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            0
+          ],
+          "stable_id": "resident-051"
+        },
+        {
+          "group": 0,
+          "position": [
+            4,
+            7
+          ],
+          "stable_id": "resident-052"
+        },
+        {
+          "group": 1,
+          "position": [
+            7,
+            8
+          ],
+          "stable_id": "resident-053"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            5
+          ],
+          "stable_id": "resident-054"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            9
+          ],
+          "stable_id": "resident-055"
+        },
+        {
+          "group": 0,
+          "position": [
+            3,
+            7
+          ],
+          "stable_id": "resident-056"
+        },
+        {
+          "group": 0,
+          "position": [
+            4,
+            4
+          ],
+          "stable_id": "resident-057"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            4
+          ],
+          "stable_id": "resident-058"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            8
+          ],
+          "stable_id": "resident-059"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            0
+          ],
+          "stable_id": "resident-060"
+        },
+        {
+          "group": 1,
+          "position": [
+            1,
+            4
+          ],
+          "stable_id": "resident-061"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            3
+          ],
+          "stable_id": "resident-062"
+        },
+        {
+          "group": 1,
+          "position": [
+            3,
+            2
+          ],
+          "stable_id": "resident-063"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            7
+          ],
+          "stable_id": "resident-064"
+        },
+        {
+          "group": 0,
+          "position": [
+            0,
+            5
+          ],
+          "stable_id": "resident-065"
+        },
+        {
+          "group": 1,
+          "position": [
+            9,
+            0
+          ],
+          "stable_id": "resident-066"
+        },
+        {
+          "group": 1,
+          "position": [
+            2,
+            3
+          ],
+          "stable_id": "resident-067"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            4
+          ],
+          "stable_id": "resident-068"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            2
+          ],
+          "stable_id": "resident-069"
+        },
+        {
+          "group": 1,
+          "position": [
+            5,
+            8
+          ],
+          "stable_id": "resident-070"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            6
+          ],
+          "stable_id": "resident-071"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            3
+          ],
+          "stable_id": "resident-072"
+        },
+        {
+          "group": 0,
+          "position": [
+            7,
+            3
+          ],
+          "stable_id": "resident-073"
+        },
+        {
+          "group": 0,
+          "position": [
+            1,
+            9
+          ],
+          "stable_id": "resident-074"
+        },
+        {
+          "group": 1,
+          "position": [
+            4,
+            9
+          ],
+          "stable_id": "resident-075"
+        },
+        {
+          "group": 0,
+          "position": [
+            8,
+            5
+          ],
+          "stable_id": "resident-076"
+        },
+        {
+          "group": 0,
+          "position": [
+            6,
+            6
+          ],
+          "stable_id": "resident-077"
+        },
+        {
+          "group": 0,
+          "position": [
+            9,
+            5
+          ],
+          "stable_id": "resident-078"
+        },
+        {
+          "group": 0,
+          "position": [
+            5,
+            6
+          ],
+          "stable_id": "resident-079"
+        }
+      ],
+      "moves_total": 113,
+      "numpy_rng_state": {
+        "bit_generator": "PCG64",
+        "has_uint32": 0,
+        "state": {
+          "inc": 87408120995932972403329037743644218171,
+          "state": 1416835391538841792917410800590245520
+        },
+        "uinteger": 0
+      },
+      "random_state": [
+        3,
+        [
+          2038985124,
+          2134385585,
+          1481885496,
+          1165236600,
+          474655679,
+          4120314368,
+          1231145076,
+          2272091030,
+          4267352066,
+          1020035345,
+          2193979132,
+          784707537,
+          113088352,
+          3103242305,
+          3152106268,
+          183539782,
+          1259101763,
+          2014896490,
+          2134002287,
+          4192800676,
+          2064679396,
+          67078997,
+          3350955790,
+          1488329217,
+          2503093437,
+          3416581537,
+          733880941,
+          1164186255,
+          2419587481,
+          3484526053,
+          4224673105,
+          3873785751,
+          4123176915,
+          1814464586,
+          3150878341,
+          1421814613,
+          3512633463,
+          311396233,
+          1321374035,
+          2884201116,
+          67828232,
+          4041323741,
+          1628862609,
+          2011512889,
+          1954773070,
+          3683431563,
+          804883065,
+          127776373,
+          1538500451,
+          2059183867,
+          3232635355,
+          417192118,
+          3129019825,
+          1387699472,
+          2211300391,
+          856019557,
+          627460869,
+          1635421589,
+          3315045366,
+          3508901682,
+          1054926787,
+          1956835373,
+          450257915,
+          1016055366,
+          4124650279,
+          1667186114,
+          4081150466,
+          3844076294,
+          1949903680,
+          483207896,
+          4095505850,
+          3815893377,
+          4052874363,
+          3396664887,
+          1914110457,
+          4028551930,
+          2266526065,
+          1065285743,
+          758087539,
+          388207515,
+          1145995921,
+          2683519916,
+          3918317463,
+          809851100,
+          197026738,
+          111730351,
+          1856632083,
+          571686914,
+          2364971925,
+          2107182515,
+          875919053,
+          1863854891,
+          1068564575,
+          733492076,
+          3884274721,
+          2195455696,
+          1920236469,
+          13860246,
+          1838798821,
+          1471053154,
+          1475089800,
+          2759367296,
+          2524323773,
+          2594272819,
+          3337150748,
+          949643539,
+          2055116185,
+          579513391,
+          1593575811,
+          593141799,
+          1178495249,
+          2725361659,
+          4267107648,
+          2652987886,
+          1375232060,
+          1283189760,
+          2796809232,
+          714892621,
+          2720166375,
+          962014859,
+          3286776912,
+          3667418283,
+          104586464,
+          2364826583,
+          949359522,
+          3879986093,
+          1176861049,
+          2504584225,
+          1278338066,
+          1492155318,
+          727120,
+          628170456,
+          4080149724,
+          1571349146,
+          2076413146,
+          65726801,
+          2281241581,
+          2532407777,
+          349690467,
+          1335778543,
+          3181839275,
+          1114876961,
+          1558707468,
+          4068633962,
+          820426153,
+          3233212849,
+          516897391,
+          3225985118,
+          8181218,
+          2951175532,
+          2525218520,
+          2595010057,
+          283763696,
+          1772777082,
+          3821712083,
+          1515911625,
+          1198449312,
+          2184670453,
+          272865385,
+          59601072,
+          756056006,
+          2586810175,
+          3711891129,
+          2531417246,
+          1146192040,
+          334553966,
+          2461625703,
+          1195283360,
+          1220387716,
+          737831284,
+          835253723,
+          221739785,
+          880392990,
+          1964584401,
+          1332562800,
+          1029071800,
+          3003657928,
+          32763994,
+          3772648715,
+          4128778672,
+          3854466020,
+          1095246382,
+          657190876,
+          2540527363,
+          2233146322,
+          2219891748,
+          2030970424,
+          2812565110,
+          4252629014,
+          1530647859,
+          668636952,
+          1675933239,
+          2762219339,
+          3591066448,
+          540617719,
+          2131933073,
+          146314547,
+          2997961944,
+          453717153,
+          1069539557,
+          2894719305,
+          3481318466,
+          2586352152,
+          2995505733,
+          3700174018,
+          431351034,
+          4181062076,
+          3250219132,
+          3553025380,
+          2625477135,
+          401270065,
+          3188117227,
+          4198169917,
+          2091568907,
+          440767484,
+          3937056366,
+          385960346,
+          427900520,
+          66660076,
+          2758981284,
+          1502456867,
+          3741132711,
+          573257116,
+          816996774,
+          1850226361,
+          2787541706,
+          118958052,
+          685497836,
+          3167192530,
+          2416000761,
+          175248682,
+          1336806481,
+          1411117240,
+          477764682,
+          150322404,
+          624691169,
+          3104582208,
+          3850044622,
+          282722605,
+          4111676936,
+          3838312241,
+          3724237032,
+          14507461,
+          2174965417,
+          1364531760,
+          2321836014,
+          3004655067,
+          1066053136,
+          493245859,
+          1601087611,
+          3170715833,
+          3944126644,
+          2466390164,
+          710182265,
+          4286752500,
+          772097733,
+          2699812294,
+          3302109220,
+          55065270,
+          1127111924,
+          1909469335,
+          3026737653,
+          2635731684,
+          841366308,
+          3103935921,
+          3676967705,
+          1912101043,
+          768205770,
+          3733592640,
+          565645420,
+          217799011,
+          1423200642,
+          3431162309,
+          956114237,
+          3273689055,
+          2446435825,
+          3210333199,
+          2129424302,
+          901570664,
+          4264433611,
+          557950836,
+          2116106219,
+          216266131,
+          2887167667,
+          3786592567,
+          3392880740,
+          852345778,
+          526579828,
+          1161638979,
+          3418840217,
+          4052333564,
+          409952076,
+          87732859,
+          4084443526,
+          3017696996,
+          3441633691,
+          1568629698,
+          2161701506,
+          1513043087,
+          626943733,
+          1208891626,
+          220325691,
+          2287368095,
+          806497872,
+          178971201,
+          2986037009,
+          70919106,
+          2835947474,
+          3298022767,
+          567790278,
+          958931699,
+          2572334452,
+          4294023193,
+          3840534353,
+          111690871,
+          995791282,
+          432842063,
+          1861356228,
+          2437260647,
+          1984552789,
+          3934254858,
+          1640583902,
+          2754870590,
+          1592749064,
+          864292793,
+          253059153,
+          3921087204,
+          3236121678,
+          3670889478,
+          1369692383,
+          1320531863,
+          1379019386,
+          3110463601,
+          1440149541,
+          380713809,
+          3537555701,
+          1773693407,
+          2982190672,
+          2075164044,
+          3585807928,
+          241049550,
+          82832567,
+          3667924344,
+          2463079842,
+          1289175526,
+          3577660177,
+          197516529,
+          1444318473,
+          2344255175,
+          2280170976,
+          278847636,
+          3839052157,
+          4036433421,
+          1091438371,
+          3245035869,
+          654703504,
+          3428681137,
+          1187034665,
+          3247104795,
+          3459370622,
+          1752511992,
+          987537482,
+          3617509514,
+          2262342804,
+          3709154318,
+          925887629,
+          1848637770,
+          1430630306,
+          4051968636,
+          2839725692,
+          1957220404,
+          4227726066,
+          1113407858,
+          1462498806,
+          3441774879,
+          2500538438,
+          4127121923,
+          2264128108,
+          160062122,
+          4275550218,
+          2088041826,
+          4013867254,
+          2219649899,
+          3213266470,
+          3362004688,
+          2723132641,
+          3236565455,
+          3838812886,
+          1824631763,
+          1118593149,
+          2575118221,
+          1810169538,
+          1903263805,
+          374606146,
+          82621348,
+          1530207182,
+          1190052792,
+          1448802295,
+          3087120102,
+          1540585837,
+          1390035544,
+          1532344822,
+          2462949228,
+          3627397646,
+          1909548149,
+          1371897963,
+          4247174636,
+          658193509,
+          2754881101,
+          3396353478,
+          1858040155,
+          2266060418,
+          3333200385,
+          3567369333,
+          1737779563,
+          2907458434,
+          3266203760,
+          3231189169,
+          2315263692,
+          736799406,
+          3955866227,
+          1510714512,
+          1442038646,
+          22798419,
+          4191321896,
+          3672841724,
+          321584149,
+          1016097956,
+          2898655643,
+          803793069,
+          3585974175,
+          2061949762,
+          3555816798,
+          3855128282,
+          1538609709,
+          3567480347,
+          4022405333,
+          200319377,
+          2789631761,
+          553931070,
+          394598959,
+          500060639,
+          2755865518,
+          1553112835,
+          3271964941,
+          2503646697,
+          3052571513,
+          4133164019,
+          1702962144,
+          2247621301,
+          2183259293,
+          578230672,
+          3525513524,
+          3758901410,
+          2840413155,
+          1341187733,
+          1908836612,
+          2261378218,
+          1671910197,
+          819202629,
+          1213631581,
+          2300853466,
+          2355838734,
+          201285367,
+          1984372693,
+          1226230696,
+          1966961045,
+          2435157387,
+          2811819349,
+          3280478916,
+          4178352904,
+          206552435,
+          2590000324,
+          2064042719,
+          2806887038,
+          2689350946,
+          3430214464,
+          1302612933,
+          3824456209,
+          3767833047,
+          3961749948,
+          258258728,
+          1265580488,
+          3940917528,
+          2559328987,
+          4205407296,
+          3123508201,
+          1358934470,
+          2767280180,
+          2997013500,
+          3040944031,
+          1844338877,
+          3379908045,
+          1543674362,
+          201477993,
+          717085300,
+          2666951615,
+          2144742676,
+          1210478483,
+          273307734,
+          3261524801,
+          2220162877,
+          104979094,
+          2755223000,
+          1432367419,
+          1409306768,
+          4244673057,
+          4116466396,
+          1343264591,
+          2579362096,
+          1999362723,
+          750317233,
+          1564262421,
+          2706489806,
+          713176335,
+          3003567333,
+          3906408925,
+          2744081818,
+          3451003521,
+          2450955462,
+          1488606072,
+          2287544551,
+          1723748128,
+          1125384037,
+          1059164109,
+          3510207977,
+          1815066815,
+          3641451278,
+          1612016912,
+          4010257094,
+          2307251403,
+          2469346137,
+          3271521700,
+          3908061943,
+          3444880966,
+          4075947118,
+          780872853,
+          3281560988,
+          1357686136,
+          2943760359,
+          867970632,
+          624875865,
+          42008691,
+          461745470,
+          2534113374,
+          542415799,
+          187552946,
+          1274637711,
+          3938184227,
+          782024270,
+          211410119,
+          548617576,
+          1185289831,
+          9731048,
+          4064185061,
+          1102476211,
+          2252152883,
+          3668033303,
+          607494701,
+          125057141,
+          3171312745,
+          1451939909,
+          1083513959,
+          432925897,
+          790830421,
+          271511933,
+          321532249,
+          77545692,
+          2825063392,
+          4133264751,
+          897260337,
+          3981749469,
+          850115772,
+          3593658396,
+          1506672851,
+          370315997,
+          3852934679,
+          3253193085,
+          2050972717,
+          2152652481,
+          713342572,
+          2977509064,
+          2977558395,
+          650423490,
+          2045288652,
+          3950175636,
+          3050091668,
+          2488899249,
+          1975464576,
+          3168470295,
+          4240800362,
+          2567512729,
+          1647618953,
+          3953699173,
+          2501678778,
+          132571230,
+          4071027677,
+          2724217194,
+          784161335,
+          1861424560,
+          3808426859,
+          596851944,
+          1134348593,
+          3872474009,
+          2945641485,
+          3187904068,
+          2271775415,
+          3101017369,
+          1228367632,
+          3608636429,
+          2244919288,
+          2570336324,
+          3922583617,
+          233591139,
+          3536734888,
+          2811599853,
+          1975096455,
+          522246972,
+          684456197,
+          160638304,
+          3729385471,
+          2685844718,
+          1809483087,
+          975895402,
+          292
+        ],
+        null
+      ],
+      "step": 30
+    },
+    "initial_source": {
+      "generation_id": "d46ac37d-fd6e-4d63-97c0-cefeb2607f70",
+      "manifest_hash": "ab03b9de964f37403a4a5fa87dad9e232486a52bd99ced1dc24538ab5ff070d8",
+      "member_hashes": [
+        "0a8b89e2dc398037d7595a22d0705a36698ee9b5d468569640a3649b703fabfe",
+        "0d32b90d8bfc516effe340e7c28ef4c6cc29422cac0dd1ebb77ccd0ee93cf10c",
+        "1899556b45d79856f82ab611a50fc5d281648a26c5054af43eae71a875294eec",
+        "197141eddd58653b386f08da323789153fe1e988371cf5502a701c06ba67c00d",
+        "1a0730a9c719c31fa44eee4bb86c08dca9c23f33852531c0098df8847bb47d50",
+        "1ba26cd510c34a22dd7d68efe8d032aa02ac7d8a2e95a0c9ecb4612ca50419d1",
+        "1bb66c4caa0be36ed1725832c4c29cb0c8b0098673eb9618c8962ad955e27d82",
+        "1c8f4f0dd61369e9f55d40b4b2db7e39b33ea7444d94fd9b084c25be622b0453",
+        "1f482c898581bdc69063484a168e9aa5b7ef5197b65bf9c2889ccf1752eb69d0",
+        "206ac54668fc0c8123f199902573ff3fca55375f028fbf78e9f6c9765adebe25",
+        "208d52c6bf7db9ffd4c2f1f2f897afb1e6d3147e0755722514d6bfb3ab8f9530",
+        "21c7c27f6b71525dfdc7071000c163972b21ca7b729865414b9ba2ce56183fc3",
+        "28fd85aff578a5bbb5bdbaec4e098e2229f2488e04df13fd650fe71db543b8ea",
+        "2c0feec0d0e4aa8916db7d9a837f47f134dbd348ccc10b30edac850a4e8e1911",
+        "2c58a002e905bf318a5c83443f0738924180fead2f4a5562f9882c87d5336496",
+        "2dfcfaa5c257a8eff8b9976ece1ba85880739cfbe860a7b546d020e149e88e92",
+        "30979b55a24ba5698e85c174c3c17931cd9f32d60a0fde0db31c0d521aa7333b",
+        "356ae6bb3016cac07bdab278896c451d9086bd8587bf997457a096fa6dbfc5b9",
+        "3a744a6181a280b63e8cbc72a9461b9daa93ebcd0bec45c7aedd5ef872c6b19c",
+        "3bb05545993b00e530901dab9cda3fa6b106d918b82b41a88beda88760b8d6c0",
+        "44e578f9cb3b64bc2c60cc7834cca526e0ac0bf0c4979558bac921fa1f7fd723",
+        "4916129f21672b00fdae8d7198ff44d1bee62b7f30e428ffb415f0c148d2690d",
+        "49e195b4bc650247809260e991a12ba1e8e553fb851a9906e9756eaf91a731df",
+        "4a01208022afba977d00aed313b96a241b450acacb24c138ec92f9bf7630cdae",
+        "4d75af9b0a400c31d100ea52299bed95f26882a8b8b7c2b6e129c3616fb05124",
+        "4d90499848f76c51fc333c29d16db04b2c19fa737599cb2911f84773d98b6091",
+        "50dde71bf384977f0f6f17b00524a45c30e9f7a29416d071bea2e86313d099cf",
+        "54c21fffcb231b24782eff7b9f1408bc2559666217e7010e85a19339dac445a6",
+        "559778dc5c235c7e76edff12499110d19625a83e6a7580fff73f02754ec5c1d2",
+        "576eb404fac9c58930ecab3ce2e5fb3872ce911b034a547c9c24537cb9661c97",
+        "601a2398ff16d29f291c2c8c4bd14c4d6e0747e1080e8589021666e886c5b3cc",
+        "65a4af923ddc2c56ebad3dc3b29401a7e8510b5d1eb311ac9aa0c9739836156f",
+        "66b4bd66a25a7d28dc31b25ba5c2c8eb0641904ade093645aa19b42d431d815b",
+        "6d455fe04d9f25317beffe45de30a2aff6765d61b77b16970a5abe02bd8e5f75",
+        "6f2954553b1a371fc8564375e785c6dd1eb61286d18a857ec6005dd7da015c44",
+        "73c4382968600785b959821b22a84654294bd38584b2ea206de5f764b2b371fd",
+        "7653eea7bd8665b075eeef1d7a37571a8c10dd1cd4831e093e464d9eed270940",
+        "77f46a87ad5309b49ac0815f9bbc741fb0b9e4502b43acf9d471b704a96b837e",
+        "78aeda02b65a3a268ccb9dd128a8aee47d2bd4869aaf15d70a0be33c5305e15b",
+        "78e4f46c2b071e514c3effa84eb20641d7283196a326d62a13b7e17061ede38b",
+        "79b0e02e69d9379e47c662d22fc31d41a2cbfbfdc3bcd24940215c3557a03db2",
+        "7c94cc992d7cea791648b483a1b7002743fc952abfaa7c14c77c2162544ce4fb",
+        "7caa85d4690016cf946b2025c98e2534d587c93c82b48bfb27292adff3791151",
+        "7fa7ea4785d702601647d53434e48fbaa6a2217b9a95428c0ae0815d0e1fa259",
+        "816834dfe50a241f9d9b5e23f561eff9b6d4d35f54b27ae3227e625e6339faaf",
+        "87739d32e279e86bd666fe1849723030bb38e3fc2cc1f85ebf4a82c59a4f5e6e",
+        "889df430367cb3c788a669628899a745da29657044a2d0f5264cf983afa1a33c",
+        "8b1bb55dd488603fa7d00b01357b7f8d9d8e81142d4e7593d590abeafea04e4f",
+        "8ee121719c5315b079247782634b9e8ba752f45a8bc73215f1ec14bfb6d4f97f",
+        "8eeb6fca5847223aa90e0e529557d5bcb19a81440284d19a5ba6df308c773b17",
+        "928f44170c5c1c8fc04752595f00d38e158ace56f14a31ad2a68bbe8fc9a7268",
+        "9e1fb7d0dfd7a09728581baa1627b9962e15fd05b614cd2f439923387cf49945",
+        "a44743c709cfa7ac026b2c2d1ff0e7ff177651f24c5367767cb7d09fd29dbbfa",
+        "a779bc77356fe7c5097ab1e6c69d02eaac9d29e33561d21bddc3fbe885611b2a",
+        "a7feccd07e65d41f0aac71fd6741b5637f16c71327f0ed94ec3f9fa56f8b47f7",
+        "ab03b9de964f37403a4a5fa87dad9e232486a52bd99ced1dc24538ab5ff070d8",
+        "b5418cd885f28e0334a5ff640c03f6f93677618a5be36f0a24b5930e498ebe65",
+        "ba8e9cc3c29d387d644a7181bc9aff7d706a37dc9010c0f737a7f157a9eba2f1",
+        "c087426d1d6af7bff0ccf0f1f7d44797a117d23397518df60a4acab1f6c46c53",
+        "c2cb2ea357ad58d2a1724523e115ce7220d11b675ca0ec52877a32e008e3c65e",
+        "c4a82893aa7e0dad98a7c7b65e1248b49907b7ec5fae4e152fc3d351deadaa08",
+        "c951728b1e7819b1ad8f5b9cd6db7fb70ee058e830660687100c0e28774292b7",
+        "ca66304b5155eb09c07640618b72e7a31bafde90a8b0bca9e49089664d5bd048",
+        "cb917e500e3dc38dc5ef89d50a59b3111139b52ca73dd15a431f86b79dce747b",
+        "d06c55c52c71fc32b2c453d6524d3d0efae65c2baba9a39e405e2e7b0a649b06",
+        "d76dd72837961f9486910a0e04db17067d624d0af680983feacd810ab6ea3a28",
+        "d9e8996fdfc76770c5d6f4d36ee3585bcabeaff6615f3cdf1d3c5680bcd5071f",
+        "ddb54b948c12a22433991b320c21b636d181608fb9fb92ea650287ebc9409bed",
+        "e2a1051c1e1c6449ab0bc1bc7799ad5208b967ef79ceeca2de26181b656a8159",
+        "e428fe75d3ee4162b19c4079a67f146f1ce8f9f312243c459bb383d126023bbb",
+        "e4f059c119a1dfafadd9d910df1205b51f903d713e4d62d39b8a2c379ae7a1b4",
+        "e940397142129c3949a9adaffa9b64027d8ae276d62441a9858aefb8aad81878",
+        "ec0471b3766aa9248e12a67d5ed828a29c1fdf9303beaf7db35961ac06c3e393",
+        "f0d594882726bae2043ca63e291a9dfb0ef1dd16df8df4a25772a1e2139fd308",
+        "f1373bbb1a3268d0beb38f96640c4e09ed39c603ae4ffaaf7db6a48b8912422a",
+        "f2712b1cded9e421e33a76fc71b67a637a7ea5003f0e14f96ac5df97a2588ff7",
+        "f28f1eeb19eea08eb9c90ac09f621a80a39a2b55225dcb2f5328be2da2efc351",
+        "f5e9f578754a3780621b59b36da63fef3cb8884da59f6b751ebfad466c2fa50a",
+        "f60a8d0a8ea73d61efa7254b52ae321d4704312ca37bffaf1552933e0aae26f4",
+        "f96ef0b3700c2b5e0d4cc09f0dbb63821477020e170b69435fb4396ed2d0effa",
+        "fff6838a1903e35196046ed347255a46a1bd2d8b2f5362c77a360838b9eb08c4"
+      ],
+      "population_id": "axol://populations/examples.mesa-schelling/baseline",
+      "state_root": "d3983816b7244112eb91bac652d7b6174159003a6ea137ee767fcde03ec337d2",
+      "step": 30
+    },
+    "population_id": "axol://populations/examples.mesa-schelling/branch-b",
+    "threshold": 0.7
+  },
+  "checkpoint": {
+    "generation_id": "d46ac37d-fd6e-4d63-97c0-cefeb2607f70",
+    "manifest_hash": "ab03b9de964f37403a4a5fa87dad9e232486a52bd99ced1dc24538ab5ff070d8",
+    "member_hashes": [
+      "0a8b89e2dc398037d7595a22d0705a36698ee9b5d468569640a3649b703fabfe",
+      "0d32b90d8bfc516effe340e7c28ef4c6cc29422cac0dd1ebb77ccd0ee93cf10c",
+      "1899556b45d79856f82ab611a50fc5d281648a26c5054af43eae71a875294eec",
+      "197141eddd58653b386f08da323789153fe1e988371cf5502a701c06ba67c00d",
+      "1a0730a9c719c31fa44eee4bb86c08dca9c23f33852531c0098df8847bb47d50",
+      "1ba26cd510c34a22dd7d68efe8d032aa02ac7d8a2e95a0c9ecb4612ca50419d1",
+      "1bb66c4caa0be36ed1725832c4c29cb0c8b0098673eb9618c8962ad955e27d82",
+      "1c8f4f0dd61369e9f55d40b4b2db7e39b33ea7444d94fd9b084c25be622b0453",
+      "1f482c898581bdc69063484a168e9aa5b7ef5197b65bf9c2889ccf1752eb69d0",
+      "206ac54668fc0c8123f199902573ff3fca55375f028fbf78e9f6c9765adebe25",
+      "208d52c6bf7db9ffd4c2f1f2f897afb1e6d3147e0755722514d6bfb3ab8f9530",
+      "21c7c27f6b71525dfdc7071000c163972b21ca7b729865414b9ba2ce56183fc3",
+      "28fd85aff578a5bbb5bdbaec4e098e2229f2488e04df13fd650fe71db543b8ea",
+      "2c0feec0d0e4aa8916db7d9a837f47f134dbd348ccc10b30edac850a4e8e1911",
+      "2c58a002e905bf318a5c83443f0738924180fead2f4a5562f9882c87d5336496",
+      "2dfcfaa5c257a8eff8b9976ece1ba85880739cfbe860a7b546d020e149e88e92",
+      "30979b55a24ba5698e85c174c3c17931cd9f32d60a0fde0db31c0d521aa7333b",
+      "356ae6bb3016cac07bdab278896c451d9086bd8587bf997457a096fa6dbfc5b9",
+      "3a744a6181a280b63e8cbc72a9461b9daa93ebcd0bec45c7aedd5ef872c6b19c",
+      "3bb05545993b00e530901dab9cda3fa6b106d918b82b41a88beda88760b8d6c0",
+      "44e578f9cb3b64bc2c60cc7834cca526e0ac0bf0c4979558bac921fa1f7fd723",
+      "4916129f21672b00fdae8d7198ff44d1bee62b7f30e428ffb415f0c148d2690d",
+      "49e195b4bc650247809260e991a12ba1e8e553fb851a9906e9756eaf91a731df",
+      "4a01208022afba977d00aed313b96a241b450acacb24c138ec92f9bf7630cdae",
+      "4d75af9b0a400c31d100ea52299bed95f26882a8b8b7c2b6e129c3616fb05124",
+      "4d90499848f76c51fc333c29d16db04b2c19fa737599cb2911f84773d98b6091",
+      "50dde71bf384977f0f6f17b00524a45c30e9f7a29416d071bea2e86313d099cf",
+      "54c21fffcb231b24782eff7b9f1408bc2559666217e7010e85a19339dac445a6",
+      "559778dc5c235c7e76edff12499110d19625a83e6a7580fff73f02754ec5c1d2",
+      "576eb404fac9c58930ecab3ce2e5fb3872ce911b034a547c9c24537cb9661c97",
+      "601a2398ff16d29f291c2c8c4bd14c4d6e0747e1080e8589021666e886c5b3cc",
+      "65a4af923ddc2c56ebad3dc3b29401a7e8510b5d1eb311ac9aa0c9739836156f",
+      "66b4bd66a25a7d28dc31b25ba5c2c8eb0641904ade093645aa19b42d431d815b",
+      "6d455fe04d9f25317beffe45de30a2aff6765d61b77b16970a5abe02bd8e5f75",
+      "6f2954553b1a371fc8564375e785c6dd1eb61286d18a857ec6005dd7da015c44",
+      "73c4382968600785b959821b22a84654294bd38584b2ea206de5f764b2b371fd",
+      "7653eea7bd8665b075eeef1d7a37571a8c10dd1cd4831e093e464d9eed270940",
+      "77f46a87ad5309b49ac0815f9bbc741fb0b9e4502b43acf9d471b704a96b837e",
+      "78aeda02b65a3a268ccb9dd128a8aee47d2bd4869aaf15d70a0be33c5305e15b",
+      "78e4f46c2b071e514c3effa84eb20641d7283196a326d62a13b7e17061ede38b",
+      "79b0e02e69d9379e47c662d22fc31d41a2cbfbfdc3bcd24940215c3557a03db2",
+      "7c94cc992d7cea791648b483a1b7002743fc952abfaa7c14c77c2162544ce4fb",
+      "7caa85d4690016cf946b2025c98e2534d587c93c82b48bfb27292adff3791151",
+      "7fa7ea4785d702601647d53434e48fbaa6a2217b9a95428c0ae0815d0e1fa259",
+      "816834dfe50a241f9d9b5e23f561eff9b6d4d35f54b27ae3227e625e6339faaf",
+      "87739d32e279e86bd666fe1849723030bb38e3fc2cc1f85ebf4a82c59a4f5e6e",
+      "889df430367cb3c788a669628899a745da29657044a2d0f5264cf983afa1a33c",
+      "8b1bb55dd488603fa7d00b01357b7f8d9d8e81142d4e7593d590abeafea04e4f",
+      "8ee121719c5315b079247782634b9e8ba752f45a8bc73215f1ec14bfb6d4f97f",
+      "8eeb6fca5847223aa90e0e529557d5bcb19a81440284d19a5ba6df308c773b17",
+      "928f44170c5c1c8fc04752595f00d38e158ace56f14a31ad2a68bbe8fc9a7268",
+      "9e1fb7d0dfd7a09728581baa1627b9962e15fd05b614cd2f439923387cf49945",
+      "a44743c709cfa7ac026b2c2d1ff0e7ff177651f24c5367767cb7d09fd29dbbfa",
+      "a779bc77356fe7c5097ab1e6c69d02eaac9d29e33561d21bddc3fbe885611b2a",
+      "a7feccd07e65d41f0aac71fd6741b5637f16c71327f0ed94ec3f9fa56f8b47f7",
+      "ab03b9de964f37403a4a5fa87dad9e232486a52bd99ced1dc24538ab5ff070d8",
+      "b5418cd885f28e0334a5ff640c03f6f93677618a5be36f0a24b5930e498ebe65",
+      "ba8e9cc3c29d387d644a7181bc9aff7d706a37dc9010c0f737a7f157a9eba2f1",
+      "c087426d1d6af7bff0ccf0f1f7d44797a117d23397518df60a4acab1f6c46c53",
+      "c2cb2ea357ad58d2a1724523e115ce7220d11b675ca0ec52877a32e008e3c65e",
+      "c4a82893aa7e0dad98a7c7b65e1248b49907b7ec5fae4e152fc3d351deadaa08",
+      "c951728b1e7819b1ad8f5b9cd6db7fb70ee058e830660687100c0e28774292b7",
+      "ca66304b5155eb09c07640618b72e7a31bafde90a8b0bca9e49089664d5bd048",
+      "cb917e500e3dc38dc5ef89d50a59b3111139b52ca73dd15a431f86b79dce747b",
+      "d06c55c52c71fc32b2c453d6524d3d0efae65c2baba9a39e405e2e7b0a649b06",
+      "d76dd72837961f9486910a0e04db17067d624d0af680983feacd810ab6ea3a28",
+      "d9e8996fdfc76770c5d6f4d36ee3585bcabeaff6615f3cdf1d3c5680bcd5071f",
+      "ddb54b948c12a22433991b320c21b636d181608fb9fb92ea650287ebc9409bed",
+      "e2a1051c1e1c6449ab0bc1bc7799ad5208b967ef79ceeca2de26181b656a8159",
+      "e428fe75d3ee4162b19c4079a67f146f1ce8f9f312243c459bb383d126023bbb",
+      "e4f059c119a1dfafadd9d910df1205b51f903d713e4d62d39b8a2c379ae7a1b4",
+      "e940397142129c3949a9adaffa9b64027d8ae276d62441a9858aefb8aad81878",
+      "ec0471b3766aa9248e12a67d5ed828a29c1fdf9303beaf7db35961ac06c3e393",
+      "f0d594882726bae2043ca63e291a9dfb0ef1dd16df8df4a25772a1e2139fd308",
+      "f1373bbb1a3268d0beb38f96640c4e09ed39c603ae4ffaaf7db6a48b8912422a",
+      "f2712b1cded9e421e33a76fc71b67a637a7ea5003f0e14f96ac5df97a2588ff7",
+      "f28f1eeb19eea08eb9c90ac09f621a80a39a2b55225dcb2f5328be2da2efc351",
+      "f5e9f578754a3780621b59b36da63fef3cb8884da59f6b751ebfad466c2fa50a",
+      "f60a8d0a8ea73d61efa7254b52ae321d4704312ca37bffaf1552933e0aae26f4",
+      "f96ef0b3700c2b5e0d4cc09f0dbb63821477020e170b69435fb4396ed2d0effa",
+      "fff6838a1903e35196046ed347255a46a1bd2d8b2f5362c77a360838b9eb08c4"
+    ],
+    "population_id": "axol://populations/examples.mesa-schelling/baseline",
+    "state_root": "d3983816b7244112eb91bac652d7b6174159003a6ea137ee767fcde03ec337d2",
+    "step": 30
+  },
+  "checks": {
+    "compared": "stable agent IDs, groups, positions, RNG state, activation base order, move count, and metrics",
+    "earlier_generation_preserved": true,
+    "restored_from_axoldb": true,
+    "same_branch_start": true,
+    "source_checkpoint_unchanged": true,
+    "uninterrupted_equals_restored": true
+  },
+  "duration_seconds": 113.22905969699968,
+  "example": "mesa-schelling",
+  "limitations": [
+    "This is an illustrative model, not an empirical prediction of real cities.",
+    "One seed demonstrates the workflow; it does not rank thresholds.",
+    "Windows execution was not run."
+  ],
+  "lineage_mode": "application-level provenance (two Populations; not native Fork)",
+  "platform": "linux",
+  "population_ids": {
+    "baseline": "axol://populations/examples.mesa-schelling/baseline",
+    "branch_a": "axol://populations/examples.mesa-schelling/branch-a",
+    "branch_b": "axol://populations/examples.mesa-schelling/branch-b"
+  },
+  "python": "3.14.7",
+  "scope": {
+    "agents": 80,
+    "grid": "10x10 torus",
+    "saved_baseline_generations": 31,
+    "saved_generations_per_branch": 31
+  }
+}
