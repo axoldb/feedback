@@ -28,7 +28,24 @@ The returned `EvolutionRunId` is not guessed or constructed: `evolve create --ou
 it in `data.run`, and the script passes that exact value to `evolve start`, `evolve step`, and
 `fork lineage`.
 
-## How `1×1, 4×1, 7×1` became `5×1, 8×2`
+## Current single-package result: `1×1, 4×1, 7×1` to `8×3`
+
+The current retained run used one locally assembled corrective `linux-x64` bundle for every
+command. It imported `1×1, 4×1, 7×1`, made three parent-winner requests, invoked the reference
+mutator three times, and returned three lineage records for the value-8 genotype hash. Because the
+operator contract is exactly `child = parent + 1`, each reconstructable parent value was 7.
+
+The resulting membership has one distinct content hash, `8×3`. This means that three offspring
+candidate occurrences refer to the same immutable value-8 genotype content. It means neither
+three distinct genotype contents nor eight operations. There were three operations, three
+offspring candidate instances and three lineage records, but one distinct genotype/hash and one
+membership row whose multiplicity is 3.
+
+The public lineage result still does not expose parent candidate-instance IDs, tournament
+participants or draw order. Those details cannot be reconstructed from the saved evidence; only
+the three parent values can be inferred from the output and the operator contract.
+
+## Historical two-build result: `1×1, 4×1, 7×1` to `5×1, 8×2`
 
 The step requested target size 3, no elites, tournament size 2, maximize direction, and the
 identity evaluator. AxolDB therefore made three parent-winner requests. Each tournament sampled
@@ -58,8 +75,10 @@ These counts describe different things:
 - `8×2` means two candidate occurrences refer to the same canonical genotype content. It does
   not mean eight operations, two different value-8 genotypes, or one lineage record with a count.
 
-Lineage is deliberately not deduplicated by genotype hash, which is why the two value-8 candidate
-instances still have two separate mutation records even though membership aggregates them.
+Lineage is deliberately not deduplicated by genotype hash, which is why the two historical value-8
+candidate instances still have two separate mutation records even though membership aggregates
+them. The original machine reports are retained under `results/history/` and are not the current
+single-package qualification result.
 
 ## Public capability review
 
@@ -83,35 +102,41 @@ This is therefore a complete native mutation example and an explicit partial res
 ## Requirements and run
 
 - Python 3.12 or later; there are no third-party Python packages.
-- A packaged AxolDB Developer Preview `axol` executable.
+- One AxolDB `axol` executable from a package that contains both structured Fork Query and the
+  local genotype-insert canonical-ID correction.
 - A fresh, isolated PostgreSQL-backed local AxolDB deployment selected through the documented
   `AXOLDB_CONNECTION_STRING`, `AXOLDB_DEPLOYMENT_AUDIENCE`, and `AXOLDB_CURSOR_SIGNING_KEY`
   variables. The example never writes these values to its report.
+- The matching isolated managed instance root, used only for the controlled stop/start/reload
+  check.
 
 ```bash
 export AXOL_BIN=/absolute/path/to/bundle/bin/axol
 export AXOLDB_CONNECTION_STRING='Host=127.0.0.1;Port=PORT;Database=axoldb;Username=USER;Password=SECRET;SSL Mode=Disable;Pooling=false'
 export AXOLDB_DEPLOYMENT_AUDIENCE='native-example'
 export AXOLDB_CURSOR_SIGNING_KEY='64-hex-characters'
-python3 run_demo.py
+python3 run_demo.py --instance-root /absolute/path/to/the/isolated/managed-instance
 ```
 
-`AXOL_QUERY_BIN` is optional and defaults to `AXOL_BIN`. It exists so a qualification run can name
-a separately installed, storage-compatible CLI that has the documented typed `fork-generation`
-Query surface. Ordinary use should point both variables at the same compatible package. The
-retained qualification had to use this split because the preserved `+8299e9d…` qualified bundle
-has native Evolution but predates `query --input`, while the available `+88e7d…` build has that
-Query surface but its local `genotype insert` flag path double-canonicalizes the target Population
-and is rejected by authorization. This is a disclosed package-version blocker, not an alternate
-local mutation implementation.
+There is no `AXOL_QUERY_BIN`: `AXOL_BIN` performs import, Population/Generation/Fork reads,
+structured Fork Query, plugin/Evolution operations, lineage, managed stop/start and every reload
+read. The retained evidence used a local corrective build from base commit `88e7d715…` plus the
+reviewable one-line genotype-insert handler diff. Its tar.gz SHA-256 is
+`1e86fa638b161195a6c7439f3fe2f3b077105ccfccee5c8cd0b4038e42f65198`.
+
+That corrective bundle is **not publicly released**. Do not use the older public/preserved package
+for this walkthrough: it still has the local insert bug. Until a reviewed package containing the
+correction is published, reproduction requires a locally assembled source-matched bundle.
 
 Use a fresh database or override `--population` and `--fork-segment`; public v1 has no Population
 delete operation. The example bootstraps its synthetic administrator and grants only the scopes it
 uses. It does not stop or delete an instance it did not create.
 
-The run writes a sanitized `results/run-report.json` containing AxolDB identities, memberships,
-lineage, safe commands and assertions. It retains no connection string, password, signing key or
-private instance material.
+The run writes sanitized `results/run-report.json` and `results/reload-report.json` files containing
+AxolDB identities, memberships, lineage, safe commands and assertions. It retains no connection
+string, password, signing key or private instance material. The script itself performs a controlled
+`server stop`, `server start`, `server status`, then repeats exact source/Fork/lineage reads before
+returning success.
 
 ## Verify the example code
 
@@ -126,14 +151,14 @@ output guarantee is claimed.
 
 ## Scope and possible uses
 
-**Demonstrated:** import of a small human-readable integer population; authoritative source reads;
-one genuine native mutation cycle; successor membership reads; native mutation lineage; and source
-preservation/reload.
+**Demonstrated:** one-package import of a small human-readable integer population; authoritative
+source reads; one genuine native mutation cycle; structured successor membership Query; native
+mutation lineage; controlled managed restart; and source/Fork/lineage reload equality.
 
 **Not demonstrated:** crossover. The used public path has no packaged crossover implementation or
-CLI option. The retained run also used two different CLI builds, so it is not qualification of one
-distributive package. The DEAP/Mesa manifest provenance in the sibling examples is application data
-and is not AxolDB native Evolution lineage.
+CLI option. The current run qualifies one local corrective bundle, not any publicly distributed
+release. The older two-build result remains historical evidence only. The DEAP/Mesa manifest
+provenance in the sibling examples is application data and is not AxolDB native Evolution lineage.
 
 **Potential uses:** this small pattern can serve as a starting point for understanding AxolDB Fork,
 Evolution Run, operator governance and lineage semantics before a future public custom-operator or

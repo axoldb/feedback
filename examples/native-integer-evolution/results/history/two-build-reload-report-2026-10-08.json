@@ -1,15 +1,8 @@
 {
   "schemaVersion": 1,
+  "evidenceStatus": "historical two-build qualification evidence",
   "passed": true,
-  "singlePackage": true,
-  "axolVersion": "0.1.0-developer-preview+88e7d71571c0b04641d46b7f699dbab84fe463a3",
   "managedRestart": true,
-  "managedStatusAfterRestart": {
-    "state": "Ready",
-    "serverVersion": "0.1.0.0",
-    "postgresqlVersion": "16.15",
-    "failureCode": null
-  },
   "sourceMembershipReloaded": [
     [
       1,
@@ -26,11 +19,15 @@
   ],
   "resultMembershipReloaded": [
     [
+      5,
+      1
+    ],
+    [
       8,
-      3
+      2
     ]
   ],
-  "forkGenerationReloaded": "4f333d31-acff-46f8-a561-09a9ed37c55a",
+  "forkGenerationReloaded": "72da408f-114b-4ea9-bc0d-9aec2f951639",
   "lineageReloaded": [
     {
       "outputGenotypeHash": "fa3a1e7d1a2403664bb7672f19e97a6f09290c028f7c2f8445bd22a9e6a01764",
@@ -45,18 +42,11 @@
       "lineageKind": "mutation"
     },
     {
-      "outputGenotypeHash": "fa3a1e7d1a2403664bb7672f19e97a6f09290c028f7c2f8445bd22a9e6a01764",
+      "outputGenotypeHash": "0943471250a729c546255fbcf75378c421cdab7a6b8b87a2cb4b417a3ecd1564",
       "operator": "axol://operators/axol/reference-increment-mutator",
       "candidateGeneration": 0,
       "lineageKind": "mutation"
     }
   ],
-  "buildProvenance": {
-    "availability": "local corrective bundle; not a public release package",
-    "runtimeIdentifier": "linux-x64",
-    "baseCommit": "88e7d71571c0b04641d46b7f699dbab84fe463a3",
-    "productSourceDiffSha256": "19f3aa9f1a18c82e34579e6a657ae487fd0f16a4be4d6fea45427321b244e6f7",
-    "bundleArchiveSha256": "1e86fa638b161195a6c7439f3fe2f3b077105ccfccee5c8cd0b4038e42f65198"
-  },
   "secretsRetained": false
 }

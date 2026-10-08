@@ -34,6 +34,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--principal", default=DEFAULT_PRINCIPAL)
     parser.add_argument("--population", default=DEFAULT_POPULATION)
     parser.add_argument("--fork-segment", default=DEFAULT_FORK_SEGMENT)
+    parser.add_argument("--instance-root", type=Path, required=True,
+                        help="isolated managed Server instance used by AXOLDB_CONNECTION_STRING")
+    parser.add_argument("--reload-result", type=Path, default=here / "results" / "reload-report.json")
     return parser.parse_args()
 
 
@@ -114,18 +117,16 @@ def main() -> int:
     require(bool(axol), "set AXOL_BIN to the public packaged axol executable")
     axol_path = Path(axol).expanduser().resolve()
     require(axol_path.is_file() and os.access(axol_path, os.X_OK), "AXOL_BIN is not executable")
-    query_axol_path = Path(os.environ.get("AXOL_QUERY_BIN", str(axol_path))).expanduser().resolve()
-    require(query_axol_path.is_file() and os.access(query_axol_path, os.X_OK),
-            "AXOL_QUERY_BIN is not executable")
+    instance_root = args.instance_root.expanduser().resolve()
+    bundle_root = axol_path.parent.parent
     for name in ("AXOLDB_CONNECTION_STRING", "AXOLDB_DEPLOYMENT_AUDIENCE", "AXOLDB_CURSOR_SIGNING_KEY"):
         require(bool(os.environ.get(name)), f"set {name}; see README.md")
 
     commands: list[str] = []
 
     def invoke(arguments: list[str], principal: str | None = args.principal,
-               stdin_json: dict[str, Any] | None = None,
-               executable: Path = axol_path) -> Any:
-        command = [str(executable), *arguments, "--local", "--output", "json"]
+               stdin_json: dict[str, Any] | None = None) -> Any:
+        command = [str(axol_path), *arguments, "--local", "--output", "json"]
         display = ["axol", *arguments, "--local", "--output", "json"]
         if principal is not None:
             command += ["--as", principal]
@@ -155,11 +156,32 @@ def main() -> int:
             raise DemoError(f"{' '.join(arguments[:2])} failed: {error.get('code', 'unknown')} - {error.get('message', '')}")
         return envelope.get("data")
 
+    def invoke_server(action: str) -> Any:
+        command = [str(axol_path), "server", action,
+                   "--instance-root", str(instance_root),
+                   "--bundle-root", str(bundle_root), "--output", "json"]
+        result = subprocess.run(command, text=True, capture_output=True, timeout=180, check=False)
+        commands.append(
+            f"axol server {action} --instance-root <isolated-instance> "
+            "--bundle-root <local-corrective-bundle> --output json"
+        )
+        try:
+            lines = [line for line in result.stdout.splitlines() if line.strip()]
+            envelope = json.loads(lines[-1])
+        except (json.JSONDecodeError, IndexError) as exc:
+            detail = (result.stderr.strip() or result.stdout.strip() or "no output")[-500:]
+            raise DemoError(f"axol server {action} returned invalid output: {detail}") from exc
+        if result.returncode != 0 or envelope.get("success") is not True:
+            error = envelope.get("error") or {}
+            raise DemoError(
+                f"axol server {action} failed: {error.get('code', 'unknown')} - "
+                f"{error.get('message', '')}"
+            )
+        return envelope.get("data")
+
     started = time.monotonic()
     version = subprocess.run([str(axol_path), "--version"], text=True, capture_output=True,
                              timeout=30, check=True).stdout.strip()
-    query_version = subprocess.run([str(query_axol_path), "--version"], text=True,
-                                   capture_output=True, timeout=30, check=True).stdout.strip()
     population_ref = canonical_population(args.population)
 
     invoke(["security", "bootstrap", "--principal", args.principal, "--kind", "human"], principal=None)
@@ -200,7 +222,7 @@ def main() -> int:
     initial_generation = population["generation"]
     source_before = invoke([
         "query", "submit", "--population", args.population, "--generation", initial_generation,
-    ], executable=query_axol_path)
+    ])
     source_summary_before = invoke(["generation", "inspect", "--population", args.population,
                                     "--id", initial_generation])
 
@@ -239,12 +261,11 @@ def main() -> int:
     ])
 
     fork_after = invoke(["fork", "inspect", "--id", fork_name])
-    child_query = invoke(["query", "submit", "--input", "-"], stdin_json=fork_query(fork_id),
-                         executable=query_axol_path)
+    child_query = invoke(["query", "submit", "--input", "-"], stdin_json=fork_query(fork_id))
     lineage = invoke(["fork", "lineage", "--id", fork_name, "--run", run_id])
     source_after = invoke([
         "query", "submit", "--population", args.population, "--generation", initial_generation,
-    ], executable=query_axol_path)
+    ])
     source_summary_after = invoke(["generation", "inspect", "--population", args.population,
                                    "--id", initial_generation])
     population_after = invoke(["population", "describe", "--id", args.population])
@@ -269,11 +290,57 @@ def main() -> int:
     require(all(row.get("operator") == PLUGIN_OPERATOR and row.get("lineageKind") == "mutation"
                 for row in lineage), "lineage does not identify the built-in mutation operator")
 
+    # The same packaged executable owns the controlled restart and every post-restart read.
+    invoke_server("stop")
+    invoke_server("start")
+    restart_status = invoke_server("status")
+    require(restart_status.get("state") == "Ready", "managed Server is not Ready after restart")
+    restart_status_evidence = {
+        key: restart_status.get(key)
+        for key in ("state", "serverVersion", "postgresqlVersion", "failureCode")
+    }
+    source_reloaded = invoke([
+        "query", "submit", "--population", args.population, "--generation", initial_generation,
+    ])
+    source_summary_reloaded = invoke([
+        "generation", "inspect", "--population", args.population, "--id", initial_generation,
+    ])
+    child_reloaded = invoke(
+        ["query", "submit", "--input", "-"],
+        stdin_json=fork_query(fork_id, step["publishedGeneration"]),
+    )
+    fork_reloaded = invoke(["fork", "inspect", "--id", fork_name])
+    lineage_reloaded = invoke(["fork", "lineage", "--id", fork_name, "--run", run_id])
+    population_reloaded = invoke(["population", "describe", "--id", args.population])
+
+    source_rows_reloaded = normalized_rows(source_reloaded["rows"])
+    child_rows_reloaded = normalized_rows(child_reloaded["rows"])
+    require(source_rows_reloaded == before_rows, "source membership changed after restart")
+    require(child_rows_reloaded == child_rows, "Fork membership changed after restart")
+    require(source_summary_reloaded == source_summary_after,
+            "source Generation summary changed after restart")
+    require(fork_reloaded["currentForkGeneration"] == step["publishedGeneration"] and
+            fork_reloaded["currentForkGenerationNumber"] == 1,
+            "Fork head changed after restart")
+    require(lineage_reloaded == lineage, "lineage changed after restart")
+    require(population_reloaded["currentGeneration"] == initial_generation and
+            population_reloaded["currentGenerationNumber"] == 0,
+            "source Population changed after restart")
+
+    build_provenance = {
+        "availability": "local corrective bundle; not a public release package",
+        "runtimeIdentifier": "linux-x64" if platform.system() == "Linux" and platform.machine() == "x86_64" else "unrecorded",
+        "baseCommit": os.environ.get("AXOL_PRODUCT_BASE_COMMIT"),
+        "productSourceDiffSha256": os.environ.get("AXOL_PRODUCT_DIFF_SHA256"),
+        "bundleArchiveSha256": os.environ.get("AXOL_BUNDLE_SHA256"),
+    }
+
     report = {
         "schemaVersion": 1,
         "passed": True,
         "axolVersion": version,
-        "queryAxolVersion": query_version,
+        "singlePackage": True,
+        "buildProvenance": build_provenance,
         "platform": {"system": platform.system(), "machine": platform.machine(),
                      "python": platform.python_version()},
         "publicPath": "local Application-backed axol CLI",
@@ -294,6 +361,9 @@ def main() -> int:
             "lineageReturned": True,
             "sourcePopulationPreserved": True,
             "sourceReloadMatches": True,
+            "forkHeadReloadMatches": True,
+            "lineageReloadMatches": True,
+            "managedStopStartObserved": True,
         },
         "limitations": {
             "crossover": "BLOCKED: no public built-in crossover operator or external plugin loading path",
@@ -304,10 +374,27 @@ def main() -> int:
         "durationSeconds": round(time.monotonic() - started, 2),
         "secretsRetained": False,
     }
+    reload_report = {
+        "schemaVersion": 1,
+        "passed": True,
+        "singlePackage": True,
+        "axolVersion": version,
+        "managedRestart": True,
+        "managedStatusAfterRestart": restart_status_evidence,
+        "sourceMembershipReloaded": source_rows_reloaded,
+        "resultMembershipReloaded": child_rows_reloaded,
+        "forkGenerationReloaded": fork_reloaded["currentForkGeneration"],
+        "lineageReloaded": lineage_reloaded,
+        "buildProvenance": build_provenance,
+        "secretsRetained": False,
+    }
     args.result.parent.mkdir(parents=True, exist_ok=True)
     args.result.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
+    args.reload_result.parent.mkdir(parents=True, exist_ok=True)
+    args.reload_result.write_text(json.dumps(reload_report, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"passed": True, "result": str(args.result),
-                      "evolutionRunId": run_id, "childMembership": child_rows}))
+                      "reloadResult": str(args.reload_result), "evolutionRunId": run_id,
+                      "childMembership": child_rows, "singlePackage": True}))
     return 0
 
 
