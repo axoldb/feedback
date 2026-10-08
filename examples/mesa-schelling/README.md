@@ -12,6 +12,18 @@ and 0.70.
 
 This is an illustrative computational model, not an empirical prediction of real cities.
 
+## Where this could be useful
+
+**Demonstrated here:** a complete step-30 Mesa state is read back from AxolDB in new Python
+processes. Two threshold scenarios resume from that same saved state, while earlier Generations and
+the application-level source references remain available for inspection.
+
+**Potential uses:** the pattern could help resume a long-running simulation, compare scenarios
+from a shared saved state, or retain an experiment history with explicit application provenance.
+It may also benefit collaborative research in which participants need to identify the same saved
+state, but this example did not test concurrent collaboration, time saved, or scalability. For a
+small one-off simulation, a simple checkpoint file may be easier and fully adequate.
+
 ## What AxolDB stores
 
 Every Generation contains one canonical resident genotype per stable application identity,
@@ -87,5 +99,6 @@ disposable example instance, remove its exact stopped instance directory using n
 management. There is no public per-Population cleanup endpoint.
 
 The model uses one seed and is not a policy, social-science or threshold ranking result. Windows
-was not run. See [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) and
-[LICENSE-STATUS.md](LICENSE-STATUS.md).
+was not run. The example code and documentation are available under the [MIT license](LICENSE).
+AxolDB and the Python dependencies retain their separate terms; see
+[THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).

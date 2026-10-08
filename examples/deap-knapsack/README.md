@@ -12,6 +12,20 @@ The crossover rate, selection, dataset, population size and checkpoint RNG state
 This one-seed run demonstrates checkpointing and comparison. It does not show that either mutation
 strategy is generally better.
 
+## Where this could be useful
+
+**Demonstrated here:** a complete generation-20 DEAP population and the application state needed
+to resume it are read back from AxolDB in new Python processes. Two parameter choices start from
+that same saved population, and the retained report compares best fitness, average fitness and
+candidate diversity across later generations—not only the single best candidate.
+
+**Potential uses:** the same pattern could help resume an expensive evolutionary run, compare
+parameters from one controlled initial population, or retain earlier generations for later
+analysis. It may also help collaborators refer to the same durable experiment state, but this
+example did not test concurrent teamwork, access governance across a team, time saved, or
+scalability. For a small one-off experiment, a simple checkpoint file may be easier and fully
+adequate.
+
 ## What AxolDB stores
 
 Each generation contains canonical ACE-1 binary genotypes for candidate bit strings and fitness,
@@ -104,5 +118,6 @@ Server v1 has no per-Population delete operation.
 No arbitrary pickle is loaded. Checkpoints use canonical JSON carried in ACE-1 binary values. The
 example is small, uses one seed and does not benchmark AxolDB or prove strategy superiority.
 
-See [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) and
-[LICENSE-STATUS.md](LICENSE-STATUS.md).
+The example code and documentation are available under the [MIT license](LICENSE). AxolDB and the
+Python dependencies retain their separate terms; see
+[THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
