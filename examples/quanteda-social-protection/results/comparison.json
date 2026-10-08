@@ -1,0 +1,42 @@
+{
+  "recordType": "dictionaryComparison",
+  "formatVersion": 1,
+  "dictionaryVersions": [
+    "1.0.0",
+    "2.0.0"
+  ],
+  "changedUnitCount": 2,
+  "changedUnits": [
+    {
+      "unitId": "govuk-carers-allowance:u03",
+      "documentId": "govuk-carers-allowance",
+      "documentTitle": "Carer's Allowance",
+      "text": "You could get £86.45 a week if you care for someone at least 35 hours a week and they get certain benefits.",
+      "oldLabel": "none",
+      "newLabel": "social_protection",
+      "oldMatchedExpressions": [],
+      "newMatchedExpressions": [
+        "care",
+        "benefits"
+      ]
+    },
+    {
+      "unitId": "govuk-disability-living-allowance-children:u01",
+      "documentId": "govuk-disability-living-allowance-children",
+      "documentTitle": "Disability Living Allowance (DLA) for children",
+      "text": "Help for children under 16 with disabilities - DLA rate, eligibility, how to apply, claim form.",
+      "oldLabel": "none",
+      "newLabel": "social_protection",
+      "oldMatchedExpressions": [],
+      "newMatchedExpressions": [
+        "disabilities",
+        "children"
+      ]
+    }
+  ],
+  "checks": {
+    "loadedFromAxolDb": true,
+    "exactRecomputeMatch": true,
+    "sameSourceForBothAnalyses": true
+  }
+}

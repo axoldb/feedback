@@ -13,6 +13,9 @@ small native Evolution workflow through the public local `axol` CLI.
 - [Native binary crossover](native-binary-crossover/README.md): run two bounded tournaments over
   distinct binary candidate instances, execute the built-in midpoint operator, and verify the child
   against the actual persisted A/B parent order.
+- [Quanteda social-protection dictionary comparison](quanteda-social-protection/README.md): persist
+  a licensed GOV.UK source snapshot, two versioned dictionaries and both result sets, then restart,
+  reload and exactly recompute the changed sentence-unit analysis.
 
 Server v1 cannot publish descendants of a native Fork from an external DEAP or Mesa process:
 fork advancement requires an Evolution Run, while remote Evolution execution is not public in this
@@ -24,8 +27,6 @@ They demonstrate the built-in increment mutation and binary midpoint crossover s
 not claim a general plugin loader, remote Evolution, optimization quality, or a public release.
 Historical two-build mutation evidence remains under the integer example's `results/history/`.
 DEAP crossover executes in external Python and its manifest provenance is not native lineage.
-
-Quanteda remains a possible future integration; no Quanteda example is included or qualified here.
 
 Versioned archives and checksums are under [`downloads/`](downloads/). Website-ready copy prepared
 earlier is under [`site-copy/`](site-copy/) and was not changed or deployed by this task. Example
