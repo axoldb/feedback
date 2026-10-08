@@ -1,4 +1,4 @@
-# Local qualification record — 2026-10-07
+# Local qualification record — 2026-10-08
 
 This record is public-safe and contains no credential, CA private key, instance archive, private
 path, or unrestricted log.
@@ -57,7 +57,27 @@ unit tests; it does not duplicate the complete database campaign.
 
 ## Publication status
 
-No GitHub Action, workflow dispatch, product release, tag or website deployment was run. Public
-push is blocked because the feedback repository has no license and its `AGENTS.md` says the repo
-does not accept code contributions. An owner must select a public example license and explicitly
-resolve that repository-policy conflict before these files are pushed.
+No product release, tag, deployment or website change was made. Public example code is now covered
+by the approved MIT text, and `AGENTS.md` explicitly recognizes maintainer-authorized material
+under `examples/`. AxolDB remains an external prerequisite under its own Developer Preview license,
+while dependencies retain their own terms. The completed examples were pushed to
+`codex/public-integration-examples` only after both the local workflow inventory and the GitHub
+Actions API reported zero workflows; the post-push branch query reported zero workflow runs. No
+workflow dispatch or pull request was made.
+
+## Native integer Evolution addendum
+
+The native example's Python unit tests are 3/3 PASS and `py_compile` passes. A real isolated local
+run and a separate managed stop/start reload check also passed. Input membership `1×1, 4×1, 7×1`
+remained unchanged in the source Generation; the native reference mutation step published Fork
+membership `5×1, 8×2`, with three `mutation` lineage records and the returned EvolutionRunId.
+
+The Evolution path ran through existing qualified CLI
+`0.1.0-developer-preview+8299e9d0a7bd52c8c1acab1f2fdb5a4f18e94f80`; read-only typed Fork
+Queries used available CLI
+`0.1.0-developer-preview+88e7d71571c0b04641d46b7f699dbab84fe463a3`. This split is disclosed,
+not a one-package success claim: the former predates `query --input`, while the latter's local
+`genotype insert` flag path double-canonicalizes its target Population and is denied. Native
+crossover is separately BLOCKED because the public package exposes no crossover operator, flag or
+external implementation-loading path. See `native-integer-evolution/RUN-REPORT.md` for IDs,
+results, restart evidence and the safe machine-readable reports.

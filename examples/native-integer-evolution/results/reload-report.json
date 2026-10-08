@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "managedRestart": true,
+  "sourceMembershipReloaded": [
+    [
+      1,
+      1
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      7,
+      1
+    ]
+  ],
+  "resultMembershipReloaded": [
+    [
+      5,
+      1
+    ],
+    [
+      8,
+      2
+    ]
+  ],
+  "forkGenerationReloaded": "72da408f-114b-4ea9-bc0d-9aec2f951639",
+  "lineageReloaded": [
+    {
+      "outputGenotypeHash": "fa3a1e7d1a2403664bb7672f19e97a6f09290c028f7c2f8445bd22a9e6a01764",
+      "operator": "axol://operators/axol/reference-increment-mutator",
+      "candidateGeneration": 0,
+      "lineageKind": "mutation"
+    },
+    {
+      "outputGenotypeHash": "fa3a1e7d1a2403664bb7672f19e97a6f09290c028f7c2f8445bd22a9e6a01764",
+      "operator": "axol://operators/axol/reference-increment-mutator",
+      "candidateGeneration": 0,
+      "lineageKind": "mutation"
+    },
+    {
+      "outputGenotypeHash": "0943471250a729c546255fbcf75378c421cdab7a6b8b87a2cb4b417a3ecd1564",
+      "operator": "axol://operators/axol/reference-increment-mutator",
+      "candidateGeneration": 0,
+      "lineageKind": "mutation"
+    }
+  ],
+  "secretsRetained": false
+}

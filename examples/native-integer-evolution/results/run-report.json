@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "axolVersion": "0.1.0-developer-preview+8299e9d0a7bd52c8c1acab1f2fdb5a4f18e94f80",
+  "queryAxolVersion": "0.1.0-developer-preview+88e7d71571c0b04641d46b7f699dbab84fe463a3",
+  "platform": {
+    "system": "Linux",
+    "machine": "x86_64",
+    "python": "3.14.7"
+  },
+  "publicPath": "local Application-backed axol CLI",
+  "inputFile": "population.json",
+  "population": "examples.native-integer/candidates",
+  "sourceGeneration": "7ae08ac1-46d1-496d-9f4f-7fe1c2858eb3",
+  "sourceMembershipBefore": [
+    [
+      1,
+      1
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      7,
+      1
+    ]
+  ],
+  "sourceMembershipAfter": [
+    [
+      1,
+      1
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      7,
+      1
+    ]
+  ],
+  "fork": "axol://forks/examples.native-integer/candidates/native-run",
+  "evolutionRunId": "evolution-run-56bb5067-ba1a-48d1-a75b-c376634fd316",
+  "publishedForkGeneration": "72da408f-114b-4ea9-bc0d-9aec2f951639",
+  "resultMembership": [
+    [
+      5,
+      1
+    ],
+    [
+      8,
+      2
+    ]
+  ],
+  "lineage": [
+    {
+      "outputGenotypeHash": "fa3a1e7d1a2403664bb7672f19e97a6f09290c028f7c2f8445bd22a9e6a01764",
+      "operator": "axol://operators/axol/reference-increment-mutator",
+      "candidateGeneration": 0,
+      "lineageKind": "mutation"
+    },
+    {
+      "outputGenotypeHash": "fa3a1e7d1a2403664bb7672f19e97a6f09290c028f7c2f8445bd22a9e6a01764",
+      "operator": "axol://operators/axol/reference-increment-mutator",
+      "candidateGeneration": 0,
+      "lineageKind": "mutation"
+    },
+    {
+      "outputGenotypeHash": "0943471250a729c546255fbcf75378c421cdab7a6b8b87a2cb4b417a3ecd1564",
+      "operator": "axol://operators/axol/reference-increment-mutator",
+      "candidateGeneration": 0,
+      "lineageKind": "mutation"
+    }
+  ],
+  "checks": {
+    "inputImported": true,
+    "nativeMutationExecuted": true,
+    "childValuesAreSelectedParentPlusOne": true,
+    "lineageReturned": true,
+    "sourcePopulationPreserved": true,
+    "sourceReloadMatches": true
+  },
+  "limitations": {
+    "crossover": "BLOCKED: no public built-in crossover operator or external plugin loading path",
+    "remoteEvolution": "BLOCKED: Server v1 does not expose Evolution or plugin lifecycle operations",
+    "determinismClaimed": false
+  },
+  "commands": [
+    "axol security bootstrap --principal examples.native-integer/admin --kind human --local --output json",
+    "axol security grant --principal examples.native-integer/admin --action Insert --resource Population --local --output json --as examples.native-integer/admin",
+    "axol security grant --principal examples.native-integer/admin --action Read --resource Population --resource-id axol://populations/examples.native-integer/candidates --local --output json --as examples.native-integer/admin",
+    "axol security grant --principal examples.native-integer/admin --action Insert --resource IndividualGenotype --resource-id axol://populations/examples.native-integer/candidates --local --output json --as examples.native-integer/admin",
+    "axol security grant --principal examples.native-integer/admin --action Read --resource IndividualGenotype --resource-id axol://populations/examples.native-integer/candidates --local --output json --as examples.native-integer/admin",
+    "axol security grant --principal examples.native-integer/admin --action PublishGeneration --resource Population --resource-id axol://populations/examples.native-integer/candidates --local --output json --as examples.native-integer/admin",
+    "axol security grant --principal examples.native-integer/admin --action CreateFork --resource Population --resource-id axol://populations/examples.native-integer/candidates --local --output json --as examples.native-integer/admin",
+    "axol security grant --principal examples.native-integer/admin --action ExecuteQuery --resource Query --resource-id query --local --output json --as examples.native-integer/admin",
+    "axol genotype insert --schema-id examples.native-integer/candidate/1 --schema-hash 3333333333333333333333333333333333333333333333333333333333333333 --value int:1 --population-id examples.native-integer/candidates --local --output json --as examples.native-integer/admin",
+    "axol genotype insert --schema-id examples.native-integer/candidate/1 --schema-hash 3333333333333333333333333333333333333333333333333333333333333333 --value int:4 --population-id examples.native-integer/candidates --local --output json --as examples.native-integer/admin",
+    "axol genotype insert --schema-id examples.native-integer/candidate/1 --schema-hash 3333333333333333333333333333333333333333333333333333333333333333 --value int:7 --population-id examples.native-integer/candidates --local --output json --as examples.native-integer/admin",
+    "axol population create --id examples.native-integer/candidates --contract-hash 4444444444444444444444444444444444444444444444444444444444444444 --member edbdc6003d490383794be4ea1a800c8c2f3bc976557aa8bf0084a09575811934:1 --member dae69a50e30d6b5ba364f10e4a3e3afaa25a6c52c340dc59d0697177e66ce8a4:1 --member 039423b7bf715bc03d8111edac043b3879c9d2394816856f0ce7c480267586c5:1 --local --output json --as examples.native-integer/admin",
+    "axol query submit --population examples.native-integer/candidates --generation 7ae08ac1-46d1-496d-9f4f-7fe1c2858eb3 --local --output json --as examples.native-integer/admin",
+    "axol generation inspect --population examples.native-integer/candidates --id 7ae08ac1-46d1-496d-9f4f-7fe1c2858eb3 --local --output json --as examples.native-integer/admin",
+    "axol plugin register --id EvolutionaryOperator/axol/reference-increment-mutator --package-hash 28a9f3c6fc2665f87cc5044d690406d9a69ff4e857f44831fbac076254192806 --version 1.0.0 --capability WriteData --local --output json --as examples.native-integer/admin",
+    "axol plugin approve --id EvolutionaryOperator/axol/reference-increment-mutator --package-hash 28a9f3c6fc2665f87cc5044d690406d9a69ff4e857f44831fbac076254192806 --local --output json --as examples.native-integer/admin",
+    "axol plugin grant-capability --id EvolutionaryOperator/axol/reference-increment-mutator --package-hash 28a9f3c6fc2665f87cc5044d690406d9a69ff4e857f44831fbac076254192806 --capability WriteData --local --output json --as examples.native-integer/admin",
+    "axol plugin activate --id EvolutionaryOperator/axol/reference-increment-mutator --package-hash 28a9f3c6fc2665f87cc5044d690406d9a69ff4e857f44831fbac076254192806 --local --output json --as examples.native-integer/admin",
+    "axol fork create --id examples.native-integer/candidates/native-run --source-generation 7ae08ac1-46d1-496d-9f4f-7fe1c2858eb3 --local --output json --as examples.native-integer/admin",
+    "axol security grant --principal examples.native-integer/admin --action Read --resource Fork --resource-id axol://forks/examples.native-integer/candidates/native-run --local --output json --as examples.native-integer/admin",
+    "axol security grant --principal examples.native-integer/admin --action PublishGeneration --resource Fork --resource-id axol://forks/examples.native-integer/candidates/native-run --local --output json --as examples.native-integer/admin",
+    "axol security grant --principal examples.native-integer/admin --action Insert --resource Fork --resource-id axol://forks/examples.native-integer/candidates/native-run --local --output json --as examples.native-integer/admin",
+    "axol evolve create --fork examples.native-integer/candidates/native-run --plan-id axol://plans/examples.native-integer/1 --root-seed 5151515151515151515151515151515151515151515151515151515151515151 --evaluation-context-hash 6161616161616161616161616161616161616161616161616161616161616161 --local --output json --as examples.native-integer/admin",
+    "axol evolve start --run evolution-run-56bb5067-ba1a-48d1-a75b-c376634fd316 --worker native-integer-example --local --output json --as examples.native-integer/admin",
+    "axol evolve step --run evolution-run-56bb5067-ba1a-48d1-a75b-c376634fd316 --evolution-step 1 --candidate-generation 0 --mutation-plugin-id EvolutionaryOperator/axol/reference-increment-mutator --mutation-package-hash 28a9f3c6fc2665f87cc5044d690406d9a69ff4e857f44831fbac076254192806 --target-population-size 3 --elite-count 0 --tournament-size 2 --local --output json --as examples.native-integer/admin",
+    "axol fork inspect --id examples.native-integer/candidates/native-run --local --output json --as examples.native-integer/admin",
+    "axol query submit --input - --local --output json --as examples.native-integer/admin",
+    "axol fork lineage --id examples.native-integer/candidates/native-run --run evolution-run-56bb5067-ba1a-48d1-a75b-c376634fd316 --local --output json --as examples.native-integer/admin",
+    "axol query submit --population examples.native-integer/candidates --generation 7ae08ac1-46d1-496d-9f4f-7fe1c2858eb3 --local --output json --as examples.native-integer/admin",
+    "axol generation inspect --population examples.native-integer/candidates --id 7ae08ac1-46d1-496d-9f4f-7fe1c2858eb3 --local --output json --as examples.native-integer/admin",
+    "axol population describe --id examples.native-integer/candidates --local --output json --as examples.native-integer/admin"
+  ],
+  "durationSeconds": 33.23,
+  "secretsRetained": false
+}
