@@ -1,0 +1,16 @@
+{
+  "schemaId": "examples.native-binary/candidate/1",
+  "schemaHashHex": "5555555555555555555555555555555555555555555555555555555555555555",
+  "contractHashHex": "6666666666666666666666666666666666666666666666666666666666666666",
+  "candidates": [
+    { "label": "first", "valueHex": "00010203", "multiplicity": 1 },
+    { "label": "second", "valueHex": "a0a1a2a3", "multiplicity": 1 }
+  ],
+  "evolution": {
+    "targetPopulationSize": 1,
+    "eliteCount": 0,
+    "tournamentSize": 1,
+    "rootSeedHex": "7171717171717171717171717171717171717171717171717171717171717171",
+    "evaluationContextHashHex": "8181818181818181818181818181818181818181818181818181818181818181"
+  }
+}

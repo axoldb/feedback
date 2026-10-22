@@ -1,0 +1,25 @@
+{
+  "capacity": 45,
+  "items": [
+    {"id": "map", "weight": 9, "value": 150},
+    {"id": "compass", "weight": 3, "value": 35},
+    {"id": "water", "weight": 13, "value": 200},
+    {"id": "sandwich", "weight": 8, "value": 160},
+    {"id": "glucose", "weight": 4, "value": 60},
+    {"id": "tin", "weight": 7, "value": 45},
+    {"id": "banana", "weight": 4, "value": 60},
+    {"id": "apple", "weight": 3, "value": 40},
+    {"id": "cheese", "weight": 5, "value": 30},
+    {"id": "beer", "weight": 10, "value": 70},
+    {"id": "suntan-cream", "weight": 2, "value": 30},
+    {"id": "camera", "weight": 6, "value": 75},
+    {"id": "t-shirt", "weight": 4, "value": 50},
+    {"id": "trousers", "weight": 7, "value": 70},
+    {"id": "umbrella", "weight": 8, "value": 40},
+    {"id": "waterproof-trousers", "weight": 5, "value": 70},
+    {"id": "waterproof-overclothes", "weight": 10, "value": 75},
+    {"id": "note-case", "weight": 1, "value": 80},
+    {"id": "sunglasses", "weight": 1, "value": 20},
+    {"id": "towel", "weight": 3, "value": 12}
+  ]
+}
