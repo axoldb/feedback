@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "dictionaryId": "social-protection-narrow",
+  "version": "1.0.0",
+  "language": "en",
+  "label": "social_protection",
+  "matching": "quanteda fixed, case-insensitive phrase matching after word tokenization",
+  "terms": [
+    "universal credit",
+    "pension credit",
+    "attendance allowance",
+    "carer's allowance",
+    "personal independence payment",
+    "disability living allowance",
+    "housing benefit",
+    "child benefit"
+  ],
+  "status": "Illustrative vocabulary for this example; not a validated sociological instrument."
+}

@@ -1,0 +1,17 @@
+{
+  "schemaId": "examples.native-integer/candidate/1",
+  "schemaHashHex": "3333333333333333333333333333333333333333333333333333333333333333",
+  "contractHashHex": "4444444444444444444444444444444444444444444444444444444444444444",
+  "candidates": [
+    { "value": 1, "multiplicity": 1 },
+    { "value": 4, "multiplicity": 1 },
+    { "value": 7, "multiplicity": 1 }
+  ],
+  "evolution": {
+    "targetPopulationSize": 3,
+    "eliteCount": 0,
+    "tournamentSize": 2,
+    "rootSeedHex": "5151515151515151515151515151515151515151515151515151515151515151",
+    "evaluationContextHashHex": "6161616161616161616161616161616161616161616161616161616161616161"
+  }
+}
