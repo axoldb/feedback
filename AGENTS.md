@@ -1,7 +1,21 @@
 # Guidance for coding agents
 
-This repository accepts public AxolDB bug reports and feature requests only. It is not a product
-source repository and does not accept code contributions through this channel.
+This repository accepts public AxolDB bug reports and feature requests. Maintainer-authorized,
+self-contained public integration examples may also live under `examples/`. It is not the AxolDB
+product source repository, and product changes do not belong here.
+
+## Public examples
+
+- Add or change `examples/` only with explicit maintainer authorization. Keep example code, input,
+  tests, documentation, downloadable archives, and checksums under that directory.
+- Example code is licensed under the MIT license supplied with the example. AxolDB itself is an
+  external prerequisite governed by its own Developer Preview license; third-party dependencies
+  retain their own licenses. Do not copy AxolDB product code or binaries into an example archive.
+- State observed results separately from possible uses or benefits. Do not claim demonstrated
+  scalability, saved work, collaboration, determinism, or production suitability without direct
+  evidence and a public guarantee that supports the claim.
+- Use documented public AxolDB interfaces. If a required capability is absent, identify the exact
+  boundary instead of simulating the operation locally and presenting it as native AxolDB work.
 
 ## Authorization
 

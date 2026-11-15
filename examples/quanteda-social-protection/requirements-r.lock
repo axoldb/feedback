@@ -1,0 +1,16 @@
+R==4.5.2
+quanteda==4.5.0
+jsonlite==2.0.0
+fastmatch==1.1.8
+lifecycle==1.0.5
+magrittr==2.0.4
+Matrix==1.7.4
+Rcpp==1.1.1
+SnowballC==0.7.1
+stopwords==2.3
+stringi==1.8.7
+xml2==1.5.2
+yaml==2.3.12
+cli==3.6.5
+rlang==1.1.7
+ISOcodes==2025.5.18

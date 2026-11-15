@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "singlePackage": true,
+  "axolVersion": "0.1.0-developer-preview+aea2edf8527114c49168bd71eeeabb47ee0445cd",
+  "managedRestart": true,
+  "managedStatusAfterRestart": {
+    "state": "Ready",
+    "serverVersion": "0.1.0.0",
+    "postgresqlVersion": "16.15",
+    "failureCode": null
+  },
+  "sourceMembershipReloaded": [
+    [
+      "00010203",
+      1
+    ],
+    [
+      "a0a1a2a3",
+      1
+    ]
+  ],
+  "resultMembershipReloaded": [
+    [
+      "0001a2a3",
+      1
+    ]
+  ],
+  "forkGenerationReloaded": "e648696e-bd9f-6f5f-806e-0142f84b5b91",
+  "lineageReloaded": [
+    {
+      "outputGenotypeHash": "2bb7bb2f509419357de629d57037261cedf8746097a1864812bb47bb5cf758a2",
+      "operator": "axol://operators/axol/reference-binary-midpoint-crossover",
+      "candidateGeneration": 0,
+      "lineageKind": "crossover",
+      "formatVersion": 2,
+      "outputCandidateInstanceId": "b0ee6573c22b1991fa96615fa514b3e971e26a354aacb7d9f55fc532f446daa5",
+      "parentCandidateInstanceIds": [
+        "2d7372fa940ad5cb3c6df5df67f473fa5855354d1f9c7198fa36b4911fb94ac9",
+        "b5e78bb9728b923bae4cb677b10297ae102bf6fcffc696d01c301027dbd48d7e"
+      ],
+      "evolutionRunId": "evolution-run-6b611133-bd1a-4346-a894-7ebc55473942",
+      "populationScope": "axol://populations/examples.native-binary/candidates",
+      "sourceForkGenerationId": "1708aafe-796c-4387-9255-69af88f86ed5",
+      "outputForkGenerationId": "e648696e-bd9f-6f5f-806e-0142f84b5b91",
+      "publicationOperationId": "7f0676754ed9626350ede4f346c40ec25f2f9d634fd0668434b2b7101d0fb3f0",
+      "operatorId": "axol://operators/axol/reference-binary-midpoint-crossover",
+      "operatorVersion": "1.0.0",
+      "operatorPackageHash": "f6c9ff8c74a4454b5fac2c925d3b3a7993cb51ce9dcd4476c521350c5618f137",
+      "derivedSeed": "43d6243802ea43e0e03fab78cbb3c00b830db0baa3b22d2a0eed63decbc4a5a4",
+      "outputOrdinal": 0,
+      "parentReferences": [
+        {
+          "parentOrdinal": 0,
+          "parentRole": "parent-a",
+          "parentCandidateInstanceId": "2d7372fa940ad5cb3c6df5df67f473fa5855354d1f9c7198fa36b4911fb94ac9",
+          "parentPopulationScope": "axol://populations/examples.native-binary/candidates",
+          "parentForkGenerationId": "1708aafe-796c-4387-9255-69af88f86ed5",
+          "parentGenotypeHash": "bd38f34cda538fe072c954fa0fbed811cfc481278030399f32b232ec7adf3e06"
+        },
+        {
+          "parentOrdinal": 1,
+          "parentRole": "parent-b",
+          "parentCandidateInstanceId": "b5e78bb9728b923bae4cb677b10297ae102bf6fcffc696d01c301027dbd48d7e",
+          "parentPopulationScope": "axol://populations/examples.native-binary/candidates",
+          "parentForkGenerationId": "1708aafe-796c-4387-9255-69af88f86ed5",
+          "parentGenotypeHash": "e71566cce71c5801cc5db1297826eaa1f1fb2f40ed3d28a98cc075819a00746c"
+        }
+      ]
+    }
+  ],
+  "buildProvenance": {
+    "availability": "local WP-0096 qualification bundle; not a public release package",
+    "runtimeIdentifier": "linux-x64",
+    "sourceCommit": "aea2edf8527114c49168bd71eeeabb47ee0445cd",
+    "bundleManifestSha256": "d3c62049506569ce0f93296aee03143500f05758a731ed360a0bdd46fb4aee33",
+    "bundleArchiveSha256": "0814773f9f14209ff37ff37e95b3818d2854a391526608c4a4bc56192cba06df"
+  },
+  "secretsRetained": false
+}

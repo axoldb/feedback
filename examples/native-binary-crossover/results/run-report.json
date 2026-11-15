@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "axolVersion": "0.1.0-developer-preview+aea2edf8527114c49168bd71eeeabb47ee0445cd",
+  "singlePackage": true,
+  "buildProvenance": {
+    "availability": "local WP-0096 qualification bundle; not a public release package",
+    "runtimeIdentifier": "linux-x64",
+    "sourceCommit": "aea2edf8527114c49168bd71eeeabb47ee0445cd",
+    "bundleManifestSha256": "d3c62049506569ce0f93296aee03143500f05758a731ed360a0bdd46fb4aee33",
+    "bundleArchiveSha256": "0814773f9f14209ff37ff37e95b3818d2854a391526608c4a4bc56192cba06df"
+  },
+  "platform": {
+    "system": "Linux",
+    "machine": "x86_64",
+    "python": "3.14.7"
+  },
+  "publicPath": "local Application-backed axol CLI",
+  "inputFile": "population.json",
+  "population": "examples.native-binary/candidates",
+  "sourceGeneration": "2f0183ac-86a5-47d2-9967-9db707ed349c",
+  "sourceMembershipBefore": [
+    [
+      "00010203",
+      1
+    ],
+    [
+      "a0a1a2a3",
+      1
+    ]
+  ],
+  "sourceMembershipAfter": [
+    [
+      "00010203",
+      1
+    ],
+    [
+      "a0a1a2a3",
+      1
+    ]
+  ],
+  "inputGenotypes": {
+    "bd38f34cda538fe072c954fa0fbed811cfc481278030399f32b232ec7adf3e06": "00010203",
+    "e71566cce71c5801cc5db1297826eaa1f1fb2f40ed3d28a98cc075819a00746c": "a0a1a2a3"
+  },
+  "fork": "axol://forks/examples.native-binary/candidates/midpoint-run",
+  "evolutionRunId": "evolution-run-6b611133-bd1a-4346-a894-7ebc55473942",
+  "publishedForkGeneration": "e648696e-bd9f-6f5f-806e-0142f84b5b91",
+  "resultMembership": [
+    [
+      "0001a2a3",
+      1
+    ]
+  ],
+  "actualCombination": {
+    "parentAHex": "00010203",
+    "parentBHex": "a0a1a2a3",
+    "cutByteOffset": 2,
+    "childHex": "0001a2a3"
+  },
+  "lineage": [
+    {
+      "outputGenotypeHash": "2bb7bb2f509419357de629d57037261cedf8746097a1864812bb47bb5cf758a2",
+      "operator": "axol://operators/axol/reference-binary-midpoint-crossover",
+      "candidateGeneration": 0,
+      "lineageKind": "crossover",
+      "formatVersion": 2,
+      "outputCandidateInstanceId": "b0ee6573c22b1991fa96615fa514b3e971e26a354aacb7d9f55fc532f446daa5",
+      "parentCandidateInstanceIds": [
+        "2d7372fa940ad5cb3c6df5df67f473fa5855354d1f9c7198fa36b4911fb94ac9",
+        "b5e78bb9728b923bae4cb677b10297ae102bf6fcffc696d01c301027dbd48d7e"
+      ],
+      "evolutionRunId": "evolution-run-6b611133-bd1a-4346-a894-7ebc55473942",
+      "populationScope": "axol://populations/examples.native-binary/candidates",
+      "sourceForkGenerationId": "1708aafe-796c-4387-9255-69af88f86ed5",
+      "outputForkGenerationId": "e648696e-bd9f-6f5f-806e-0142f84b5b91",
+      "publicationOperationId": "7f0676754ed9626350ede4f346c40ec25f2f9d634fd0668434b2b7101d0fb3f0",
+      "operatorId": "axol://operators/axol/reference-binary-midpoint-crossover",
+      "operatorVersion": "1.0.0",
+      "operatorPackageHash": "f6c9ff8c74a4454b5fac2c925d3b3a7993cb51ce9dcd4476c521350c5618f137",
+      "derivedSeed": "43d6243802ea43e0e03fab78cbb3c00b830db0baa3b22d2a0eed63decbc4a5a4",
+      "outputOrdinal": 0,
+      "parentReferences": [
+        {
+          "parentOrdinal": 0,
+          "parentRole": "parent-a",
+          "parentCandidateInstanceId": "2d7372fa940ad5cb3c6df5df67f473fa5855354d1f9c7198fa36b4911fb94ac9",
+          "parentPopulationScope": "axol://populations/examples.native-binary/candidates",
+          "parentForkGenerationId": "1708aafe-796c-4387-9255-69af88f86ed5",
+          "parentGenotypeHash": "bd38f34cda538fe072c954fa0fbed811cfc481278030399f32b232ec7adf3e06"
+        },
+        {
+          "parentOrdinal": 1,
+          "parentRole": "parent-b",
+          "parentCandidateInstanceId": "b5e78bb9728b923bae4cb677b10297ae102bf6fcffc696d01c301027dbd48d7e",
+          "parentPopulationScope": "axol://populations/examples.native-binary/candidates",
+          "parentForkGenerationId": "1708aafe-796c-4387-9255-69af88f86ed5",
+          "parentGenotypeHash": "e71566cce71c5801cc5db1297826eaa1f1fb2f40ed3d28a98cc075819a00746c"
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "inputImported": true,
+    "twoRealBoundedTournaments": true,
+    "distinctParentCandidateInstances": true,
+    "nativeCrossoverExecuted": true,
+    "childMatchesRecordedParentOrder": true,
+    "atomicLineageAndMembershipVisible": true,
+    "sourcePopulationPreserved": true,
+    "sourceReloadMatches": true,
+    "forkHeadReloadMatches": true,
+    "lineageReloadMatches": true,
+    "managedStopStartObserved": true
+  },
+  "limitations": {
+    "remoteEvolution": "BLOCKED: Server v1 does not expose Evolution or plugin lifecycle operations",
+    "customPluginLoading": "not demonstrated; the operator is built in",
+    "determinismClaimedAcrossRunIds": false
+  },
+  "commands": [
+    "axol security bootstrap --principal examples.native-binary/admin --kind human --local --output json",
+    "axol security grant --principal examples.native-binary/admin --action Insert --resource Population --local --output json --as examples.native-binary/admin",
+    "axol security grant --principal examples.native-binary/admin --action Read --resource Population --resource-id axol://populations/examples.native-binary/candidates --local --output json --as examples.native-binary/admin",
+    "axol security grant --principal examples.native-binary/admin --action Insert --resource IndividualGenotype --resource-id axol://populations/examples.native-binary/candidates --local --output json --as examples.native-binary/admin",
+    "axol security grant --principal examples.native-binary/admin --action Read --resource IndividualGenotype --resource-id axol://populations/examples.native-binary/candidates --local --output json --as examples.native-binary/admin",
+    "axol security grant --principal examples.native-binary/admin --action PublishGeneration --resource Population --resource-id axol://populations/examples.native-binary/candidates --local --output json --as examples.native-binary/admin",
+    "axol security grant --principal examples.native-binary/admin --action CreateFork --resource Population --resource-id axol://populations/examples.native-binary/candidates --local --output json --as examples.native-binary/admin",
+    "axol security grant --principal examples.native-binary/admin --action ExecuteQuery --resource Query --resource-id query --local --output json --as examples.native-binary/admin",
+    "axol genotype insert --schema-id examples.native-binary/candidate/1 --schema-hash 5555555555555555555555555555555555555555555555555555555555555555 --value bin:hex:00010203 --population-id examples.native-binary/candidates --local --output json --as examples.native-binary/admin",
+    "axol genotype insert --schema-id examples.native-binary/candidate/1 --schema-hash 5555555555555555555555555555555555555555555555555555555555555555 --value bin:hex:a0a1a2a3 --population-id examples.native-binary/candidates --local --output json --as examples.native-binary/admin",
+    "axol population create --id examples.native-binary/candidates --contract-hash 6666666666666666666666666666666666666666666666666666666666666666 --member bd38f34cda538fe072c954fa0fbed811cfc481278030399f32b232ec7adf3e06:1 --member e71566cce71c5801cc5db1297826eaa1f1fb2f40ed3d28a98cc075819a00746c:1 --local --output json --as examples.native-binary/admin",
+    "axol query submit --population examples.native-binary/candidates --generation 2f0183ac-86a5-47d2-9967-9db707ed349c --local --output json --as examples.native-binary/admin",
+    "axol generation inspect --population examples.native-binary/candidates --id 2f0183ac-86a5-47d2-9967-9db707ed349c --local --output json --as examples.native-binary/admin",
+    "axol plugin register --id EvolutionaryOperator/axol/reference-binary-midpoint-crossover --package-hash f6c9ff8c74a4454b5fac2c925d3b3a7993cb51ce9dcd4476c521350c5618f137 --version 1.0.0 --capability WriteData --local --output json --as examples.native-binary/admin",
+    "axol plugin approve --id EvolutionaryOperator/axol/reference-binary-midpoint-crossover --package-hash f6c9ff8c74a4454b5fac2c925d3b3a7993cb51ce9dcd4476c521350c5618f137 --local --output json --as examples.native-binary/admin",
+    "axol plugin grant-capability --id EvolutionaryOperator/axol/reference-binary-midpoint-crossover --package-hash f6c9ff8c74a4454b5fac2c925d3b3a7993cb51ce9dcd4476c521350c5618f137 --capability WriteData --local --output json --as examples.native-binary/admin",
+    "axol plugin activate --id EvolutionaryOperator/axol/reference-binary-midpoint-crossover --package-hash f6c9ff8c74a4454b5fac2c925d3b3a7993cb51ce9dcd4476c521350c5618f137 --local --output json --as examples.native-binary/admin",
+    "axol fork create --id examples.native-binary/candidates/midpoint-run --source-generation 2f0183ac-86a5-47d2-9967-9db707ed349c --local --output json --as examples.native-binary/admin",
+    "axol security grant --principal examples.native-binary/admin --action Read --resource Fork --resource-id axol://forks/examples.native-binary/candidates/midpoint-run --local --output json --as examples.native-binary/admin",
+    "axol security grant --principal examples.native-binary/admin --action PublishGeneration --resource Fork --resource-id axol://forks/examples.native-binary/candidates/midpoint-run --local --output json --as examples.native-binary/admin",
+    "axol security grant --principal examples.native-binary/admin --action Insert --resource Fork --resource-id axol://forks/examples.native-binary/candidates/midpoint-run --local --output json --as examples.native-binary/admin",
+    "axol evolve create --fork examples.native-binary/candidates/midpoint-run --plan-id axol://plans/examples.native-binary/1 --root-seed 7171717171717171717171717171717171717171717171717171717171717171 --evaluation-context-hash 8181818181818181818181818181818181818181818181818181818181818181 --variation-kind crossover --crossover-plugin-id EvolutionaryOperator/axol/reference-binary-midpoint-crossover --crossover-package-hash f6c9ff8c74a4454b5fac2c925d3b3a7993cb51ce9dcd4476c521350c5618f137 --local --output json --as examples.native-binary/admin",
+    "axol evolve start --run evolution-run-6b611133-bd1a-4346-a894-7ebc55473942 --worker native-binary-example --local --output json --as examples.native-binary/admin",
+    "axol evolve step --run evolution-run-6b611133-bd1a-4346-a894-7ebc55473942 --evolution-step 1 --candidate-generation 0 --variation-kind crossover --crossover-plugin-id EvolutionaryOperator/axol/reference-binary-midpoint-crossover --crossover-package-hash f6c9ff8c74a4454b5fac2c925d3b3a7993cb51ce9dcd4476c521350c5618f137 --target-population-size 1 --elite-count 0 --tournament-size 1 --max-generations 1 --local --output json --as examples.native-binary/admin",
+    "axol fork inspect --id examples.native-binary/candidates/midpoint-run --local --output json --as examples.native-binary/admin",
+    "axol query submit --input - --local --output json --as examples.native-binary/admin",
+    "axol fork lineage --id examples.native-binary/candidates/midpoint-run --run evolution-run-6b611133-bd1a-4346-a894-7ebc55473942 --local --output json --as examples.native-binary/admin",
+    "axol query submit --population examples.native-binary/candidates --generation 2f0183ac-86a5-47d2-9967-9db707ed349c --local --output json --as examples.native-binary/admin",
+    "axol generation inspect --population examples.native-binary/candidates --id 2f0183ac-86a5-47d2-9967-9db707ed349c --local --output json --as examples.native-binary/admin",
+    "axol population describe --id examples.native-binary/candidates --local --output json --as examples.native-binary/admin",
+    "axol server stop --instance-root <isolated-instance> --bundle-root <local-qualification-bundle> --output json",
+    "axol server start --instance-root <isolated-instance> --bundle-root <local-qualification-bundle> --output json",
+    "axol server status --instance-root <isolated-instance> --bundle-root <local-qualification-bundle> --output json",
+    "axol query submit --population examples.native-binary/candidates --generation 2f0183ac-86a5-47d2-9967-9db707ed349c --local --output json --as examples.native-binary/admin",
+    "axol query submit --input - --local --output json --as examples.native-binary/admin",
+    "axol fork inspect --id examples.native-binary/candidates/midpoint-run --local --output json --as examples.native-binary/admin",
+    "axol fork lineage --id examples.native-binary/candidates/midpoint-run --run evolution-run-6b611133-bd1a-4346-a894-7ebc55473942 --local --output json --as examples.native-binary/admin",
+    "axol population describe --id examples.native-binary/candidates --local --output json --as examples.native-binary/admin"
+  ],
+  "durationSeconds": 58.88,
+  "secretsRetained": false
+}

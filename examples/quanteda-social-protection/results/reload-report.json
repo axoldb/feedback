@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "process": "independent post-restart verifier",
+  "sourcePopulation": "examples.quanteda-social-protection/source",
+  "sourceGeneration": "05501a0b-83bd-4958-9dca-ab56acc2a8dc",
+  "rulesPopulation": "examples.quanteda-social-protection/rules",
+  "rulesGeneration": "b32640fd-c03b-42f6-864c-7db7341375ba",
+  "resultsPopulation": "examples.quanteda-social-protection/results",
+  "resultsGeneration": "bf104596-7432-469f-a9d0-721dbace3a6e",
+  "sourceUnitCount": 20,
+  "storedResultCount": 2,
+  "changedUnitCount": 2,
+  "checks": {
+    "loadedFromAxolDb": true,
+    "exactRecomputeMatch": true,
+    "sameSourceForBothAnalyses": true
+  },
+  "commands": [
+    "axol query submit --population examples.quanteda-social-protection/source --generation 05501a0b-83bd-4958-9dca-ab56acc2a8dc --local --output json --as examples.quanteda/admin",
+    "axol query submit --population examples.quanteda-social-protection/rules --generation b32640fd-c03b-42f6-864c-7db7341375ba --local --output json --as examples.quanteda/admin",
+    "axol query submit --population examples.quanteda-social-protection/results --generation bf104596-7432-469f-a9d0-721dbace3a6e --local --output json --as examples.quanteda/admin"
+  ],
+  "secretsRetained": false
+}

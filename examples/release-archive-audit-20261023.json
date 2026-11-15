@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-23",
+  "examplesSourceCommit": "c36eb378f53355a004edbdaad787499ea0f7294e",
+  "archives": [
+    {
+      "archive": "axoldb-deap-knapsack-1.0.0.zip",
+      "bytes": 164423,
+      "sha256": "ddae83bd983ba6f586912254d86a87a1f9b7c287a557b157549955670ea1b95a",
+      "files": 22,
+      "unsafePaths": 0,
+      "productBinaries": 0,
+      "sourceDifferences": [],
+      "codeLicense": "MIT"
+    },
+    {
+      "archive": "axoldb-mesa-schelling-1.0.0.zip",
+      "bytes": 116433,
+      "sha256": "12f9d6fff641b84cbaa79438496c038c99dc11cedf3d7c851a5b2131b494a439",
+      "files": 20,
+      "unsafePaths": 0,
+      "productBinaries": 0,
+      "sourceDifferences": [],
+      "codeLicense": "MIT"
+    },
+    {
+      "archive": "axoldb-native-binary-crossover-1.0.0.zip",
+      "bytes": 18054,
+      "sha256": "fcd7a94f8a9fc7548d05f9f4d403d9a60fc44ccd746630b595123665347cdcfd",
+      "files": 10,
+      "unsafePaths": 0,
+      "productBinaries": 0,
+      "sourceDifferences": [],
+      "codeLicense": "MIT"
+    },
+    {
+      "archive": "axoldb-native-integer-evolution-1.0.0.zip",
+      "bytes": 21010,
+      "sha256": "91ce5e3f1d7009b545c94131e55ad7c8cdcefc2bc162aa9bd852f2f7290ebf47",
+      "files": 13,
+      "unsafePaths": 0,
+      "productBinaries": 0,
+      "sourceDifferences": [],
+      "codeLicense": "MIT"
+    },
+    {
+      "archive": "axoldb-quanteda-social-protection-1.0.0.zip",
+      "bytes": 34891,
+      "sha256": "2b936f9b0830637c33f2769251d82e5ba939c27a110968a84f4704f5beaf7bad",
+      "files": 20,
+      "unsafePaths": 0,
+      "productBinaries": 0,
+      "sourceDifferences": [],
+      "codeLicense": "MIT"
+    }
+  ],
+  "unitTests": {
+    "deap-knapsack": 2,
+    "mesa-schelling": 2,
+    "native-integer-evolution": 3,
+    "native-binary-crossover": 3,
+    "quanteda-social-protection": 4
+  },
+  "unitFailed": 0,
+  "unitSkipped": 0,
+  "newProductQualificationClaimed": false
+}

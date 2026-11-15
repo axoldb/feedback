@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "govuk-social-protection-guides/2026-10-08",
+  "language": "en",
+  "topic": "social protection",
+  "retrievedAt": "2026-10-08",
+  "selectionRule": "Eight named GOV.UK benefit guides fixed before analysis; text is each Content API description followed by the first paragraph element in details.parts[0].body.",
+  "license": {
+    "id": "OGL-3.0",
+    "name": "Open Government Licence v3.0",
+    "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "attribution": "Contains public sector information licensed under the Open Government Licence v3.0."
+  },
+  "documents": [
+    {
+      "id": "govuk-universal-credit",
+      "contentId": "f790dc71-386e-4440-9689-31f94e7ac64d",
+      "title": "Universal Credit",
+      "url": "https://www.gov.uk/universal-credit",
+      "apiUrl": "https://www.gov.uk/api/content/universal-credit",
+      "publicUpdatedAt": "2024-10-17T10:58:14+01:00",
+      "text": "Universal Credit is replacing 6 other benefits with a single monthly payment if you're out of work or on a low income - eligibility, how to prepare. Universal Credit is a payment to help with your living costs. It’s paid monthly - or twice a month for some people in Scotland."
+    },
+    {
+      "id": "govuk-pension-credit",
+      "contentId": "36110496-f717-4ac9-9698-60601ab77454",
+      "title": "Pension Credit",
+      "url": "https://www.gov.uk/pension-credit",
+      "apiUrl": "https://www.gov.uk/api/content/pension-credit",
+      "publicUpdatedAt": "2024-10-14T11:06:35+01:00",
+      "text": "Pension Credit is extra money for pensioners to bring your weekly income up to a minimum amount - what you'll get, apply, eligibility. Pension Credit gives you extra money to help with your living costs if you’re over State Pension age and on a low income. Pension Credit can also help with housing costs such as ground rent or service charges."
+    },
+    {
+      "id": "govuk-attendance-allowance",
+      "contentId": "916b042a-ee5c-420b-8481-17c74e7bb456",
+      "title": "Attendance Allowance",
+      "url": "https://www.gov.uk/attendance-allowance",
+      "apiUrl": "https://www.gov.uk/api/content/attendance-allowance",
+      "publicUpdatedAt": "2024-10-21T12:29:59+01:00",
+      "text": "Attendance Allowance helps with extra costs if you're State Pension age and disabled: rates, eligibility, claim form AA1, claiming due to a terminal illness. Attendance Allowance helps with extra costs if you have a disability or health condition severe enough that you need someone to help look after you."
+    },
+    {
+      "id": "govuk-carers-allowance",
+      "contentId": "f508898d-1ba0-46f7-b150-828166886d97",
+      "title": "Carer's Allowance",
+      "url": "https://www.gov.uk/carers-allowance",
+      "apiUrl": "https://www.gov.uk/api/content/carers-allowance",
+      "publicUpdatedAt": "2024-10-17T11:36:05+01:00",
+      "text": "Apply for Carer's Allowance - money to help you look after someone who needs to be cared for. Apply online or use form DS700. You could get £86.45 a week if you care for someone at least 35 hours a week and they get certain benefits."
+    },
+    {
+      "id": "govuk-pip",
+      "contentId": "56ffb2a7-f45f-4e6c-bbfe-3d898a3358d8",
+      "title": "Personal Independence Payment (PIP)",
+      "url": "https://www.gov.uk/pip",
+      "apiUrl": "https://www.gov.uk/api/content/pip",
+      "publicUpdatedAt": "2024-11-06T10:53:35+00:00",
+      "text": "Personal Independence Payment (PIP) - how and when to claim, rates, eligibility, change of circumstances, claiming due to a terminal illness. Personal Independence Payment (PIP) can help with extra living costs if you have both:"
+    },
+    {
+      "id": "govuk-disability-living-allowance-children",
+      "contentId": "ee6607f1-d0ba-412b-b91c-7717286290ae",
+      "title": "Disability Living Allowance (DLA) for children",
+      "url": "https://www.gov.uk/disability-living-allowance-children",
+      "apiUrl": "https://www.gov.uk/api/content/disability-living-allowance-children",
+      "publicUpdatedAt": "2015-01-12T14:53:39+00:00",
+      "text": "Help for children under 16 with disabilities - DLA rate, eligibility, how to apply, claim form. Disability Living Allowance (DLA) for children may help with the extra costs of looking after a child who:"
+    },
+    {
+      "id": "govuk-housing-benefit",
+      "contentId": "a324ac01-b2da-4bd0-ad41-b33cb37754e8",
+      "title": "Housing Benefit",
+      "url": "https://www.gov.uk/housing-benefit",
+      "apiUrl": "https://www.gov.uk/api/content/housing-benefit",
+      "publicUpdatedAt": "2024-10-17T15:05:33+01:00",
+      "text": "Housing Benefit or Local Housing Allowance (LHA) - rates, eligibility, claim form, calculator, appeals, 'Discretionary Housing Payment'. Housing Benefit can help you pay your rent if you’re unemployed, on a low income or claiming benefits. It’s being replaced by Universal Credit."
+    },
+    {
+      "id": "govuk-child-benefit",
+      "contentId": "aed2cee3-7ca8-4f00-ab17-9193fff516ae",
+      "title": "Child Benefit",
+      "url": "https://www.gov.uk/child-benefit",
+      "apiUrl": "https://www.gov.uk/api/content/child-benefit",
+      "publicUpdatedAt": "2024-11-22T11:57:33+00:00",
+      "text": "Child Benefit - child benefit rates, eligibility, how to claim, child benefit claim form CH2. You get Child Benefit if you’re responsible for bringing up a child who is:"
+    }
+  ]
+}
