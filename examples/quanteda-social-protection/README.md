@@ -1,5 +1,11 @@
 # Quanteda social-protection dictionary comparison with AxolDB
 
+> Publication note (2026-11-15): this is the retained historical implementation,
+> not a freshly qualified AxolDB 0.1.1 example. See [availability and compatibility](../PUBLICATION-STATUS.md)
+> for exact build requirements, separate SDK availability and archive provenance.
+> The historical `SSL Mode=Disable` setting is restricted to isolated loopback testing;
+> it is not appropriate for managed or remote connections.
+
 This small English-language example answers one reproducible question: **how much does a dictionary
 change the result, and which source sentence units explain the difference?** It compares two
 explicitly versioned, illustrative social-protection dictionaries over eight fixed GOV.UK benefit

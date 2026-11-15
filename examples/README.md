@@ -3,6 +3,9 @@
 These runnable examples cover both external integrations through public AxolDB HTTP/JSON v1 and a
 small native Evolution workflow through the public local `axol` CLI.
 
+Read [availability and compatibility](PUBLICATION-STATUS.md) before running. The retained
+real-server results are historical; publication does not establish fresh 0.1.1 compatibility.
+
 - [DEAP knapsack](deap-knapsack/README.md): one generation-20 checkpoint, two mutation strategies
   continued to generation 50.
 - [Mesa Schelling](mesa-schelling/README.md): one step-30 checkpoint, two satisfaction thresholds

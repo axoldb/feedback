@@ -1,5 +1,11 @@
 # Native AxolDB integer mutation
 
+> Publication note (2026-11-15): this is the retained historical implementation,
+> not a freshly qualified AxolDB 0.1.1 example. See [availability and compatibility](../PUBLICATION-STATUS.md)
+> for exact build requirements, separate SDK availability and archive provenance.
+> The historical `SSL Mode=Disable` setting is restricted to isolated loopback testing;
+> it is not appropriate for managed or remote connections.
+
 This example imports integers `1×1, 4×1, 7×1`, creates a Fork, runs one native Evolution mutation
 step with the built-in reference increment operator, reads successor membership and complete
 lineage v2, and proves the source remains unchanged across a controlled managed restart.

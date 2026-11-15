@@ -1,5 +1,9 @@
 # Mesa + AxolDB: Schelling model
 
+> Publication note (2026-11-15): this is the retained historical implementation,
+> not a freshly qualified AxolDB 0.1.1 example. See [availability and compatibility](../PUBLICATION-STATUS.md)
+> for exact build requirements, separate SDK availability and archive provenance.
+
 **Same starting point. Different futures.**
 
 Mesa runs an illustrative 10×10 toroidal Schelling model with 80 stable residents. An agent is

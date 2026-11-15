@@ -1,5 +1,9 @@
 # DEAP + AxolDB: knapsack
 
+> Publication note (2026-11-15): this is the retained historical implementation,
+> not a freshly qualified AxolDB 0.1.1 example. See [availability and compatibility](../PUBLICATION-STATUS.md)
+> for exact build requirements, separate SDK availability and archive provenance.
+
 **One population. Two evolutionary paths.**
 
 DEAP initializes, evaluates, selects, crosses and mutates a 40-member population over the fixed

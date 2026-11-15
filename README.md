@@ -3,10 +3,12 @@
 This public repository is the feedback channel for the experimental **AxolDB Developer Preview**.
 Use it to report reproducible bugs or propose focused product improvements.
 
-Runnable maintainer-authored [integration examples](examples/README.md) and their
+Maintainer-authored [integration examples](examples/README.md) and their
 versioned archives live here under MIT terms. AxolDB remains an external prerequisite
 under its separate Developer Preview license. See the [integration review](examples/RELEASE-INTEGRATION-20261023.md)
 for exact archive identities and the limits of their retained qualification.
+Read the [current availability and compatibility notes](examples/PUBLICATION-STATUS.md)
+before running a historical example; publication does not establish fresh 0.1.1 compatibility.
 
 Before opening an issue:
 

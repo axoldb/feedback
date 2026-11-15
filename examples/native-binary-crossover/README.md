@@ -1,5 +1,11 @@
 # Native AxolDB binary midpoint crossover
 
+> Publication note (2026-11-15): this is the retained historical implementation,
+> not a freshly qualified AxolDB 0.1.1 example. See [availability and compatibility](../PUBLICATION-STATUS.md)
+> for exact build requirements, separate SDK availability and archive provenance.
+> The historical `SSL Mode=Disable` setting is restricted to isolated loopback testing;
+> it is not appropriate for managed or remote connections.
+
 This is a deliberately small, one-step native AxolDB crossover walkthrough. It imports two
 four-byte `BinaryValue` candidates with the same schema, creates a Fork, runs two real bounded
 tournaments through the public local Evolution CLI, invokes the built-in midpoint operator through

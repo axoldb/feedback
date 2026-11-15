@@ -1,0 +1,484 @@
+{
+  "acceptedSourceCommit": "c36eb378f53355a004edbdaad787499ea0f7294e",
+  "archives": [
+    {
+      "example": "deap-knapsack",
+      "file": "axoldb-deap-knapsack-1.0.0.zip",
+      "bytes": 164423,
+      "sha256": "ddae83bd983ba6f586912254d86a87a1f9b7c287a557b157549955670ea1b95a",
+      "acceptedFilesMatched": 22
+    },
+    {
+      "example": "mesa-schelling",
+      "file": "axoldb-mesa-schelling-1.0.0.zip",
+      "bytes": 116433,
+      "sha256": "12f9d6fff641b84cbaa79438496c038c99dc11cedf3d7c851a5b2131b494a439",
+      "acceptedFilesMatched": 20
+    },
+    {
+      "example": "native-integer-evolution",
+      "file": "axoldb-native-integer-evolution-1.0.0.zip",
+      "bytes": 21010,
+      "sha256": "91ce5e3f1d7009b545c94131e55ad7c8cdcefc2bc162aa9bd852f2f7290ebf47",
+      "acceptedFilesMatched": 13
+    },
+    {
+      "example": "native-binary-crossover",
+      "file": "axoldb-native-binary-crossover-1.0.0.zip",
+      "bytes": 18054,
+      "sha256": "fcd7a94f8a9fc7548d05f9f4d403d9a60fc44ccd746630b595123665347cdcfd",
+      "acceptedFilesMatched": 10
+    },
+    {
+      "example": "quanteda-social-protection",
+      "file": "axoldb-quanteda-social-protection-1.0.0.zip",
+      "bytes": 34891,
+      "sha256": "2b936f9b0830637c33f2769251d82e5ba939c27a110968a84f4704f5beaf7bad",
+      "acceptedFilesMatched": 20
+    }
+  ],
+  "sourcePayloads": [
+    {
+      "path": "examples/deap-knapsack/LICENSE",
+      "acceptedGitBlob": "ddb66f2dc745d1a1c0b19191ab4b08fd304c952d",
+      "acceptedSha256": "8a0ba55a084d91408bd76d6ea268a7704e4c8d5e83a2132c6897a4f87341c0ec"
+    },
+    {
+      "path": "examples/deap-knapsack/THIRD-PARTY-NOTICES.md",
+      "acceptedGitBlob": "ddeb30a4e161c488f0b0d909795117ea0321be83",
+      "acceptedSha256": "13a82e0aad249f9b441c4dd80d1c1f31543b5931136d072fbb398b03c0167c92"
+    },
+    {
+      "path": "examples/deap-knapsack/data/items.json",
+      "acceptedGitBlob": "a014a8bf96d10492614dee4b3f19e595bbe11174",
+      "acceptedSha256": "bc29676d507d1ce62741bbd9a93adc2b4834e8338ea6fcc7d0523b1bfc66500f"
+    },
+    {
+      "path": "examples/deap-knapsack/pyproject.toml",
+      "acceptedGitBlob": "79925951e2794bbdae0bc088b0e5b18129cb2416",
+      "acceptedSha256": "78dc2bc5f0abebd255d2a3bea1be5e4758d0a55de14ac90ead4ed60c1092fc55"
+    },
+    {
+      "path": "examples/deap-knapsack/requirements.lock",
+      "acceptedGitBlob": "5c57409455bce5d05a8d15f774fc3cefbe0d32dd",
+      "acceptedSha256": "7d89d03a50da725e19ac8d9b8e1457055188e964dfa52bafee12c5afc6a8a2ac"
+    },
+    {
+      "path": "examples/deap-knapsack/results/branch-a.json",
+      "acceptedGitBlob": "b2d20b734f66c3e06bedf469b59d453b1b3295e9",
+      "acceptedSha256": "acd0277b943f659a07e63b9e62214e3e465a6516e52ba5e7860ab771b72617b3"
+    },
+    {
+      "path": "examples/deap-knapsack/results/branch-b.json",
+      "acceptedGitBlob": "1b65286766490bb36544c0e6ed0f31271362ac4f",
+      "acceptedSha256": "efda6896035a2ea6eeaa515df02599aab22c3738eb7c3c33429183da7374f6d0"
+    },
+    {
+      "path": "examples/deap-knapsack/results/checkpoint-ref.json",
+      "acceptedGitBlob": "c4ee9a134e90ae2a212fc44468c6c13df6ae364a",
+      "acceptedSha256": "685f7ff2567b61e637731f8f47e36ba386a869e222206734df37e6ef476763af"
+    },
+    {
+      "path": "examples/deap-knapsack/results/comparison.png",
+      "acceptedGitBlob": "3c77424a5e379f1756f81c743e4d67af4942701e",
+      "acceptedSha256": "692dfd0ce8293a2f22fb47f10526baca8fa6413ef8ed452d18daf473f279eb5e"
+    },
+    {
+      "path": "examples/deap-knapsack/results/results.json",
+      "acceptedGitBlob": "b9f71897f2f8d77b590054eaaf71f90e26cceb71",
+      "acceptedSha256": "6b249f9e10ce1522a3bf8a8cac92d828c87e1c6c0c1c16edb0a225d6489b5021"
+    },
+    {
+      "path": "examples/deap-knapsack/run_demo.py",
+      "acceptedGitBlob": "6c71534bdf6ec98b85775cd51273304341545af0",
+      "acceptedSha256": "d23677c79a7fe75e7740e0ea59bfdcda9e8016923285c6ecfd205186ea090b2f"
+    },
+    {
+      "path": "examples/deap-knapsack/src/deap_axol/__init__.py",
+      "acceptedGitBlob": "5becc17c04a9e3ad1c2a15f53252b7bb5a7517e7",
+      "acceptedSha256": "27e8febb48ada44153ea2add9969a2c50a9831a74d9755fdd53c549a888b1cc2"
+    },
+    {
+      "path": "examples/deap-knapsack/src/deap_axol/axol_api.py",
+      "acceptedGitBlob": "9f8cfa6b9e38024bfcc2b2935fd343aab68c4817",
+      "acceptedSha256": "22da8b92c9e021fc4e0d7950bfaa711323a44ac69f186ace7a79454169aebb83"
+    },
+    {
+      "path": "examples/deap-knapsack/src/deap_axol/checkpoint.py",
+      "acceptedGitBlob": "efc776cf5e961fdf976233ce80266762d904495d",
+      "acceptedSha256": "b7cb541278f96dabc4da0f9437ae7427dabcaa5052a4f09aa81524252be2f0a5"
+    },
+    {
+      "path": "examples/deap-knapsack/src/deap_axol/data/items.json",
+      "acceptedGitBlob": "a014a8bf96d10492614dee4b3f19e595bbe11174",
+      "acceptedSha256": "bc29676d507d1ce62741bbd9a93adc2b4834e8338ea6fcc7d0523b1bfc66500f"
+    },
+    {
+      "path": "examples/deap-knapsack/src/deap_axol/demo.py",
+      "acceptedGitBlob": "d1e185d0d1131144eb90eaa6a9d77039adf01150",
+      "acceptedSha256": "36d460a74b7649b67284a9fbafc7f649fa27c2ef9f2e23f915a852e9e79d795d"
+    },
+    {
+      "path": "examples/deap-knapsack/src/deap_axol/model.py",
+      "acceptedGitBlob": "ae8f87903a8d5dc07e5089214c111f7e4c283e67",
+      "acceptedSha256": "3854b860159178e3c512f8a04cde06e0968374674e5be70b46f5f76771d80a91"
+    },
+    {
+      "path": "examples/deap-knapsack/src/deap_axol/worker.py",
+      "acceptedGitBlob": "d2fb5c6e802f5fc94e23b57a857a235ab943af46",
+      "acceptedSha256": "1d22875fd24ed14f39162be7a4526e9dc6148d2c23ddec86ef2ccbe90599d894"
+    },
+    {
+      "path": "examples/deap-knapsack/tests/__init__.py",
+      "acceptedGitBlob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "acceptedSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "examples/deap-knapsack/tests/test_e2e.py",
+      "acceptedGitBlob": "8bcf56f300796bca0d0bd90dd9f94a0f3ff4a40d",
+      "acceptedSha256": "451f2cb3a4c92a0c040fe6063b8d22fde5a87a89dc014f0484be29adca297355"
+    },
+    {
+      "path": "examples/deap-knapsack/tests/test_model.py",
+      "acceptedGitBlob": "76c7ce3d4102b6d3b7da945ee7dabe3c0c130b45",
+      "acceptedSha256": "1284f9a2af12af1ea0f298b5d60269e5c5646cda23efa96cf1a05658b2780708"
+    },
+    {
+      "path": "examples/mesa-schelling/LICENSE",
+      "acceptedGitBlob": "ddb66f2dc745d1a1c0b19191ab4b08fd304c952d",
+      "acceptedSha256": "8a0ba55a084d91408bd76d6ea268a7704e4c8d5e83a2132c6897a4f87341c0ec"
+    },
+    {
+      "path": "examples/mesa-schelling/THIRD-PARTY-NOTICES.md",
+      "acceptedGitBlob": "3dbf176e48f034473ec2c670d4e78d5e7bbfbd53",
+      "acceptedSha256": "3c002cc5b7b19eb069bb580d38ae04ce99ae5de38e4a4fde5499a2c5bcb23170"
+    },
+    {
+      "path": "examples/mesa-schelling/pyproject.toml",
+      "acceptedGitBlob": "bca9b5f303ace1a9f8ba575b87420f9147d67932",
+      "acceptedSha256": "013b969f44ff3de646516fb9563287fa564702fd155bfcd61a43bd4b081d8665"
+    },
+    {
+      "path": "examples/mesa-schelling/requirements.lock",
+      "acceptedGitBlob": "709a100ed51adc399a47fee9bb339d51dceadd01",
+      "acceptedSha256": "3249a91f94fea4f1fb04d6f6cf8f2ab7e07a34e6917c67551c00d05ebcde8422"
+    },
+    {
+      "path": "examples/mesa-schelling/results/branch-a.json",
+      "acceptedGitBlob": "d773557cf49dcd57c4a2896ec9f090e635a3285f",
+      "acceptedSha256": "f896cab2d4b8d3d9d231c3ff8cd65a1a0f07b76298084d22ee29d2828a04758a"
+    },
+    {
+      "path": "examples/mesa-schelling/results/branch-b.json",
+      "acceptedGitBlob": "615705accdde556a76fb99ebbfbc7d646e32b2cd",
+      "acceptedSha256": "920e631eac60c8d39e3bef3d8bde5f160d3c409e28dda7abcca35eef36cc916e"
+    },
+    {
+      "path": "examples/mesa-schelling/results/checkpoint-ref.json",
+      "acceptedGitBlob": "a906a02847b0f0355c231baf2c4e57b8fb73df41",
+      "acceptedSha256": "9f096d04745ce0f4778ae705749cee1d5414956c4896b463f699b28bdb68d6b7"
+    },
+    {
+      "path": "examples/mesa-schelling/results/results.json",
+      "acceptedGitBlob": "5158ae51215254266c2633f6b9bf139745629400",
+      "acceptedSha256": "ba4ef05a6ed53d7199936c17c793de0ed3a8573ec09fcf37846f4d83b953a94d"
+    },
+    {
+      "path": "examples/mesa-schelling/results/scenarios.png",
+      "acceptedGitBlob": "4a01ea8ab58e6c808453771d8f6672a26917af57",
+      "acceptedSha256": "2a90fb5b1ea44a28aed73a92a4171e4c9c3353cd7f748c4d96259d6cc3e14375"
+    },
+    {
+      "path": "examples/mesa-schelling/run_demo.py",
+      "acceptedGitBlob": "094a6a886c3c05defed4dbfb8f94dfa0515ca1ec",
+      "acceptedSha256": "7e0ec322b516d27305985efaa244d22d1171f48311dd9d378be9a4ecc523280d"
+    },
+    {
+      "path": "examples/mesa-schelling/src/mesa_axol/__init__.py",
+      "acceptedGitBlob": "5becc17c04a9e3ad1c2a15f53252b7bb5a7517e7",
+      "acceptedSha256": "27e8febb48ada44153ea2add9969a2c50a9831a74d9755fdd53c549a888b1cc2"
+    },
+    {
+      "path": "examples/mesa-schelling/src/mesa_axol/axol_api.py",
+      "acceptedGitBlob": "55c5f36f4f8d7217f47ddaa69ba162ca6c0e25d3",
+      "acceptedSha256": "f055e1b11955ec1eaa3f73a9f6abe16d0879067bafa31b0ee4bf97f95d273024"
+    },
+    {
+      "path": "examples/mesa-schelling/src/mesa_axol/checkpoint.py",
+      "acceptedGitBlob": "a6e23d610b630a8ebbd4e377519eb4507f3780cf",
+      "acceptedSha256": "466921161d0612b5f1fe9bd243984a1d249a01df88b18237281d181c1d28dbfb"
+    },
+    {
+      "path": "examples/mesa-schelling/src/mesa_axol/demo.py",
+      "acceptedGitBlob": "ae74890642aa6f9f5c45b1fb7ef00a464495a804",
+      "acceptedSha256": "d6e4b52aaee1e7a9d9b0bddcba31d3af93a0478ab556455e77e6c82810c2e266"
+    },
+    {
+      "path": "examples/mesa-schelling/src/mesa_axol/model.py",
+      "acceptedGitBlob": "fedf78e95feab7dc530eac3e739ece2659c8ffab",
+      "acceptedSha256": "1478c76e7f46e32e44ab2e1770588430dc4e6c4c8dd63d52934b667912264894"
+    },
+    {
+      "path": "examples/mesa-schelling/src/mesa_axol/worker.py",
+      "acceptedGitBlob": "6f408b83620617312f4578611873810dfb5953a4",
+      "acceptedSha256": "75fd0a35efca9af6b431fc088494d204ee775cc371d90b912bf3618959523536"
+    },
+    {
+      "path": "examples/mesa-schelling/tests/__init__.py",
+      "acceptedGitBlob": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "acceptedSha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "examples/mesa-schelling/tests/test_e2e.py",
+      "acceptedGitBlob": "b635e0a1c94206a58bbd48ce4f9f151b2d3123b5",
+      "acceptedSha256": "81017f11136ced98b668a5c07bd3d3f64923820c5eae80d0bae029cfe5f75515"
+    },
+    {
+      "path": "examples/mesa-schelling/tests/test_model.py",
+      "acceptedGitBlob": "6cafe3a1c824824e61751c3531545a3cf2e6b273",
+      "acceptedSha256": "48da14137f3ac81e7a7d7830b90be9cb9bf7b29253e761a58256694137724bf4"
+    },
+    {
+      "path": "examples/native-integer-evolution/LICENSE",
+      "acceptedGitBlob": "ddb66f2dc745d1a1c0b19191ab4b08fd304c952d",
+      "acceptedSha256": "8a0ba55a084d91408bd76d6ea268a7704e4c8d5e83a2132c6897a4f87341c0ec"
+    },
+    {
+      "path": "examples/native-integer-evolution/RUN-REPORT.md",
+      "acceptedGitBlob": "86fb36d88001b34fdf3f38a85967ff39cb3f906c",
+      "acceptedSha256": "4f44e787ea68f742ee94225adf0c5a9fbc3fe0065375aa4cf060f7d3fc12365b"
+    },
+    {
+      "path": "examples/native-integer-evolution/THIRD-PARTY-NOTICES.md",
+      "acceptedGitBlob": "1a0f00d0a0befa7b2e25d41758de2e4d0a5e438f",
+      "acceptedSha256": "6071d1502342df22c7fdb354d6a4e6b8417fd44dd2d2b74c355462e0bd26fa75"
+    },
+    {
+      "path": "examples/native-integer-evolution/data/population.json",
+      "acceptedGitBlob": "a0cc29609bd00ebb503a3bc24c74108017a0d72a",
+      "acceptedSha256": "d1ae1e01d824ba78d56d56761733f873c6a9f29fc184d6a905159cc0c39da0d2"
+    },
+    {
+      "path": "examples/native-integer-evolution/requirements.lock",
+      "acceptedGitBlob": "ba10293bf3c628ac59eab55106d2dfef3b2dc3e6",
+      "acceptedSha256": "50c4c12e1b050f300991757c467a17ec730631d1384b962799f9ae4e0a622da1"
+    },
+    {
+      "path": "examples/native-integer-evolution/results/history/README.md",
+      "acceptedGitBlob": "947ad2406fea3c6aa66758054b609a64d3785b57",
+      "acceptedSha256": "ad9f2b07484fc8061cb392ed33e16f7570f9327e8d553bd7cc95fc484ce31db2"
+    },
+    {
+      "path": "examples/native-integer-evolution/results/history/two-build-reload-report-2026-10-08.json",
+      "acceptedGitBlob": "dea3773728748bb18081f45cfc106e42cc1c71e8",
+      "acceptedSha256": "40e24e609c64a7d3c507d1d34411f0ab62c8e40bb47f433413d29d806437390a"
+    },
+    {
+      "path": "examples/native-integer-evolution/results/history/two-build-run-report-2026-10-08.json",
+      "acceptedGitBlob": "721a7636c2463d1a6f954d0c5c9e08620d3ecd6e",
+      "acceptedSha256": "7a934213fd9de6fb53a8316444716024a988d65ad35104c3587570cde6c28973"
+    },
+    {
+      "path": "examples/native-integer-evolution/results/reload-report.json",
+      "acceptedGitBlob": "fa10b0a16a54e0ac501560fcbbcc60e15f24b1a0",
+      "acceptedSha256": "8dc5e8f39e8814e652660d905d82c887da3520e7dedbf7c64809d768dd28ea89"
+    },
+    {
+      "path": "examples/native-integer-evolution/results/run-report.json",
+      "acceptedGitBlob": "e74159dd7a07aea5d76d5e54af75f9473f5d9e71",
+      "acceptedSha256": "ef8e40e96400eba372e76f41058b4bf07f6dbf5b4a76b230ea7da6f83aa045c3"
+    },
+    {
+      "path": "examples/native-integer-evolution/run_demo.py",
+      "acceptedGitBlob": "7a999e8c4279a2839eb7c3810404fdef7e2418a0",
+      "acceptedSha256": "b3c875f0f38a384835c7673a91c2b33b4a8661c533045d5e75a1343a9c0ba7b9"
+    },
+    {
+      "path": "examples/native-integer-evolution/tests/test_run_demo.py",
+      "acceptedGitBlob": "e6b58bd58d5cb1dc37840e01874397bb2d905ad3",
+      "acceptedSha256": "ba0ff14d5813ac593cf386153ccf019461637cc0e35ed432a44d01dcbfd2c9c5"
+    },
+    {
+      "path": "examples/native-binary-crossover/LICENSE",
+      "acceptedGitBlob": "ddb66f2dc745d1a1c0b19191ab4b08fd304c952d",
+      "acceptedSha256": "8a0ba55a084d91408bd76d6ea268a7704e4c8d5e83a2132c6897a4f87341c0ec"
+    },
+    {
+      "path": "examples/native-binary-crossover/RUN-REPORT.md",
+      "acceptedGitBlob": "931291c7a1d812638056f99c88c11e49a7a87f3e",
+      "acceptedSha256": "34999ea5cbd643b7062e3aef951b983664d6bccd1d973d030d309613b16019df"
+    },
+    {
+      "path": "examples/native-binary-crossover/THIRD-PARTY-NOTICES.md",
+      "acceptedGitBlob": "1a0f00d0a0befa7b2e25d41758de2e4d0a5e438f",
+      "acceptedSha256": "6071d1502342df22c7fdb354d6a4e6b8417fd44dd2d2b74c355462e0bd26fa75"
+    },
+    {
+      "path": "examples/native-binary-crossover/data/population.json",
+      "acceptedGitBlob": "d676bbf4a8204dffd6547dad7bd15728d90a94e2",
+      "acceptedSha256": "5de8a9459ca75315f84489bbfbe34f20a88484f3634fa7806a214558d7adff0a"
+    },
+    {
+      "path": "examples/native-binary-crossover/requirements.lock",
+      "acceptedGitBlob": "649bdad43a85f8956b629f13c38b271a1d5966ae",
+      "acceptedSha256": "c6e91c1d99e7c55ab42d53fe72cf5d87e07fc49f3138838505acb6e1637256e8"
+    },
+    {
+      "path": "examples/native-binary-crossover/results/reload-report.json",
+      "acceptedGitBlob": "b4c92b852fc38c58efc19cde6c9d61234432711d",
+      "acceptedSha256": "2fe912ff518bd2f3f24806a9a18bfb0ed3887e8345948aa6c3b1c1fd536ef330"
+    },
+    {
+      "path": "examples/native-binary-crossover/results/run-report.json",
+      "acceptedGitBlob": "181bde895760ff1d27f888e0b98ab3500a9e6cc8",
+      "acceptedSha256": "ea86cb88e3f42c1c230761e87a0023bbaa5ea3805d61580499d8dd3f2e4d19b8"
+    },
+    {
+      "path": "examples/native-binary-crossover/run_demo.py",
+      "acceptedGitBlob": "63e620aba15b41436c95b67c476f12fba6b738c1",
+      "acceptedSha256": "28fa1e97afbfe8fee98a6f2a3e7111a7381da3e5adc789b1d327a8b22a29d41e"
+    },
+    {
+      "path": "examples/native-binary-crossover/tests/test_run_demo.py",
+      "acceptedGitBlob": "fff5c178ee0bb3e30cb7a8d47819c845dfa41804",
+      "acceptedSha256": "097389cd305591c28f8c693f65a98a7f396e3647be841594b45b80e994a3a11f"
+    },
+    {
+      "path": "examples/quanteda-social-protection/DATA-LICENSE.md",
+      "acceptedGitBlob": "cd20e1e2aacbe4fe3952b4ed8fd90421267fad2e",
+      "acceptedSha256": "bdbb254d6b4df86dd2abd03808f80432004499af3dc052d36d6fda9aa873602e"
+    },
+    {
+      "path": "examples/quanteda-social-protection/Dockerfile",
+      "acceptedGitBlob": "06fda2d354763fdc6e626e32998a769e8ef6053a",
+      "acceptedSha256": "a6ba07b82c62062dd297164bd5915942285b921afb147d410ed4d296dabaa8fa"
+    },
+    {
+      "path": "examples/quanteda-social-protection/LICENSE",
+      "acceptedGitBlob": "ddb66f2dc745d1a1c0b19191ab4b08fd304c952d",
+      "acceptedSha256": "8a0ba55a084d91408bd76d6ea268a7704e4c8d5e83a2132c6897a4f87341c0ec"
+    },
+    {
+      "path": "examples/quanteda-social-protection/RUN-REPORT.md",
+      "acceptedGitBlob": "73e3b35375563dc5e88685a193bfbd6a8f12ec89",
+      "acceptedSha256": "b55c0210f2a5299601f5cbd5d7e45563c1c9a3479e35f9f4e6803674a7c3d6ce"
+    },
+    {
+      "path": "examples/quanteda-social-protection/THIRD-PARTY-NOTICES.md",
+      "acceptedGitBlob": "748aad88c637cd62173515211da11ace773e5d7d",
+      "acceptedSha256": "ff97a70a007b7c8ee642dbd35ed1ed3fe739b98c6c171cc11e523654de10bd4a"
+    },
+    {
+      "path": "examples/quanteda-social-protection/analysis.R",
+      "acceptedGitBlob": "d56596aa4a366db93fdeb25e873e79b3c8cd46c1",
+      "acceptedSha256": "d6e8c73667be2fc5fa12fa57159ae717809d3dabb40f8ba7aa16ceaf450a5ea2"
+    },
+    {
+      "path": "examples/quanteda-social-protection/axol_demo.py",
+      "acceptedGitBlob": "7b6c3f580378634fd895d31e1538da20d02048eb",
+      "acceptedSha256": "244db0696a0e08af8dbc1933813d1324fe03582ac25dbb27959987fb8a8760c6"
+    },
+    {
+      "path": "examples/quanteda-social-protection/data/documents.json",
+      "acceptedGitBlob": "bfcca85878c7046632c1b72d6437e77422fd92af",
+      "acceptedSha256": "bccbc3840541cfd17ce7d0ad6a14ef402e76f2d893966fe04ea1a9744c726e7d"
+    },
+    {
+      "path": "examples/quanteda-social-protection/dictionaries/social-protection-expanded-2.0.0.json",
+      "acceptedGitBlob": "054fda9c6b5642916970548f009a830c2629a2cc",
+      "acceptedSha256": "6f3c8ac0f197e3c69bb5d24da56407bed224ed224264d144826276f42b019a39"
+    },
+    {
+      "path": "examples/quanteda-social-protection/dictionaries/social-protection-narrow-1.0.0.json",
+      "acceptedGitBlob": "0bd748e72114c8c305f7fbdfb9b7bb7f6346bc12",
+      "acceptedSha256": "6edf38025f2eebc6a0f185c633b171930208d9e7a1f07b559278ebc2f6bc6592"
+    },
+    {
+      "path": "examples/quanteda-social-protection/requirements-r.lock",
+      "acceptedGitBlob": "268472067c2232a17635e37f69918ae69943491f",
+      "acceptedSha256": "bd8bc7d6c7e4d07f298cd40c4341b8d90b94ba928f8947c640bc85c9e18b6ba3"
+    },
+    {
+      "path": "examples/quanteda-social-protection/requirements.lock",
+      "acceptedGitBlob": "3551e0569c13e0481f51284d9a00a2e6fb98f6d1",
+      "acceptedSha256": "f96b9ab48504581819338582cc492743b5c506de478af421b6e7d990b7a56f89"
+    },
+    {
+      "path": "examples/quanteda-social-protection/results/comparison.json",
+      "acceptedGitBlob": "20c0f85f0382762db19c461d3940f0920d6cec58",
+      "acceptedSha256": "36771773de926932ac3be99078b5e6ccd0ea8705f97e714798064fedcccffbb3"
+    },
+    {
+      "path": "examples/quanteda-social-protection/results/reload-report.json",
+      "acceptedGitBlob": "1c22d1d9028ef9bed43c004d438d26260f84be3c",
+      "acceptedSha256": "3c0202b6830d805541e51fe97c662301e846e78a77cbcb5cf77d8ca4deb4e169"
+    },
+    {
+      "path": "examples/quanteda-social-protection/results/report.html",
+      "acceptedGitBlob": "f4df2702071c8190353507bc0474df710df2f400",
+      "acceptedSha256": "2d0781134b80b0f7105bf8495804bc0aaabd35114eb3b1bc7085b9fd0587a277"
+    },
+    {
+      "path": "examples/quanteda-social-protection/results/run-report.json",
+      "acceptedGitBlob": "c9fd103fda52a3b9df6a9612d5410cae1fbc330c",
+      "acceptedSha256": "5db3b4d2141aacd4bf13612e1079d4872fdb68841a3b92cee2adab2f2cbf5a08"
+    },
+    {
+      "path": "examples/quanteda-social-protection/run_demo.py",
+      "acceptedGitBlob": "353a00a9a61993f679161d57e8e40c19238bfb24",
+      "acceptedSha256": "0c382c01b961b1e4135631a244bca001a3526b1571c728379632cd554860b6fc"
+    },
+    {
+      "path": "examples/quanteda-social-protection/tests/test_example.py",
+      "acceptedGitBlob": "486860eb923a1a3217eb5f85f51b913ccb086870",
+      "acceptedSha256": "7420803c6e62af1f0cb435e3915a5e365d3332e3e01edff2032744118f1bf8e5"
+    },
+    {
+      "path": "examples/quanteda-social-protection/verify_reload.py",
+      "acceptedGitBlob": "9b6e37b0d2711d96adad5a1f69a5d6fc2aa6dc42",
+      "acceptedSha256": "f0fcfca643b79ff02119e4662fdd0bb23628967d0489b28bd62de28d2c4ea234"
+    }
+  ],
+  "readmeOverlays": [
+    {
+      "path": "examples/deap-knapsack/README.md",
+      "acceptedGitBlob": "634448739443c928ff60d51e78f1b467564dbf02",
+      "acceptedSha256": "f357d644bf790ca39bb271e9e6e8f8ee76e63097b2ef829920090176367ba2ab"
+    },
+    {
+      "path": "examples/mesa-schelling/README.md",
+      "acceptedGitBlob": "7396d3f52fa21914f91426bf338955453e99687a",
+      "acceptedSha256": "a8ea317a4c584b138d3b8d5f252b871fadf8f381d8e3866bd01a7ae4314029f2"
+    },
+    {
+      "path": "examples/native-integer-evolution/README.md",
+      "acceptedGitBlob": "a7c107cbbba8ca815e929a6992c37c7e38b0a697",
+      "acceptedSha256": "877d535461f2b67345dd45c76ebf0729c1b869bdbb6644b979773f8735bc6a95"
+    },
+    {
+      "path": "examples/native-binary-crossover/README.md",
+      "acceptedGitBlob": "cad98fc4ab8af59461ccb17236adf2f9d05c0677",
+      "acceptedSha256": "772d46cf452fe4b8b84fe2970c6e7790d6eefc7402deb978a8bf7689d0da6de8"
+    },
+    {
+      "path": "examples/quanteda-social-protection/README.md",
+      "acceptedGitBlob": "6598adaa8a8184225f1d2060eaf9ac306fe60162",
+      "acceptedSha256": "bc556be3dad69e81e770ec9f34f4ec3976c93c063ae22d2680744018d06ae8d2"
+    }
+  ],
+  "freshDatabaseQualification": false,
+  "status": "PASS",
+  "sensitivePatternFindings": [],
+  "notes": "Only README publication overlays may differ. Algorithms, fixtures, locks, licenses, results and all five original ZIPs are preserved. This check does not execute database campaigns.",
+  "reviewDate": "2026-11-15",
+  "integrationSourceCommit": "c19ccce389e0ac2b8be8354790361897b98619b9",
+  "selectedHelperTests": {
+    "deap-knapsack": 2,
+    "mesa-schelling": 2,
+    "native-integer-evolution": 3,
+    "native-binary-crossover": 3,
+    "quanteda-social-protection": 4
+  },
+  "fullDatabaseCampaignRepeated": false,
+  "native011CompatibilityClaimed": false
+}
