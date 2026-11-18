@@ -1,0 +1,16 @@
+{
+  "format": "authored-synthetic-recording/1",
+  "request": {
+    "purpose": "Public offline replay demonstration, not a model observation"
+  },
+  "response": {
+    "order": [
+      "d1",
+      "d2",
+      "d3",
+      "d4",
+      "d5"
+    ]
+  },
+  "responseHash": "1f8770bb7c0dba0d13134b7efb2a13d102cedab00d874914f95d7b5fdab28eb3"
+}

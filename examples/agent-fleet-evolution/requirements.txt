@@ -1,0 +1,4 @@
+# Install the verified official 0.1.2.dev1 wheel separately; not a PyPI assertion.
+axoldb-client==0.1.2.dev1
+httpx==0.28.1
+httpcore==1.0.9

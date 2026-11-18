@@ -1,0 +1,101 @@
+{
+  "format": "reviewed-historical-aggregate/1",
+  "runtimeFixture": false,
+  "rawModelRecordingsIncluded": false,
+  "deterministicStudy": {
+    "scenarios": 5,
+    "seedsPerScenario": 10,
+    "pairedTrials": 50,
+    "armRuns": 100,
+    "generationsPerArm": 20,
+    "scoredEvaluations": 96000,
+    "nativeBenchmarkAuditGenerations": 6,
+    "primary": {
+      "interpretation": "positive",
+      "interval": [
+        2.6,
+        3.2
+      ],
+      "losses": 0,
+      "mean": 2.84,
+      "median": 0.0,
+      "pValue": 3.052e-05,
+      "standardizedPairedDz": 0.717022,
+      "ties": 30,
+      "wins": 20
+    },
+    "scope": "Related synthetic road-network family, fixed scenarios/seeds; no global optimum or general superiority."
+  },
+  "representationStudy": {
+    "calls": 18,
+    "arms": {
+      "A": {
+        "feasible": 3,
+        "attempts": 6,
+        "useful": 0,
+        "meanFeasibleCost": 28.333333333333332
+      },
+      "B": {
+        "feasible": 6,
+        "attempts": 6,
+        "useful": 1,
+        "meanFeasibleCost": 26.166666666666668
+      },
+      "C": {
+        "feasible": 1,
+        "attempts": 6,
+        "useful": 0,
+        "meanFeasibleCost": 30
+      }
+    },
+    "mutationParentConditioned": true,
+    "scope": "Small engineering study; invalid proposals retained in denominators."
+  },
+  "localPilot": {
+    "calls": 15,
+    "model": "gemma3:4b",
+    "modelDigest": "a2af6cc3eb7fa8be8504abaf9b04e88f17a119ec3f04a3addf55f92841195f5a",
+    "feasible": 15,
+    "samePlanCost": 28,
+    "uniqueModelPermutations": 1,
+    "admitted": 0,
+    "optimizationBenefitMeasured": false,
+    "finals": [
+      {
+        "seed": 71011,
+        "A": 22,
+        "B": 22,
+        "C": 22
+      },
+      {
+        "seed": 71023,
+        "A": 22,
+        "B": 24,
+        "C": 24
+      },
+      {
+        "seed": 71039,
+        "A": 22,
+        "B": 22,
+        "C": 22
+      }
+    ],
+    "BminusC": {
+      "pairs": 3,
+      "meanBminusC": 0,
+      "medianBminusC": 0,
+      "exactSignFlipP": 1.0,
+      "bootstrap95": [
+        0,
+        0
+      ],
+      "interpretation": "three fixed seeds, exploratory; no superiority/generalization"
+    },
+    "continuationCriterionMet": false
+  },
+  "sourceEvidenceHashes": {
+    "deterministic": "ce3b79de1abf2b2564e68f54a15e76c3717f7752e8ccd5ebe596b21924143753",
+    "representation": "92f87008de6dfca6c809ec7c752687fab5bff52d50b763324dfbc7575333439b",
+    "pilot": "e11434a6ded43b8d0f52dee33cf3a72a11a8b585b2379e5b99c64f4ed5e885bf"
+  }
+}

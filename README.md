@@ -7,6 +7,8 @@ Maintainer-authored [integration examples](examples/README.md) and their
 versioned archives live here under MIT terms. AxolDB remains an external prerequisite
 under its separate Developer Preview license. See the [integration review](examples/RELEASE-INTEGRATION-20261023.md)
 for exact archive identities and the limits of their retained qualification.
+The new [Agent Fleet Evolution walkthrough](examples/agent-fleet-evolution/README.md) separately demonstrates the public 0.1.2 Python SDK, deterministic replay and optional local proposals.
+
 Read the [current availability and compatibility notes](examples/PUBLICATION-STATUS.md)
 before running a historical example; publication does not establish fresh 0.1.1 compatibility.
 

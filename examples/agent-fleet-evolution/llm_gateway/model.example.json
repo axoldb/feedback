@@ -1,0 +1,78 @@
+{
+  "version": "llm-registry/1",
+  "models": [
+    {
+      "key": "ollama",
+      "provider": "ollama",
+      "model": "gemma3:4b",
+      "revision": null,
+      "family": "openai",
+      "endpoint": "http://127.0.0.1:11434/v1/chat/completions",
+      "local": true,
+      "enabled": false,
+      "auth_env": null,
+      "capabilities": {
+        "text": {
+          "support": null,
+          "status": "declared",
+          "source": "Model-specific support unknown"
+        },
+        "system": {
+          "support": null,
+          "status": "declared",
+          "source": "Model-specific support unknown"
+        },
+        "developer": {
+          "support": null,
+          "status": "declared",
+          "source": "Model-specific support unknown"
+        },
+        "structured": {
+          "support": null,
+          "status": "declared",
+          "source": "Model-specific support unknown"
+        },
+        "temperature": {
+          "support": null,
+          "status": "declared",
+          "source": "Model-specific support unknown"
+        },
+        "top_p": {
+          "support": null,
+          "status": "declared",
+          "source": "Model-specific support unknown"
+        },
+        "seed": {
+          "support": null,
+          "status": "declared",
+          "source": "Model-specific support unknown"
+        },
+        "reasoning": {
+          "support": null,
+          "status": "declared",
+          "source": "Model-specific support unknown"
+        },
+        "usage": {
+          "support": null,
+          "status": "declared",
+          "source": "Model-specific support unknown"
+        },
+        "tools": {
+          "support": null,
+          "status": "declared",
+          "source": "Model-specific support unknown"
+        }
+      },
+      "context_limit": null,
+      "output_limit": null,
+      "pricing": null,
+      "wire": {
+        "max_tokens_field": "max_tokens",
+        "anthropic_version": "2023-06-01",
+        "reasoning_values": [],
+        "routing": null
+      },
+      "provenance": "Disabled local template; native-stream binding separately guarded. No current live compatibility inferred from offline tests."
+    }
+  ]
+}

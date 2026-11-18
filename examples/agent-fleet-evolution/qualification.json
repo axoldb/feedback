@@ -1,0 +1,25 @@
+{
+  "version": "public-example-1.0.0",
+  "status": "PASS",
+  "unit": {
+    "passed": 24,
+    "failed": 0
+  },
+  "publicSdkContracts": {
+    "passed": 10,
+    "failed": 0
+  },
+  "liveSdkIntegration": {
+    "passed": 7,
+    "failed": 0
+  },
+  "realChromium": {
+    "passed": 8,
+    "failed": 0
+  },
+  "freshSourceExport": "PASS on the same Windows host in a new dependency-free venv; not a clean-host claim",
+  "deterministicScientificHash": "1ffbf579692c7928829d17288c6ed7354e3725c6cc6bfb97b41f1e0e8c1ae0bc",
+  "nativeFixture": "integer increment and binary midpoint, governed publication and fresh exact lineage readback PASS",
+  "liveModelCallsDuringPublication": 0,
+  "privateResearchRecordingsIncluded": false
+}
