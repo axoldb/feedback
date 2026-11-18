@@ -1,0 +1,29 @@
+name: Agent Fleet deterministic example
+on:
+  pull_request:
+    paths: ['examples/agent-fleet-evolution/**', '.github/workflows/agent-fleet-example.yml']
+  push:
+    branches: [main]
+    paths: ['examples/agent-fleet-evolution/**', '.github/workflows/agent-fleet-example.yml']
+permissions:
+  contents: read
+jobs:
+  deterministic:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    defaults:
+      run:
+        working-directory: examples/agent-fleet-evolution
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.13'
+      - name: Standard-library unit tests and fresh-process replay
+        run: |
+          python -B tests/run.py unit --output "$RUNNER_TEMP/fleet-tests.json"
+          python -B -m fleet offline --output "$RUNNER_TEMP/fleet.json"
+          python -B -m fleet replay --recorded "$RUNNER_TEMP/fleet.json"
+          python -m compileall -q fleet llm_gateway

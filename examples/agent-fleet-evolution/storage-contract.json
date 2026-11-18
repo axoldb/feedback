@@ -1,0 +1,16 @@
+{
+  "schemaId": "axol://schemas/agent-fleet-evolution/canonical-json/1",
+  "schemaHash": "c3cb6d140341b31f12377c3ded12301d6d12f29d7b0b9606e0aab5b5668b01b1",
+  "canonicalSchemaBase64": "QUNFMQAgBwtkZWZpbml0aW9ucyIADGRlcGVuZGVuY2llcyEACmV4dGVuc2lvbnMiAAhyb290VHlwZSMGaW5saW5lIAQLY29uc3RyYWludHMgAARraW5kEgZiaW5hcnkIbnVsbGFibGUBCnBhcmFtZXRlcnMgAAhzY2hlbWFJZBI1YXhvbDovL3NjaGVtYXMvYWdlbnQtZmxlZXQtZXZvbHV0aW9uL2Nhbm9uaWNhbC1qc29uLzEVc2NoZW1hTGFuZ3VhZ2VWZXJzaW9uEg1heG9sLXNjaGVtYS8xDXNjaGVtYVZlcnNpb24QAQEB",
+  "nativeValueType": "binary",
+  "applicationEncoding": "UTF-8 JSON, sorted keys, no insignificant whitespace, integer-only fixture metrics",
+  "writeProfile": "content-counts",
+  "lineageProfile": "direct",
+  "lineageMinimumDurationTicks": 864000000000,
+  "forksEnabled": true,
+  "contractHashMeaning": "Opaque caller-owned policy identifier; not a canonical Contract registry hash",
+  "encodingVectors": {
+    "schemaHashVector": "PASS",
+    "genotypeHashVector": "PASS"
+  }
+}

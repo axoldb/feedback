@@ -1,5 +1,13 @@
 # AxolDB integration examples
 
+## Current 0.1.2 SDK walkthrough
+
+[Agent Fleet Evolution](agent-fleet-evolution/README.md) is a self-contained two-agent persistence and replay example with an optional local LLM gateway and separate native typed fixtures. Its deterministic core runs without AxolDB credentials or third-party dependencies. The public SDK adaptation has its own [qualification](agent-fleet-evolution/qualification.json), [reviewed historical findings](agent-fleet-evolution/RESULTS.md), [source ZIP](downloads/axoldb-agent-fleet-evolution-1.0.0.zip) and [checksum](downloads/axoldb-agent-fleet-evolution-1.0.0.zip.sha256).
+
+The five examples and interface-limit notes below retain their original historical build scope. They are not newly qualified 0.1.2 results.
+
+## Historical integrations
+
 These runnable examples cover both external integrations through public AxolDB HTTP/JSON v1 and a
 small native Evolution workflow through the public local `axol` CLI.
 

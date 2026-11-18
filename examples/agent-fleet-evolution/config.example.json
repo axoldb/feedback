@@ -1,0 +1,7 @@
+{
+  "endpoint": "https://localhost:8443",
+  "caFile": "/absolute/path/to/instance-ca.crt",
+  "writerTokenEnvironment": "AXOLDB_WRITER_TOKEN",
+  "viewerTokenEnvironment": "AXOLDB_VIEWER_TOKEN",
+  "nativeTokenEnvironment": "AXOLDB_NATIVE_TOKEN"
+}
